@@ -70,6 +70,30 @@ function extractUses(detailText, fallbackName) {
   return `${fallbackName}：暂无官方描述，建议点开详情页查看。`;
 }
 
+function extractUseCases(detailText) {
+  const lines = detailText.split("\n");
+  const cases = [];
+  let inWhenToUse = false;
+  for (const raw of lines) {
+    const line = raw.trim();
+    const lower = line.toLowerCase();
+    if (/^when to use/.test(lower) || /^use this skill when/.test(lower)) {
+      inWhenToUse = true;
+      continue;
+    }
+    if (inWhenToUse && (/^what is /.test(lower) || /^how to /.test(lower) || /^## /.test(line) || /^===+$/.test(line) || /^---+$/.test(line))) {
+      break;
+    }
+    if (!inWhenToUse) continue;
+    if (/^(\*|-|•)\s+/.test(line)) {
+      const cleaned = sanitizeText(line.replace(/^(\*|-|•)\s+/, ""));
+      if (cleaned.length >= 8) cases.push(cleaned);
+    }
+    if (cases.length >= 5) break;
+  }
+  return cases;
+}
+
 function toWords(name) {
   return String(name || "")
     .toLowerCase()
@@ -79,6 +103,8 @@ function toWords(name) {
 
 function toChineseTitle(name) {
   const map = {
+    simple: "简化执行技能",
+    brainstorming: "头脑风暴技能",
     find: "发现",
     skills: "技能",
     skill: "技能",
@@ -126,8 +152,22 @@ function toChineseTitle(name) {
   const words = toWords(name);
   const converted = words.map((w) => map[w]).filter(Boolean);
   if (converted.length >= 2) return converted.join("");
-  if (converted.length === 1) return `${converted[0]}技能`;
+  if (converted.length === 1) return converted[0].endsWith("技能") ? converted[0] : `${converted[0]}技能`;
   return "通用效率技能";
+}
+
+function inferTaskFromSkillId(name) {
+  const text = String(name || "").toLowerCase();
+  if (/brainstorm|idea/.test(text)) return "快速产出思路和备选方案";
+  if (/simple|simplify/.test(text)) return "把复杂任务拆成更易执行的步骤";
+  if (/debug|fix|error/.test(text)) return "定位问题根因并给出修复路径";
+  if (/review/.test(text)) return "审查方案质量并指出风险点";
+  if (/deploy|cicd|release/.test(text)) return "完成上线发布和自动化流程";
+  if (/seo/.test(text)) return "提升搜索流量和内容可见性";
+  if (/design|ui|ux/.test(text)) return "优化页面体验和视觉一致性";
+  if (/react|next|frontend|vue/.test(text)) return "提升前端代码质量和开发效率";
+  if (/auth/.test(text)) return "设计并落地认证授权流程";
+  return "提升日常工作的执行效率";
 }
 
 function summarizeUseInChinese(name, uses) {
@@ -142,11 +182,37 @@ function summarizeUseInChinese(name, uses) {
   return "帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。";
 }
 
-function buildChineseIntro(name, uses, audience, scenarios) {
+function buildChineseIntro(name, uses, audience, scenarios, useCases = []) {
   const people = (audience && audience.length ? audience : ["AI 工作者"]).join("、");
   const scene = (scenarios && scenarios.length ? scenarios : ["通用效率提升"]).join("、");
   const short = summarizeUseInChinese(name, uses);
-  return `这是一个面向${people}的实用技能，主要用于${scene}。${short} 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。`;
+  const noOfficialDesc = uses.includes("暂无官方描述");
+  const fallbackTask = inferTaskFromSkillId(name);
+  const mappedCases = useCases
+    .slice(0, 2)
+    .map((x) => x.replace(/^asks?/i, "当你").replace(/^wants?/i, "当你想").replace(/^mentions?/i, "当你提到"))
+    .join("；");
+  const caseSentence = mappedCases
+    ? `常见触发场景包括：${mappedCases}。`
+    : noOfficialDesc
+      ? `当你需要${fallbackTask}时，它会给出可直接执行的步骤。`
+      : "常见触发场景是“我知道想做什么，但不知道从哪一步开始”。";
+  return `这是一个面向${people}的实用技能，主要用于${scene}。${short}${caseSentence}`;
+}
+
+function ensureIntroDiversity(items) {
+  const seen = new Map();
+  for (const item of items) {
+    const key = item.introZh;
+    const count = seen.get(key) || 0;
+    if (count > 0) {
+      const scenario = (item.scenarios && item.scenarios[0]) || "通用效率提升";
+      const audience = (item.audience && item.audience[0]) || "AI 工作者";
+      const task = inferTaskFromSkillId(item.name);
+      item.introZh = `${item.introZh} 这个技能更偏向「${scenario}」场景，重点解决“${task}”问题，适合${audience}快速上手。`;
+    }
+    seen.set(key, count + 1);
+  }
 }
 
 function inferAudienceAndScenarios(name, uses) {
@@ -372,6 +438,7 @@ async function run() {
           detailUrl: item.detailUrl,
           uses: "",
           introZh: "",
+          useCases: [],
           audience: [],
           scenarios: [],
           ranks: { allTime: null, trending: null, hot: null },
@@ -412,13 +479,17 @@ async function run() {
   }, 3);
 
   uniqueSkills.forEach((item, idx) => {
-    const uses = extractUses(detailTexts[idx], item.name);
+    const detailText = detailTexts[idx] || "";
+    const uses = extractUses(detailText, item.name);
+    const useCases = extractUseCases(detailText);
     const { audience, scenarios } = inferAudienceAndScenarios(item.name, uses);
     item.uses = uses;
-    item.introZh = buildChineseIntro(item.name, uses, audience, scenarios);
+    item.useCases = useCases;
+    item.introZh = buildChineseIntro(item.name, uses, audience, scenarios, useCases);
     item.audience = audience;
     item.scenarios = scenarios;
   });
+  ensureIntroDiversity(uniqueSkills);
 
   buildHeat(mergedMap);
   const generatedAt = Date.now();
