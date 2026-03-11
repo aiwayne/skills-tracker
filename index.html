@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills 榜单跟踪器 + 解读器</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Skills 榜单跟踪器 + 解读器</h1>
+      <p id="metaText">正在加载数据...</p>
+    </header>
+
+    <section class="toolbar">
+      <div class="tabs">
+        <button class="tab active" data-board="allTime">All Time</button>
+        <button class="tab" data-board="trending">Trending 24h</button>
+        <button class="tab" data-board="hot">Hot</button>
+      </div>
+      <div class="filters">
+        <input id="searchInput" type="text" placeholder="搜索 skill / 厂商 / 场景">
+        <select id="sortSelect">
+          <option value="rank">按榜单排名</option>
+          <option value="heat">按总热度</option>
+          <option value="name">按名称</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="stats" id="statsBar"></section>
+
+    <section class="insight-board">
+      <div class="insight-card">
+        <h3>厂商占榜 Top 6</h3>
+        <div id="vendorBoard" class="insight-list"></div>
+      </div>
+      <div class="insight-card">
+        <h3>场景分布 Top 6</h3>
+        <div id="scenarioBoard" class="insight-list"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">前 100 榜单</h2>
+      <div id="currentGrid" class="card-grid"></div>
+    </section>
+
+    <section class="dropped-wrap">
+      <details id="droppedSection">
+        <summary>历史掉榜技能（默认收起）</summary>
+        <div id="droppedGrid" class="card-grid dropped-grid"></div>
+      </details>
+    </section>
+  </div>
+
+  <script src="./data/skills-current.js"></script>
+  <script src="./data/skills-history.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
