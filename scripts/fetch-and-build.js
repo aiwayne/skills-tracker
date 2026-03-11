@@ -70,6 +70,85 @@ function extractUses(detailText, fallbackName) {
   return `${fallbackName}：暂无官方描述，建议点开详情页查看。`;
 }
 
+function toWords(name) {
+  return String(name || "")
+    .toLowerCase()
+    .split(/[-_:./]+/)
+    .filter(Boolean);
+}
+
+function toChineseTitle(name) {
+  const map = {
+    find: "发现",
+    skills: "技能",
+    skill: "技能",
+    creator: "创建器",
+    react: "React",
+    next: "Next.js",
+    web: "网页",
+    design: "设计",
+    guidelines: "指南",
+    best: "最佳",
+    practices: "实践",
+    frontend: "前端",
+    backend: "后端",
+    browser: "浏览器",
+    use: "使用",
+    azure: "Azure",
+    ai: "AI",
+    cloud: "云",
+    migrate: "迁移",
+    compute: "算力",
+    postgres: "Postgres",
+    copywriting: "文案写作",
+    seo: "SEO",
+    debugging: "调试",
+    review: "评审",
+    testing: "测试",
+    auth: "认证",
+    image: "图片",
+    video: "视频",
+    markdown: "Markdown",
+    docx: "Word",
+    pptx: "PPT",
+    xlsx: "Excel",
+    shadcn: "Shadcn",
+    git: "Git",
+    workflow: "流程",
+    api: "API",
+    mcp: "MCP",
+    canvas: "画布",
+    launch: "发布",
+    strategy: "策略",
+    marketing: "营销",
+    content: "内容"
+  };
+  const words = toWords(name);
+  const converted = words.map((w) => map[w]).filter(Boolean);
+  if (converted.length >= 2) return converted.join("");
+  if (converted.length === 1) return `${converted[0]}技能`;
+  return "通用效率技能";
+}
+
+function summarizeUseInChinese(name, uses) {
+  const text = `${name} ${uses}`.toLowerCase();
+  if (/find|discover|install/.test(text)) return "帮你快速找到并安装合适的技能，避免在海量仓库里盲目搜索。";
+  if (/design|ui|ux|figma|brand|banner/.test(text)) return "帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。";
+  if (/react|next|frontend|vue|typescript|tailwind|code/.test(text)) return "帮你写出更规范的前端代码，减少重构返工和低级错误。";
+  if (/seo|marketing|copywriting|content|cro|launch/.test(text)) return "帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。";
+  if (/azure|cloud|database|postgres|api|deploy|cicd|infra/.test(text)) return "帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。";
+  if (/test|debug|review|verification|benchmark/.test(text)) return "帮你系统地测试和排错，定位问题更快，交付更稳。";
+  if (/image|video|comic|slide|pptx|docx|xlsx|markdown/.test(text)) return "帮你批量生成内容素材和文档，适合内容团队快速出稿。";
+  return "帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。";
+}
+
+function buildChineseIntro(name, uses, audience, scenarios) {
+  const people = (audience && audience.length ? audience : ["AI 工作者"]).join("、");
+  const scene = (scenarios && scenarios.length ? scenarios : ["通用效率提升"]).join("、");
+  const short = summarizeUseInChinese(name, uses);
+  return `这是一个面向${people}的实用技能，主要用于${scene}。${short} 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。`;
+}
+
 function inferAudienceAndScenarios(name, uses) {
   const text = `${name} ${uses}`.toLowerCase();
   const audience = new Set();
@@ -214,6 +293,9 @@ function buildHeat(skillsMap) {
   const trN = normalize(trVals);
   const hotN = normalize(hotVals);
   entries.forEach((entry, idx) => {
+    entry.heat.allTimeScore = Number(allN[idx].toFixed(1));
+    entry.heat.trendingScore = Number(trN[idx].toFixed(1));
+    entry.heat.hotScore = Number(hotN[idx].toFixed(1));
     entry.heat.totalHeat = Number((0.6 * allN[idx] + 0.25 * trN[idx] + 0.15 * hotN[idx]).toFixed(1));
   });
 }
@@ -284,9 +366,12 @@ async function run() {
           repo: item.repo,
           skill: item.skill,
           name: item.name,
+          nameEn: item.name,
+          nameZh: toChineseTitle(item.name),
           vendor: inferVendor(item.owner),
           detailUrl: item.detailUrl,
           uses: "",
+          introZh: "",
           audience: [],
           scenarios: [],
           ranks: { allTime: null, trending: null, hot: null },
@@ -330,6 +415,7 @@ async function run() {
     const uses = extractUses(detailTexts[idx], item.name);
     const { audience, scenarios } = inferAudienceAndScenarios(item.name, uses);
     item.uses = uses;
+    item.introZh = buildChineseIntro(item.name, uses, audience, scenarios);
     item.audience = audience;
     item.scenarios = scenarios;
   });

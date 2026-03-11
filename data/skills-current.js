@@ -1,5 +1,5 @@
 window.__SKILLS_CURRENT__ = {
-  "generatedAt": 1773241830023,
+  "generatedAt": 1773247629929,
   "boards": {
     "allTime": {
       "label": "All Time",
@@ -10,9 +10,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "find-skills",
           "name": "find-skills",
+          "nameEn": "find-skills",
+          "nameZh": "发现技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/skills/find-skills",
           "uses": "This skill helps you discover and install skills from the open agent skills ecosystem.",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你快速找到并安装合适的技能，避免在海量仓库里盲目搜索。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -25,13 +28,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "497.2K",
-            "allTimeValue": 497248,
+            "allTimeRaw": "498.3K",
+            "allTimeValue": 498332,
             "trendingRaw": "15.8K",
-            "trendingValue": 15793,
+            "trendingValue": 15753,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 80.6
+            "totalHeat": 80.6,
+            "allTimeScore": 100,
+            "trendingScore": 82.4,
+            "hotScore": 0
           }
         },
         {
@@ -40,9 +46,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "vercel-react-best-practices",
           "name": "vercel-react-best-practices",
+          "nameEn": "vercel-react-best-practices",
+          "nameZh": "React最佳实践",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
           "uses": "Vercel React Best Practices",
+          "introZh": "这是一个面向前端工程师的实用技能，主要用于代码开发。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师"
           ],
@@ -55,13 +64,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "196.0K",
-            "allTimeValue": 196031,
+            "allTimeRaw": "196.3K",
+            "allTimeValue": 196270,
             "trendingRaw": "3.8K",
-            "trendingValue": 3830,
+            "trendingValue": 3791,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 28.7
+            "totalHeat": 28.6,
+            "allTimeScore": 39.4,
+            "trendingScore": 19.8,
+            "hotScore": 0
           }
         },
         {
@@ -70,9 +82,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "web-design-guidelines",
           "name": "web-design-guidelines",
+          "nameEn": "web-design-guidelines",
+          "nameZh": "网页设计指南",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
           "uses": "Title: web-design-guidelines by vercel-labs/agent-skills",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -85,13 +100,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "153.7K",
-            "allTimeValue": 153692,
+            "allTimeRaw": "153.9K",
+            "allTimeValue": 153906,
             "trendingRaw": "3.1K",
-            "trendingValue": 3149,
+            "trendingValue": 3125,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 22.7
+            "totalHeat": 22.6,
+            "allTimeScore": 30.9,
+            "trendingScore": 16.3,
+            "hotScore": 0
           }
         },
         {
@@ -100,9 +118,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "frontend-design",
           "name": "frontend-design",
+          "nameEn": "frontend-design",
+          "nameZh": "前端设计",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/frontend-design",
           "uses": "Title: frontend-design by anthropics/skills",
+          "introZh": "这是一个面向设计师、前端工程师的实用技能，主要用于界面设计、代码开发。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "前端工程师"
@@ -117,13 +138,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "142.2K",
-            "allTimeValue": 142170,
+            "allTimeRaw": "142.4K",
+            "allTimeValue": 142442,
             "trendingRaw": "3.6K",
-            "trendingValue": 3618,
+            "trendingValue": 3602,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 21.9
+            "totalHeat": 21.9,
+            "allTimeScore": 28.6,
+            "trendingScore": 18.8,
+            "hotScore": 0
           }
         },
         {
@@ -132,9 +156,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "remotion-best-practices",
           "name": "remotion-best-practices",
+          "nameEn": "remotion-best-practices",
+          "nameZh": "最佳实践",
           "vendor": "remotion-dev",
           "detailUrl": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
           "uses": "Use this skills whenever you are dealing with Remotion code to obtain the domain-specific knowledge.",
+          "introZh": "这是一个面向前端工程师的实用技能，主要用于代码开发。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师"
           ],
@@ -147,13 +174,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "136.9K",
-            "allTimeValue": 136935,
+            "allTimeRaw": "137.1K",
+            "allTimeValue": 137087,
             "trendingRaw": "2.0K",
-            "trendingValue": 2014,
+            "trendingValue": 2029,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.2
+            "totalHeat": 19.2,
+            "allTimeScore": 27.5,
+            "trendingScore": 10.6,
+            "hotScore": 0
           }
         },
         {
@@ -162,9 +192,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-ai",
           "name": "azure-ai",
+          "nameEn": "azure-ai",
+          "nameZh": "AzureAI",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-ai",
           "uses": "| Service | Use When | MCP Tools | CLI |",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -177,13 +210,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.3K",
-            "allTimeValue": 129337,
+            "allTimeRaw": "129.6K",
+            "allTimeValue": 129565,
             "trendingRaw": "3.0K",
-            "trendingValue": 2995,
+            "trendingValue": 2970,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.5
+            "totalHeat": 19.5,
+            "allTimeScore": 26,
+            "trendingScore": 15.5,
+            "hotScore": 0
           }
         },
         {
@@ -192,9 +228,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-storage",
           "name": "azure-storage",
+          "nameEn": "azure-storage",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-storage",
           "uses": "Azure Storage Services",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -203,17 +242,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 7,
-            "trending": 38,
+            "trending": 39,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.1K",
-            "allTimeValue": 129068,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2973,
+            "allTimeRaw": "129.3K",
+            "allTimeValue": 129295,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2949,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.5
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -222,9 +264,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-deploy",
           "name": "azure-deploy",
+          "nameEn": "azure-deploy",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy",
           "uses": "> **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**",
+          "introZh": "这是一个面向设计师、后端/平台工程师的实用技能，主要用于界面设计、云与基础设施。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "后端/平台工程师"
@@ -235,17 +280,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 8,
-            "trending": 39,
+            "trending": 38,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.1K",
-            "allTimeValue": 129060,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2972,
+            "allTimeRaw": "129.3K",
+            "allTimeValue": 129285,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2949,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.5
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -254,9 +302,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-cost-optimization",
           "name": "azure-cost-optimization",
+          "nameEn": "azure-cost-optimization",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization",
           "uses": "Azure Cost Optimization Skill",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -269,13 +320,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.1K",
-            "allTimeValue": 129055,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2969,
+            "allTimeRaw": "129.3K",
+            "allTimeValue": 129282,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2945,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.5
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -284,9 +338,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-diagnostics",
           "name": "azure-diagnostics",
+          "nameEn": "azure-diagnostics",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics",
           "uses": "> **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**",
+          "introZh": "这是一个面向设计师、后端/平台工程师的实用技能，主要用于界面设计、云与基础设施。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "后端/平台工程师"
@@ -301,13 +358,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.0K",
-            "allTimeValue": 128998,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2966,
+            "allTimeRaw": "129.2K",
+            "allTimeValue": 129226,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2943,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -316,9 +376,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "entra-app-registration",
           "name": "entra-app-registration",
+          "nameEn": "entra-app-registration",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration",
           "uses": "Microsoft Entra ID (formerly Azure Active Directory) is Microsoft's cloud-based identity and access management service. App registrations allow applications to authenticate users a",
+          "introZh": "这是一个面向增长运营、后端/平台工程师的实用技能，主要用于增长实验、云与基础设施。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营",
             "后端/平台工程师"
@@ -333,13 +396,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128926,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2961,
+            "allTimeRaw": "129.2K",
+            "allTimeValue": 129151,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2938,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -348,9 +414,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "appinsights-instrumentation",
           "name": "appinsights-instrumentation",
+          "nameEn": "appinsights-instrumentation",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation",
           "uses": "AppInsights Instrumentation Guide",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -359,17 +428,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 12,
-            "trending": 50,
+            "trending": 46,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128902,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2959,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129127,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2936,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -378,9 +450,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-compliance",
           "name": "azure-compliance",
+          "nameEn": "azure-compliance",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance",
           "uses": "Azure Compliance & Security Auditing",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -393,13 +468,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128892,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2961,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129118,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2937,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -408,9 +486,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-resource-visualizer",
           "name": "azure-resource-visualizer",
+          "nameEn": "azure-resource-visualizer",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer",
           "uses": "Azure Resource Visualizer - Architecture Diagram Generator",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -423,13 +504,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128890,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2960,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129116,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2936,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -438,9 +522,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-rbac",
           "name": "azure-rbac",
+          "nameEn": "azure-rbac",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-rbac",
           "uses": "Title: azure-rbac by microsoft/github-copilot-for-azure",
+          "introZh": "这是一个面向增长运营、后端/平台工程师的实用技能，主要用于增长实验、云与基础设施。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营",
             "后端/平台工程师"
@@ -451,17 +538,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 15,
-            "trending": 46,
+            "trending": 48,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128887,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2960,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129113,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2936,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -470,9 +560,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-prepare",
           "name": "azure-prepare",
+          "nameEn": "azure-prepare",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare",
           "uses": "> **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**",
+          "introZh": "这是一个面向设计师、后端/平台工程师的实用技能，主要用于界面设计、云与基础设施。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "后端/平台工程师"
@@ -487,13 +580,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128883,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2962,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129110,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2939,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -502,9 +598,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-kusto",
           "name": "azure-kusto",
+          "nameEn": "azure-kusto",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-kusto",
           "uses": "Azure Data Explorer (Kusto) Query & Analytics",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -513,17 +612,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 17,
-            "trending": 49,
+            "trending": 50,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128880,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2959,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129105,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2935,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -532,9 +634,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-validate",
           "name": "azure-validate",
+          "nameEn": "azure-validate",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-validate",
           "uses": "> **AUTHORITATIVE GUIDANCE** — Follow these instructions exactly. This supersedes prior training.",
+          "introZh": "这是一个面向设计师、后端/平台工程师的实用技能，主要用于界面设计、云与基础设施。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "后端/平台工程师"
@@ -549,13 +654,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128876,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2961,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129102,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2937,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -564,9 +672,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-aigateway",
           "name": "azure-aigateway",
+          "nameEn": "azure-aigateway",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway",
           "uses": "Configure Azure API Management (APIM) as an AI Gateway for governing AI models, MCP tools, and agents.",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -579,13 +690,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128875,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2958,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129100,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2934,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.3,
+            "hotScore": 0
           }
         },
         {
@@ -594,9 +708,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-resource-lookup",
           "name": "azure-resource-lookup",
+          "nameEn": "azure-resource-lookup",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup",
-          "uses": "azure-resource-lookup：暂无官方描述，建议点开详情页查看。",
+          "uses": "Azure Resource Lookup",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -605,17 +722,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 20,
-            "trending": 48,
+            "trending": 49,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128867,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2959,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129092,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2935,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -624,9 +744,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "microsoft-foundry",
           "name": "microsoft-foundry",
+          "nameEn": "microsoft-foundry",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry",
           "uses": "microsoft-foundry：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -639,13 +762,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.8K",
-            "allTimeValue": 128847,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129069,
             "trendingRaw": "2.9K",
-            "trendingValue": 2906,
+            "trendingValue": 2882,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.3
+            "totalHeat": 19.3,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.1,
+            "hotScore": 0
           }
         },
         {
@@ -654,9 +780,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-messaging",
           "name": "azure-messaging",
+          "nameEn": "azure-messaging",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging",
           "uses": "azure-messaging：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -669,13 +798,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "117.1K",
-            "allTimeValue": 117109,
+            "allTimeRaw": "117.3K",
+            "allTimeValue": 117322,
             "trendingRaw": "2.8K",
-            "trendingValue": 2781,
+            "trendingValue": 2759,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 17.8
+            "totalHeat": 17.7,
+            "allTimeScore": 23.5,
+            "trendingScore": 14.4,
+            "hotScore": 0
           }
         },
         {
@@ -684,9 +816,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-observability",
           "name": "azure-observability",
+          "nameEn": "azure-observability",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-observability",
           "uses": "azure-observability：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -705,7 +840,10 @@ window.__SKILLS_CURRENT__ = {
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 13.9
+            "totalHeat": 13.9,
+            "allTimeScore": 23.2,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -714,9 +852,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "sleek-design-mobile-apps",
           "name": "sleek-design-mobile-apps",
+          "nameEn": "sleek-design-mobile-apps",
+          "nameZh": "设计技能",
           "vendor": "sleekdotdesign",
           "detailUrl": "https://skills.sh/sleekdotdesign/agent-skills/sleek-design-mobile-apps",
           "uses": "sleek-design-mobile-apps：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -729,13 +870,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "114.0K",
-            "allTimeValue": 114041,
+            "allTimeRaw": "115.4K",
+            "allTimeValue": 115393,
             "trendingRaw": "12.8K",
-            "trendingValue": 12779,
+            "trendingValue": 12762,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 30.5
+            "totalHeat": 30.6,
+            "allTimeScore": 23.2,
+            "trendingScore": 66.8,
+            "hotScore": 0
           }
         },
         {
@@ -744,9 +888,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-hosted-copilot-sdk",
           "name": "azure-hosted-copilot-sdk",
+          "nameEn": "azure-hosted-copilot-sdk",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
           "uses": "azure-hosted-copilot-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -759,13 +906,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "98.4K",
-            "allTimeValue": 98375,
+            "allTimeRaw": "98.6K",
+            "allTimeValue": 98564,
             "trendingRaw": "2.5K",
-            "trendingValue": 2490,
+            "trendingValue": 2463,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 15.1
+            "totalHeat": 15.1,
+            "allTimeScore": 19.8,
+            "trendingScore": 12.9,
+            "hotScore": 0
           }
         },
         {
@@ -774,9 +924,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-browser",
           "skill": "agent-browser",
           "name": "agent-browser",
+          "nameEn": "agent-browser",
+          "nameZh": "浏览器技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
           "uses": "agent-browser：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -786,16 +939,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": 26,
             "trending": 55,
-            "hot": null
+            "hot": 90
           },
           "heat": {
-            "allTimeRaw": "88.1K",
-            "allTimeValue": 88148,
+            "allTimeRaw": "88.3K",
+            "allTimeValue": 88333,
             "trendingRaw": "2.4K",
-            "trendingValue": 2399,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 13.8
+            "trendingValue": 2427,
+            "hotRaw": "144+27",
+            "hotDeltaValue": 27,
+            "totalHeat": 14.2,
+            "allTimeScore": 17.7,
+            "trendingScore": 12.7,
+            "hotScore": 2.9
           }
         },
         {
@@ -804,9 +960,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "vercel-composition-patterns",
           "name": "vercel-composition-patterns",
+          "nameEn": "vercel-composition-patterns",
+          "nameZh": "通用效率技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns",
           "uses": "vercel-composition-patterns：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -819,13 +978,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "78.6K",
-            "allTimeValue": 78617,
+            "allTimeRaw": "78.7K",
+            "allTimeValue": 78731,
             "trendingRaw": "1.7K",
-            "trendingValue": 1700,
+            "trendingValue": 1706,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 11.7
+            "totalHeat": 11.7,
+            "allTimeScore": 15.8,
+            "trendingScore": 8.9,
+            "hotScore": 0
           }
         },
         {
@@ -834,9 +996,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "skill-creator",
           "name": "skill-creator",
+          "nameEn": "skill-creator",
+          "nameZh": "技能创建器",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/skill-creator",
           "uses": "skill-creator：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -849,13 +1014,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "73.9K",
-            "allTimeValue": 73889,
+            "allTimeRaw": "74.0K",
+            "allTimeValue": 74030,
             "trendingRaw": "2.3K",
-            "trendingValue": 2301,
+            "trendingValue": 2321,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 11.9
+            "totalHeat": 11.9,
+            "allTimeScore": 14.9,
+            "trendingScore": 12.1,
+            "hotScore": 0
           }
         },
         {
@@ -864,9 +1032,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-compute",
           "name": "azure-compute",
+          "nameEn": "azure-compute",
+          "nameZh": "Azure算力",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compute",
           "uses": "azure-compute：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -879,13 +1050,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "65.4K",
-            "allTimeValue": 65388,
+            "allTimeRaw": "65.5K",
+            "allTimeValue": 65535,
             "trendingRaw": "1.8K",
-            "trendingValue": 1845,
+            "trendingValue": 1839,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 10.3
+            "totalHeat": 10.3,
+            "allTimeScore": 13.2,
+            "trendingScore": 9.6,
+            "hotScore": 0
           }
         },
         {
@@ -894,9 +1068,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "simple",
           "name": "simple",
+          "nameEn": "simple",
+          "nameZh": "通用效率技能",
           "vendor": "roin-orca",
           "detailUrl": "https://skills.sh/roin-orca/skills/simple",
           "uses": "simple：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -909,13 +1086,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "55.9K",
-            "allTimeValue": 55949,
+            "allTimeRaw": "57.0K",
+            "allTimeValue": 57036,
             "trendingRaw": "19.1K",
-            "trendingValue": 19134,
+            "trendingValue": 19119,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 31.8
+            "totalHeat": 31.9,
+            "allTimeScore": 11.4,
+            "trendingScore": 100,
+            "hotScore": 0
           }
         },
         {
@@ -924,9 +1104,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "ui-ux-pro-max-skill",
           "skill": "ui-ux-pro-max",
           "name": "ui-ux-pro-max",
+          "nameEn": "ui-ux-pro-max",
+          "nameZh": "通用效率技能",
           "vendor": "nextlevelbuilder",
           "detailUrl": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
           "uses": "ui-ux-pro-max：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -939,13 +1122,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "55.5K",
-            "allTimeValue": 55466,
+            "allTimeRaw": "55.6K",
+            "allTimeValue": 55586,
             "trendingRaw": "1.9K",
-            "trendingValue": 1933,
+            "trendingValue": 1946,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 9.2
+            "totalHeat": 9.2,
+            "allTimeScore": 11.2,
+            "trendingScore": 10.2,
+            "hotScore": 0
           }
         },
         {
@@ -954,9 +1140,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "vercel-react-native-skills",
           "name": "vercel-react-native-skills",
+          "nameEn": "vercel-react-native-skills",
+          "nameZh": "React技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills",
           "uses": "vercel-react-native-skills：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向前端工程师的实用技能，主要用于代码开发。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师"
           ],
@@ -969,13 +1158,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "55.0K",
-            "allTimeValue": 54984,
+            "allTimeRaw": "55.1K",
+            "allTimeValue": 55055,
             "trendingRaw": "1.1K",
-            "trendingValue": 1083,
+            "trendingValue": 1079,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 8
+            "totalHeat": 8,
+            "allTimeScore": 11,
+            "trendingScore": 5.6,
+            "hotScore": 0
           }
         },
         {
@@ -984,9 +1176,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-cloud-migrate",
           "name": "azure-cloud-migrate",
+          "nameEn": "azure-cloud-migrate",
+          "nameZh": "Azure云迁移",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-migrate",
           "uses": "azure-cloud-migrate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -999,13 +1194,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "54.5K",
-            "allTimeValue": 54457,
+            "allTimeRaw": "54.6K",
+            "allTimeValue": 54587,
             "trendingRaw": "1.6K",
-            "trendingValue": 1613,
+            "trendingValue": 1605,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 8.7
+            "totalHeat": 8.7,
+            "allTimeScore": 11,
+            "trendingScore": 8.4,
+            "hotScore": 0
           }
         },
         {
@@ -1014,9 +1212,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "brainstorming",
           "name": "brainstorming",
+          "nameEn": "brainstorming",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/brainstorming",
           "uses": "brainstorming：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -1029,13 +1230,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "49.3K",
-            "allTimeValue": 49305,
+            "allTimeRaw": "49.4K",
+            "allTimeValue": 49419,
             "trendingRaw": "1.9K",
-            "trendingValue": 1877,
+            "trendingValue": 1855,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 8.4
+            "totalHeat": 8.4,
+            "allTimeScore": 9.9,
+            "trendingScore": 9.7,
+            "hotScore": 0
           }
         },
         {
@@ -1044,9 +1248,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "browser-use",
           "skill": "browser-use",
           "name": "browser-use",
+          "nameEn": "browser-use",
+          "nameZh": "浏览器使用",
           "vendor": "browser-use",
           "detailUrl": "https://skills.sh/browser-use/browser-use/browser-use",
           "uses": "browser-use：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -1059,13 +1266,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "47.7K",
-            "allTimeValue": 47745,
+            "allTimeRaw": "47.8K",
+            "allTimeValue": 47782,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 5.8
+            "totalHeat": 5.8,
+            "allTimeScore": 9.6,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -1074,9 +1284,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "seo-audit",
           "name": "seo-audit",
+          "nameEn": "seo-audit",
+          "nameZh": "SEO技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/seo-audit",
           "uses": "seo-audit：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -1085,17 +1298,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 36,
-            "trending": 77,
+            "trending": 79,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "38.9K",
-            "allTimeValue": 38892,
-            "trendingRaw": "855",
-            "trendingValue": 855,
+            "allTimeRaw": "39.0K",
+            "allTimeValue": 38959,
+            "trendingRaw": "853",
+            "trendingValue": 853,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 5.8
+            "totalHeat": 5.8,
+            "allTimeScore": 7.8,
+            "trendingScore": 4.5,
+            "hotScore": 0
           }
         },
         {
@@ -1104,9 +1320,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-postgres",
           "name": "azure-postgres",
+          "nameEn": "azure-postgres",
+          "nameZh": "AzurePostgres",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-postgres",
           "uses": "azure-postgres：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1125,7 +1344,10 @@ window.__SKILLS_CURRENT__ = {
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.2
+            "totalHeat": 4.2,
+            "allTimeScore": 7,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -1134,9 +1356,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "pdf",
           "name": "pdf",
+          "nameEn": "pdf",
+          "nameZh": "通用效率技能",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/pdf",
           "uses": "pdf：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -1149,13 +1374,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "33.9K",
-            "allTimeValue": 33915,
-            "trendingRaw": "888",
-            "trendingValue": 888,
+            "allTimeRaw": "34.0K",
+            "allTimeValue": 33986,
+            "trendingRaw": "913",
+            "trendingValue": 913,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 5.3
+            "totalHeat": 5.3,
+            "allTimeScore": 6.8,
+            "trendingScore": 4.8,
+            "hotScore": 0
           }
         },
         {
@@ -1164,9 +1392,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "audit-website",
           "name": "audit-website",
+          "nameEn": "audit-website",
+          "nameZh": "通用效率技能",
           "vendor": "squirrelscan",
           "detailUrl": "https://skills.sh/squirrelscan/skills/audit-website",
           "uses": "audit-website：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -1180,12 +1411,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "33.6K",
-            "allTimeValue": 33599,
+            "allTimeValue": 33625,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.1
+            "totalHeat": 4,
+            "allTimeScore": 6.7,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -1194,9 +1428,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "copywriting",
           "name": "copywriting",
+          "nameEn": "copywriting",
+          "nameZh": "文案写作技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
           "uses": "copywriting：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -1209,13 +1446,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "32.1K",
-            "allTimeValue": 32111,
-            "trendingRaw": "982",
-            "trendingValue": 982,
+            "allTimeRaw": "32.2K",
+            "allTimeValue": 32170,
+            "trendingRaw": "969",
+            "trendingValue": 969,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 5.2
+            "totalHeat": 5.1,
+            "allTimeScore": 6.5,
+            "trendingScore": 5.1,
+            "hotScore": 0
           }
         },
         {
@@ -1224,9 +1464,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "supabase-postgres-best-practices",
           "name": "supabase-postgres-best-practices",
+          "nameEn": "supabase-postgres-best-practices",
+          "nameZh": "Postgres最佳实践",
           "vendor": "supabase",
           "detailUrl": "https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices",
           "uses": "supabase-postgres-best-practices：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1239,13 +1482,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "31.7K",
-            "allTimeValue": 31720,
+            "allTimeRaw": "31.8K",
+            "allTimeValue": 31762,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 3.8
+            "totalHeat": 3.8,
+            "allTimeScore": 6.4,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -1254,9 +1500,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "next-skills",
           "skill": "next-best-practices",
           "name": "next-best-practices",
+          "nameEn": "next-best-practices",
+          "nameZh": "Next.js最佳实践",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/next-skills/next-best-practices",
           "uses": "next-best-practices：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向前端工程师的实用技能，主要用于代码开发。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师"
           ],
@@ -1270,12 +1519,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "30.9K",
-            "allTimeValue": 30875,
-            "trendingRaw": "789",
-            "trendingValue": 789,
+            "allTimeValue": 30940,
+            "trendingRaw": "806",
+            "trendingValue": 806,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.8
+            "totalHeat": 4.8,
+            "allTimeScore": 6.2,
+            "trendingScore": 4.2,
+            "hotScore": 0
           }
         },
         {
@@ -1284,9 +1536,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "pptx",
           "name": "pptx",
+          "nameEn": "pptx",
+          "nameZh": "PPT技能",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/pptx",
           "uses": "pptx：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -1300,12 +1555,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "29.8K",
-            "allTimeValue": 29766,
-            "trendingRaw": "868",
-            "trendingValue": 868,
+            "allTimeValue": 29839,
+            "trendingRaw": "878",
+            "trendingValue": 878,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.7
+            "totalHeat": 4.7,
+            "allTimeScore": 6,
+            "trendingScore": 4.6,
+            "hotScore": 0
           }
         },
         {
@@ -1314,9 +1572,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "systematic-debugging",
           "name": "systematic-debugging",
+          "nameEn": "systematic-debugging",
+          "nameZh": "调试技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/systematic-debugging",
           "uses": "systematic-debugging：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向研发团队的实用技能，主要用于质量保障。帮你系统地测试和排错，定位问题更快，交付更稳。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "研发团队"
           ],
@@ -1329,13 +1590,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "27.4K",
-            "allTimeValue": 27398,
-            "trendingRaw": "855",
-            "trendingValue": 855,
+            "allTimeRaw": "27.5K",
+            "allTimeValue": 27452,
+            "trendingRaw": "856",
+            "trendingValue": 856,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.4
+            "totalHeat": 4.4,
+            "allTimeScore": 5.5,
+            "trendingScore": 4.5,
+            "hotScore": 0
           }
         },
         {
@@ -1344,9 +1608,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "docx",
           "name": "docx",
+          "nameEn": "docx",
+          "nameZh": "Word技能",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/docx",
           "uses": "docx：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -1355,17 +1622,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 45,
-            "trending": 80,
+            "trending": 77,
             "hot": null
           },
           "heat": {
             "allTimeRaw": "26.8K",
-            "allTimeValue": 26773,
-            "trendingRaw": "848",
-            "trendingValue": 848,
+            "allTimeValue": 26840,
+            "trendingRaw": "860",
+            "trendingValue": 860,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.3
+            "totalHeat": 4.4,
+            "allTimeScore": 5.4,
+            "trendingScore": 4.5,
+            "hotScore": 0
           }
         },
         {
@@ -1374,9 +1644,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "writing-plans",
           "name": "writing-plans",
+          "nameEn": "writing-plans",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/writing-plans",
           "uses": "writing-plans：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -1390,12 +1663,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "25.5K",
-            "allTimeValue": 25468,
-            "trendingRaw": "922",
-            "trendingValue": 922,
+            "allTimeValue": 25526,
+            "trendingRaw": "932",
+            "trendingValue": 932,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.3
+            "totalHeat": 4.3,
+            "allTimeScore": 5.1,
+            "trendingScore": 4.9,
+            "hotScore": 0
           }
         },
         {
@@ -1404,9 +1680,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "xlsx",
           "name": "xlsx",
+          "nameEn": "xlsx",
+          "nameZh": "Excel技能",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/xlsx",
           "uses": "xlsx：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -1420,12 +1699,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "24.9K",
-            "allTimeValue": 24876,
+            "allTimeValue": 24935,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 3
+            "totalHeat": 3,
+            "allTimeScore": 5,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -1434,9 +1716,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "microsoft-foundry",
           "name": "microsoft-foundry",
+          "nameEn": "microsoft-foundry",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
           "uses": "microsoft-foundry：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -1446,16 +1731,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": 48,
             "trending": 14,
-            "hot": 53
+            "hot": 30
           },
           "heat": {
-            "allTimeRaw": "23.6K",
-            "allTimeValue": 23574,
-            "trendingRaw": "5.1K",
-            "trendingValue": 5086,
-            "hotRaw": "315+56",
-            "hotDeltaValue": 56,
-            "totalHeat": 10.4
+            "allTimeRaw": "24.1K",
+            "allTimeValue": 24052,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5243,
+            "hotRaw": "357+152",
+            "hotDeltaValue": 152,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.4,
+            "hotScore": 16.5
           }
         },
         {
@@ -1464,9 +1752,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-ai",
           "name": "azure-ai",
+          "nameEn": "azure-ai",
+          "nameZh": "AzureAI",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-ai",
-          "uses": "| Service | Use When | MCP Tools | CLI |",
+          "uses": "azure-ai：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1475,17 +1766,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 49,
-            "trending": 17,
-            "hot": 66
+            "trending": 18,
+            "hot": 21
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23449,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5024,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23925,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1494,9 +1788,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "entra-app-registration",
           "name": "entra-app-registration",
+          "nameEn": "entra-app-registration",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/entra-app-registration",
           "uses": "entra-app-registration：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -1505,17 +1802,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 50,
-            "trending": 16,
-            "hot": 56
+            "trending": 17,
+            "hot": 19
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23442,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5024,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23918,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1524,9 +1824,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-deploy",
           "name": "azure-deploy",
+          "nameEn": "azure-deploy",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-deploy",
           "uses": "azure-deploy：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1536,16 +1839,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": 51,
             "trending": 15,
-            "hot": 55
+            "hot": 31
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23442,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5026,
-            "hotRaw": "311+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23918,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5185,
+            "hotRaw": "356+152",
+            "hotDeltaValue": 152,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.5
           }
         },
         {
@@ -1554,9 +1860,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-resource-lookup",
           "name": "azure-resource-lookup",
+          "nameEn": "azure-resource-lookup",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-lookup",
           "uses": "azure-resource-lookup：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1565,17 +1874,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 52,
-            "trending": 20,
-            "hot": 60
+            "trending": 23,
+            "hot": 22
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23438,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23914,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1584,9 +1896,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-cost-optimization",
           "name": "azure-cost-optimization",
+          "nameEn": "azure-cost-optimization",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cost-optimization",
           "uses": "azure-cost-optimization：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1595,17 +1910,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 53,
-            "trending": 19,
-            "hot": 58
+            "trending": 20,
+            "hot": 20
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23438,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23914,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1614,9 +1932,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-diagnostics",
           "name": "azure-diagnostics",
+          "nameEn": "azure-diagnostics",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
           "uses": "azure-diagnostics：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1625,17 +1946,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 54,
-            "trending": 24,
-            "hot": 73
+            "trending": 22,
+            "hot": 13
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23436,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23912,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
@@ -1644,9 +1968,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-storage",
           "name": "azure-storage",
+          "nameEn": "azure-storage",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-storage",
           "uses": "azure-storage：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1655,17 +1982,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 55,
-            "trending": 27,
-            "hot": 61
+            "trending": 21,
+            "hot": 12
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23435,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23911,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
@@ -1674,9 +2004,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-prepare",
           "name": "azure-prepare",
+          "nameEn": "azure-prepare",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-prepare",
           "uses": "azure-prepare：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1685,17 +2018,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 56,
-            "trending": 21,
-            "hot": 65
+            "trending": 19,
+            "hot": 15
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23434,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23910,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5183,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
@@ -1704,9 +2040,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-aigateway",
           "name": "azure-aigateway",
+          "nameEn": "azure-aigateway",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-aigateway",
           "uses": "azure-aigateway：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1715,17 +2054,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 57,
-            "trending": 23,
-            "hot": 71
+            "trending": 24,
+            "hot": 17
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23434,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23910,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
@@ -1734,9 +2076,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-validate",
           "name": "azure-validate",
+          "nameEn": "azure-validate",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-validate",
           "uses": "azure-validate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1745,17 +2090,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 58,
-            "trending": 18,
-            "hot": 64
+            "trending": 16,
+            "hot": 14
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23432,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5023,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23908,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
@@ -1764,9 +2112,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "appinsights-instrumentation",
           "name": "appinsights-instrumentation",
+          "nameEn": "appinsights-instrumentation",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/appinsights-instrumentation",
           "uses": "appinsights-instrumentation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -1775,17 +2126,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 59,
-            "trending": 30,
-            "hot": 57
+            "trending": 26,
+            "hot": 18
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23432,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23908,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
@@ -1794,9 +2148,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-messaging",
           "name": "azure-messaging",
+          "nameEn": "azure-messaging",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-messaging",
           "uses": "azure-messaging：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1805,17 +2162,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 60,
-            "trending": 31,
-            "hot": 67
+            "trending": 25,
+            "hot": 16
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23907,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
@@ -1824,9 +2184,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-compute",
           "name": "azure-compute",
+          "nameEn": "azure-compute",
+          "nameZh": "Azure算力",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compute",
           "uses": "azure-compute：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1835,17 +2198,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 61,
-            "trending": 25,
-            "hot": 59
+            "trending": 31,
+            "hot": 24
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23906,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1854,9 +2220,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-cloud-migrate",
           "name": "azure-cloud-migrate",
+          "nameEn": "azure-cloud-migrate",
+          "nameZh": "Azure云迁移",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cloud-migrate",
           "uses": "azure-cloud-migrate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1865,17 +2234,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 62,
-            "trending": 28,
-            "hot": 62
+            "trending": 30,
+            "hot": 25
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23906,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1884,9 +2256,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-hosted-copilot-sdk",
           "name": "azure-hosted-copilot-sdk",
+          "nameEn": "azure-hosted-copilot-sdk",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk",
           "uses": "azure-hosted-copilot-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1895,17 +2270,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 63,
-            "trending": 32,
-            "hot": 69
+            "trending": 29,
+            "hot": 26
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1914,9 +2292,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-rbac",
           "name": "azure-rbac",
+          "nameEn": "azure-rbac",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-rbac",
           "uses": "azure-rbac：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1925,17 +2306,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 64,
-            "trending": 22,
-            "hot": 68
+            "trending": 27,
+            "hot": 28
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1944,9 +2328,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-compliance",
           "name": "azure-compliance",
+          "nameEn": "azure-compliance",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compliance",
           "uses": "azure-compliance：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1955,17 +2342,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 65,
-            "trending": 26,
-            "hot": 63
+            "trending": 32,
+            "hot": 23
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -1974,9 +2364,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-kusto",
           "name": "azure-kusto",
+          "nameEn": "azure-kusto",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-kusto",
           "uses": "azure-kusto：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -1985,17 +2378,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 66,
-            "trending": 33,
-            "hot": 72
+            "trending": 28,
+            "hot": 29
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23428,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23903,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -2004,9 +2400,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-resource-visualizer",
           "name": "azure-resource-visualizer",
+          "nameEn": "azure-resource-visualizer",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-visualizer",
           "uses": "azure-resource-visualizer：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -2015,17 +2414,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 67,
-            "trending": 29,
-            "hot": 70
+            "trending": 33,
+            "hot": 27
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23428,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23903,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -2034,9 +2436,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "marketing-psychology",
           "name": "marketing-psychology",
+          "nameEn": "marketing-psychology",
+          "nameZh": "营销技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/marketing-psychology",
           "uses": "marketing-psychology：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -2050,12 +2455,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "23.2K",
-            "allTimeValue": 23206,
+            "allTimeValue": 23243,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.8
+            "totalHeat": 2.8,
+            "allTimeScore": 4.7,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2064,9 +2472,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "test-driven-development",
           "name": "test-driven-development",
+          "nameEn": "test-driven-development",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/test-driven-development",
           "uses": "test-driven-development：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向研发团队的实用技能，主要用于质量保障。帮你系统地测试和排错，定位问题更快，交付更稳。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "研发团队"
           ],
@@ -2075,17 +2486,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 69,
-            "trending": 91,
+            "trending": null,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "22.6K",
-            "allTimeValue": 22615,
-            "trendingRaw": "740",
-            "trendingValue": 740,
+            "allTimeRaw": "22.7K",
+            "allTimeValue": 22665,
+            "trendingRaw": "-",
+            "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 3.7
+            "totalHeat": 2.7,
+            "allTimeScore": 4.5,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2094,9 +2508,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "webapp-testing",
           "name": "webapp-testing",
+          "nameEn": "webapp-testing",
+          "nameZh": "测试技能",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/webapp-testing",
-          "uses": "Title: webapp-testing by anthropics/skills",
+          "uses": "webapp-testing：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向研发团队的实用技能，主要用于质量保障。帮你系统地测试和排错，定位问题更快，交付更稳。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "研发团队"
           ],
@@ -2110,12 +2527,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "21.5K",
-            "allTimeValue": 21495,
+            "allTimeValue": 21531,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.6
+            "totalHeat": 2.6,
+            "allTimeScore": 4.3,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2124,9 +2544,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "executing-plans",
           "name": "executing-plans",
+          "nameEn": "executing-plans",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/executing-plans",
           "uses": "Title: executing-plans by obra/superpowers",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2135,17 +2558,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 71,
-            "trending": 83,
+            "trending": 84,
             "hot": null
           },
           "heat": {
             "allTimeRaw": "21.4K",
-            "allTimeValue": 21387,
-            "trendingRaw": "784",
-            "trendingValue": 784,
+            "allTimeValue": 21437,
+            "trendingRaw": "791",
+            "trendingValue": 791,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 3.6
+            "totalHeat": 3.6,
+            "allTimeScore": 4.3,
+            "trendingScore": 4.1,
+            "hotScore": 0
           }
         },
         {
@@ -2154,13 +2580,18 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "programmatic-seo",
           "name": "programmatic-seo",
+          "nameEn": "programmatic-seo",
+          "nameZh": "SEO技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/programmatic-seo",
-          "uses": "Title: programmatic-seo by coreyhaines31/marketingskills",
+          "uses": "You are an expert in programmatic SEO—building SEO-optimized pages at scale using templates and data. Your goal is to create pages that rank, provide value, and avoid thin content ",
+          "introZh": "这是一个面向设计师、增长运营的实用技能，主要用于界面设计、增长实验。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
+            "设计师",
             "增长运营"
           ],
           "scenarios": [
+            "界面设计",
             "增长实验"
           ],
           "ranks": {
@@ -2170,12 +2601,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "21.0K",
-            "allTimeValue": 21004,
+            "allTimeValue": 21036,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.5
+            "totalHeat": 2.5,
+            "allTimeScore": 4.2,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2184,13 +2618,18 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "content-strategy",
           "name": "content-strategy",
+          "nameEn": "content-strategy",
+          "nameZh": "内容策略",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/content-strategy",
-          "uses": "Title: content-strategy by coreyhaines31/marketingskills",
+          "uses": "You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.",
+          "introZh": "这是一个面向设计师、增长运营的实用技能，主要用于界面设计、增长实验。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
+            "设计师",
             "增长运营"
           ],
           "scenarios": [
+            "界面设计",
             "增长实验"
           ],
           "ranks": {
@@ -2199,13 +2638,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "20.9K",
-            "allTimeValue": 20928,
+            "allTimeRaw": "21.0K",
+            "allTimeValue": 20960,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.5
+            "totalHeat": 2.5,
+            "allTimeScore": 4.2,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2214,14 +2656,17 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "better-auth-best-practices",
           "name": "better-auth-best-practices",
+          "nameEn": "better-auth-best-practices",
+          "nameZh": "认证最佳实践",
           "vendor": "better-auth",
           "detailUrl": "https://skills.sh/better-auth/skills/better-auth-best-practices",
-          "uses": "Title: better-auth-best-practices by better-auth/skills",
+          "uses": "Better Auth Integration Guide",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "设计师"
           ],
           "scenarios": [
-            "通用效率提升"
+            "界面设计"
           ],
           "ranks": {
             "allTime": 74,
@@ -2230,12 +2675,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "20.9K",
-            "allTimeValue": 20883,
+            "allTimeValue": 20906,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.5
+            "totalHeat": 2.5,
+            "allTimeScore": 4.2,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2244,9 +2692,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "requesting-code-review",
           "name": "requesting-code-review",
+          "nameEn": "requesting-code-review",
+          "nameZh": "评审技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/requesting-code-review",
-          "uses": "Title: requesting-code-review by obra/superpowers",
+          "uses": "Requesting Code Review",
+          "introZh": "这是一个面向前端工程师、研发团队的实用技能，主要用于代码开发、质量保障。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师",
             "研发团队"
@@ -2261,13 +2712,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "20.6K",
-            "allTimeValue": 20627,
+            "allTimeRaw": "20.7K",
+            "allTimeValue": 20667,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.5
+            "totalHeat": 2.5,
+            "allTimeScore": 4.1,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2276,9 +2730,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-email-skill",
           "skill": "agent-email-cli",
           "name": "agent-email-cli",
+          "nameEn": "agent-email-cli",
+          "nameZh": "通用效率技能",
           "vendor": "zaddy6",
           "detailUrl": "https://skills.sh/zaddy6/agent-email-skill/agent-email-cli",
-          "uses": "Title: agent-email-cli by zaddy6/agent-email-skill",
+          "uses": "Use this skill to operate the agent-email command safely and predictably for agent workflows that need inbox access.",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2292,12 +2749,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "20.6K",
-            "allTimeValue": 20585,
+            "allTimeValue": 20591,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.5
+            "totalHeat": 2.5,
+            "allTimeScore": 4.1,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2306,9 +2766,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "using-superpowers",
           "name": "using-superpowers",
+          "nameEn": "using-superpowers",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/using-superpowers",
           "uses": "IF A SKILL APPLIES TO YOUR TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2321,13 +2784,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "19.3K",
-            "allTimeValue": 19341,
+            "allTimeRaw": "19.4K",
+            "allTimeValue": 19379,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.3
+            "totalHeat": 2.3,
+            "allTimeScore": 3.9,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2336,9 +2802,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "product-marketing-context",
           "name": "product-marketing-context",
+          "nameEn": "product-marketing-context",
+          "nameZh": "营销技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/product-marketing-context",
-          "uses": "Title: product-marketing-context by coreyhaines31/marketingskills",
+          "uses": "Product Marketing Context",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -2351,13 +2820,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "19.3K",
-            "allTimeValue": 19340,
+            "allTimeRaw": "19.4K",
+            "allTimeValue": 19365,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.3
+            "totalHeat": 2.3,
+            "allTimeScore": 3.9,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2366,9 +2838,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "mcp-builder",
           "name": "mcp-builder",
+          "nameEn": "mcp-builder",
+          "nameZh": "MCP技能",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/mcp-builder",
-          "uses": "Title: mcp-builder by anthropics/skills",
+          "uses": "MCP Server Development Guide",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -2382,12 +2857,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "19.2K",
-            "allTimeValue": 19173,
+            "allTimeValue": 19199,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.3
+            "totalHeat": 2.3,
+            "allTimeScore": 3.9,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2396,9 +2874,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "marketing-ideas",
           "name": "marketing-ideas",
+          "nameEn": "marketing-ideas",
+          "nameZh": "营销技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/marketing-ideas",
-          "uses": "Title: marketing-ideas by coreyhaines31/marketingskills",
+          "uses": "Marketing Ideas for SaaS",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -2412,12 +2893,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "18.7K",
-            "allTimeValue": 18715,
+            "allTimeValue": 18741,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.3
+            "totalHeat": 2.3,
+            "allTimeScore": 3.8,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2426,13 +2910,18 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "social-content",
           "name": "social-content",
+          "nameEn": "social-content",
+          "nameZh": "内容技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/social-content",
-          "uses": "Title: social-content by coreyhaines31/marketingskills",
+          "uses": "You are an expert social media strategist. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.",
+          "introZh": "这是一个面向设计师、增长运营的实用技能，主要用于界面设计、增长实验。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
+            "设计师",
             "增长运营"
           ],
           "scenarios": [
+            "界面设计",
             "增长实验"
           ],
           "ranks": {
@@ -2442,12 +2931,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "18.7K",
-            "allTimeValue": 18714,
+            "allTimeValue": 18739,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.3
+            "totalHeat": 2.3,
+            "allTimeScore": 3.8,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2456,9 +2948,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "copy-editing",
           "name": "copy-editing",
+          "nameEn": "copy-editing",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/copy-editing",
-          "uses": "Title: copy-editing by coreyhaines31/marketingskills",
+          "uses": "You are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving th",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -2472,12 +2967,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "18.0K",
-            "allTimeValue": 17992,
+            "allTimeValue": 18015,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.2
+            "totalHeat": 2.2,
+            "allTimeScore": 3.6,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2486,13 +2984,18 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "pricing-strategy",
           "name": "pricing-strategy",
+          "nameEn": "pricing-strategy",
+          "nameZh": "策略技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/pricing-strategy",
-          "uses": "Title: pricing-strategy by coreyhaines31/marketingskills",
+          "uses": "You are an expert in SaaS pricing and monetization strategy. Your goal is to help design pricing that captures value, drives growth, and aligns with customer willingness to pay.",
+          "introZh": "这是一个面向设计师、增长运营的实用技能，主要用于界面设计、增长实验。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
+            "设计师",
             "增长运营"
           ],
           "scenarios": [
+            "界面设计",
             "增长实验"
           ],
           "ranks": {
@@ -2502,12 +3005,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "17.8K",
-            "allTimeValue": 17764,
+            "allTimeValue": 17790,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.1
+            "totalHeat": 2.1,
+            "allTimeScore": 3.6,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2516,9 +3022,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "subagent-driven-development",
           "name": "subagent-driven-development",
+          "nameEn": "subagent-driven-development",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/subagent-driven-development",
-          "uses": "Title: subagent-driven-development by obra/superpowers",
+          "uses": "Subagent-Driven Development",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2531,13 +3040,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "17.2K",
-            "allTimeValue": 17226,
+            "allTimeRaw": "17.3K",
+            "allTimeValue": 17256,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2.1
+            "totalHeat": 2.1,
+            "allTimeScore": 3.5,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2546,9 +3058,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "canvas-design",
           "name": "canvas-design",
+          "nameEn": "canvas-design",
+          "nameZh": "画布设计",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/canvas-design",
-          "uses": "Title: canvas-design by anthropics/skills",
+          "uses": "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -2562,12 +3077,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "16.9K",
-            "allTimeValue": 16888,
+            "allTimeValue": 16921,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.4,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2576,9 +3094,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "page-cro",
           "name": "page-cro",
+          "nameEn": "page-cro",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/page-cro",
-          "uses": "Title: page-cro by coreyhaines31/marketingskills",
+          "uses": "Page Conversion Rate Optimization (CRO)",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -2591,13 +3112,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "16.8K",
-            "allTimeValue": 16839,
+            "allTimeRaw": "16.9K",
+            "allTimeValue": 16860,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.4,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2606,9 +3130,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agents",
           "skill": "tailwind-design-system",
           "name": "tailwind-design-system",
+          "nameEn": "tailwind-design-system",
+          "nameZh": "设计技能",
           "vendor": "wshobson",
           "detailUrl": "https://skills.sh/wshobson/agents/tailwind-design-system",
-          "uses": "Title: tailwind-design-system by wshobson/agents",
+          "uses": "Tailwind Design System (v4)",
+          "introZh": "这是一个面向设计师、前端工程师的实用技能，主要用于界面设计、代码开发。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "前端工程师"
@@ -2624,12 +3151,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "16.8K",
-            "allTimeValue": 16794,
+            "allTimeValue": 16817,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.4,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2638,9 +3168,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "building-native-ui",
           "name": "building-native-ui",
+          "nameEn": "building-native-ui",
+          "nameZh": "通用效率技能",
           "vendor": "Expo",
           "detailUrl": "https://skills.sh/expo/skills/building-native-ui",
-          "uses": "Title: building-native-ui by expo/skills",
+          "uses": "Consult these resources as needed:",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -2654,12 +3187,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "16.6K",
-            "allTimeValue": 16576,
+            "allTimeValue": 16600,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.3,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2668,14 +3204,17 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "analytics-tracking",
           "name": "analytics-tracking",
+          "nameEn": "analytics-tracking",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/analytics-tracking",
-          "uses": "analytics-tracking：暂无官方描述，建议点开详情页查看。",
+          "uses": "Title: analytics-tracking by coreyhaines31/marketingskills",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "增长运营"
           ],
           "scenarios": [
-            "通用效率提升"
+            "增长实验"
           ],
           "ranks": {
             "allTime": 89,
@@ -2684,12 +3223,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "16.5K",
-            "allTimeValue": 16502,
+            "allTimeValue": 16524,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.3,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2698,9 +3240,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "launch-strategy",
           "name": "launch-strategy",
+          "nameEn": "launch-strategy",
+          "nameZh": "发布策略",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/launch-strategy",
-          "uses": "launch-strategy：暂无官方描述，建议点开详情页查看。",
+          "uses": "Title: launch-strategy by coreyhaines31/marketingskills",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -2714,12 +3259,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "16.4K",
-            "allTimeValue": 16392,
+            "allTimeValue": 16413,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.3,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2728,14 +3276,17 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "schema-markup",
           "name": "schema-markup",
+          "nameEn": "schema-markup",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/schema-markup",
-          "uses": "schema-markup：暂无官方描述，建议点开详情页查看。",
+          "uses": "Title: schema-markup by coreyhaines31/marketingskills",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "增长运营"
           ],
           "scenarios": [
-            "通用效率提升"
+            "增长实验"
           ],
           "ranks": {
             "allTime": 91,
@@ -2744,12 +3295,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "16.3K",
-            "allTimeValue": 16251,
+            "allTimeValue": 16273,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.3,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2758,9 +3312,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "verification-before-completion",
           "name": "verification-before-completion",
+          "nameEn": "verification-before-completion",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/verification-before-completion",
           "uses": "verification-before-completion：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向研发团队的实用技能，主要用于质量保障。帮你系统地测试和排错，定位问题更快，交付更稳。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "研发团队"
           ],
@@ -2774,12 +3331,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "16.2K",
-            "allTimeValue": 16200,
+            "allTimeValue": 16226,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.3,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2788,9 +3348,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "receiving-code-review",
           "name": "receiving-code-review",
+          "nameEn": "receiving-code-review",
+          "nameZh": "评审技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/receiving-code-review",
           "uses": "receiving-code-review：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向前端工程师、研发团队的实用技能，主要用于代码开发、质量保障。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师",
             "研发团队"
@@ -2806,12 +3369,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "16.2K",
-            "allTimeValue": 16181,
+            "allTimeValue": 16207,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 2
+            "totalHeat": 2,
+            "allTimeScore": 3.3,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2820,9 +3386,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "competitor-alternatives",
           "name": "competitor-alternatives",
+          "nameEn": "competitor-alternatives",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives",
           "uses": "competitor-alternatives：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2836,12 +3405,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "15.8K",
-            "allTimeValue": 15791,
+            "allTimeValue": 15811,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.9
+            "totalHeat": 1.9,
+            "allTimeScore": 3.2,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2850,9 +3422,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "email-sequence",
           "name": "email-sequence",
+          "nameEn": "email-sequence",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/email-sequence",
           "uses": "email-sequence：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2866,12 +3441,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "15.8K",
-            "allTimeValue": 15775,
+            "allTimeValue": 15797,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.9
+            "totalHeat": 1.9,
+            "allTimeScore": 3.2,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2880,9 +3458,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "paid-ads",
           "name": "paid-ads",
+          "nameEn": "paid-ads",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/paid-ads",
           "uses": "paid-ads：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2896,12 +3477,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "15.8K",
-            "allTimeValue": 15761,
+            "allTimeValue": 15783,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.9
+            "totalHeat": 1.9,
+            "allTimeScore": 3.2,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2910,9 +3494,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "onboarding-cro",
           "name": "onboarding-cro",
+          "nameEn": "onboarding-cro",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/onboarding-cro",
           "uses": "onboarding-cro：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -2926,12 +3513,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "15.7K",
-            "allTimeValue": 15657,
+            "allTimeValue": 15679,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.9
+            "totalHeat": 1.9,
+            "allTimeScore": 3.1,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2940,9 +3530,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "using-git-worktrees",
           "name": "using-git-worktrees",
+          "nameEn": "using-git-worktrees",
+          "nameZh": "Git技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/using-git-worktrees",
           "uses": "using-git-worktrees：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2956,12 +3549,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "15.5K",
-            "allTimeValue": 15463,
+            "allTimeValue": 15486,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.9
+            "totalHeat": 1.9,
+            "allTimeScore": 3.1,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -2970,9 +3566,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "writing-skills",
           "name": "writing-skills",
+          "nameEn": "writing-skills",
+          "nameZh": "技能技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/writing-skills",
           "uses": "writing-skills：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -2986,12 +3585,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "15.4K",
-            "allTimeValue": 15411,
+            "allTimeValue": 15431,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.9
+            "totalHeat": 1.9,
+            "allTimeScore": 3.1,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         },
         {
@@ -3000,9 +3602,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "form-cro",
           "name": "form-cro",
+          "nameEn": "form-cro",
+          "nameZh": "通用效率技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/form-cro",
           "uses": "form-cro：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -3016,12 +3621,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "15.4K",
-            "allTimeValue": 15366,
+            "allTimeValue": 15387,
             "trendingRaw": "-",
             "trendingValue": 0,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.9
+            "totalHeat": 1.9,
+            "allTimeScore": 3.1,
+            "trendingScore": 0,
+            "hotScore": 0
           }
         }
       ]
@@ -3035,9 +3643,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "simple",
           "name": "simple",
+          "nameEn": "simple",
+          "nameZh": "通用效率技能",
           "vendor": "roin-orca",
           "detailUrl": "https://skills.sh/roin-orca/skills/simple",
           "uses": "simple：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -3050,13 +3661,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "55.9K",
-            "allTimeValue": 55949,
+            "allTimeRaw": "57.0K",
+            "allTimeValue": 57036,
             "trendingRaw": "19.1K",
-            "trendingValue": 19134,
+            "trendingValue": 19119,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 31.8
+            "totalHeat": 31.9,
+            "allTimeScore": 11.4,
+            "trendingScore": 100,
+            "hotScore": 0
           }
         },
         {
@@ -3065,9 +3679,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "find-skills",
           "name": "find-skills",
+          "nameEn": "find-skills",
+          "nameZh": "发现技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/skills/find-skills",
           "uses": "This skill helps you discover and install skills from the open agent skills ecosystem.",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你快速找到并安装合适的技能，避免在海量仓库里盲目搜索。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -3080,13 +3697,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "497.2K",
-            "allTimeValue": 497248,
+            "allTimeRaw": "498.3K",
+            "allTimeValue": 498332,
             "trendingRaw": "15.8K",
-            "trendingValue": 15793,
+            "trendingValue": 15753,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 80.6
+            "totalHeat": 80.6,
+            "allTimeScore": 100,
+            "trendingScore": 82.4,
+            "hotScore": 0
           }
         },
         {
@@ -3095,9 +3715,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "sleek-design-mobile-apps",
           "name": "sleek-design-mobile-apps",
+          "nameEn": "sleek-design-mobile-apps",
+          "nameZh": "设计技能",
           "vendor": "sleekdotdesign",
           "detailUrl": "https://skills.sh/sleekdotdesign/agent-skills/sleek-design-mobile-apps",
           "uses": "sleek-design-mobile-apps：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -3110,13 +3733,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "114.0K",
-            "allTimeValue": 114041,
+            "allTimeRaw": "115.4K",
+            "allTimeValue": 115393,
             "trendingRaw": "12.8K",
-            "trendingValue": 12779,
+            "trendingValue": 12762,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 30.5
+            "totalHeat": 30.6,
+            "allTimeScore": 23.2,
+            "trendingScore": 66.8,
+            "hotScore": 0
           }
         },
         {
@@ -3125,9 +3751,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "ai-image-generation",
           "name": "ai-image-generation",
+          "nameEn": "ai-image-generation",
+          "nameZh": "AI图片",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/ai-image-generation",
           "uses": "ai-image-generation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -3137,16 +3766,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 4,
-            "hot": 9
+            "hot": 5
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.7K",
-            "trendingValue": 9729,
-            "hotRaw": "851+851",
-            "hotDeltaValue": 851,
-            "totalHeat": 26.1
+            "trendingRaw": "10.9K",
+            "trendingValue": 10867,
+            "hotRaw": "888+888",
+            "hotDeltaValue": 888,
+            "totalHeat": 28.6,
+            "allTimeScore": 0,
+            "trendingScore": 56.8,
+            "hotScore": 96.2
           }
         },
         {
@@ -3155,9 +3787,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "qwen-image-2",
           "name": "qwen-image-2",
+          "nameEn": "qwen-image-2",
+          "nameZh": "图片技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/qwen-image-2",
-          "uses": "Qwen-Image - Alibaba Image Generation",
+          "uses": "qwen-image-2：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -3167,27 +3802,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 5,
-            "hot": 6
+            "hot": 7
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.6K",
-            "trendingValue": 9636,
-            "hotRaw": "905+905",
-            "hotDeltaValue": 905,
-            "totalHeat": 26.8
+            "trendingRaw": "10.8K",
+            "trendingValue": 10809,
+            "hotRaw": "878+878",
+            "hotDeltaValue": 878,
+            "totalHeat": 28.4,
+            "allTimeScore": 0,
+            "trendingScore": 56.5,
+            "hotScore": 95.1
           }
         },
         {
-          "key": "inference-shell/skills/qwen-image-2-pro",
+          "key": "inference-shell/skills/ai-video-generation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "qwen-image-2-pro",
-          "name": "qwen-image-2-pro",
+          "skill": "ai-video-generation",
+          "name": "ai-video-generation",
+          "nameEn": "ai-video-generation",
+          "nameZh": "AI视频",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/qwen-image-2-pro",
-          "uses": "qwen-image-2-pro：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-video-generation",
+          "uses": "ai-video-generation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -3197,46 +3838,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 6,
-            "hot": 2
+            "hot": 3
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.6K",
-            "trendingValue": 9594,
-            "hotRaw": "954+954",
-            "hotDeltaValue": 954,
-            "totalHeat": 27.5
-          }
-        },
-        {
-          "key": "inference-shell/skills/ai-video-generation",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "ai-video-generation",
-          "name": "ai-video-generation",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-video-generation",
-          "uses": "ai-video-generation：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "内容团队"
-          ],
-          "scenarios": [
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": 7,
-            "hot": 4
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "9.6K",
-            "trendingValue": 9585,
-            "hotRaw": "907+907",
-            "hotDeltaValue": 907,
-            "totalHeat": 26.8
+            "trendingRaw": "10.7K",
+            "trendingValue": 10741,
+            "hotRaw": "911+911",
+            "hotDeltaValue": 911,
+            "totalHeat": 28.8,
+            "allTimeScore": 0,
+            "trendingScore": 56.2,
+            "hotScore": 98.7
           }
         },
         {
@@ -3245,9 +3859,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "agent-browser",
           "name": "agent-browser",
+          "nameEn": "agent-browser",
+          "nameZh": "浏览器技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/agent-browser",
           "uses": "agent-browser：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -3256,17 +3873,56 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": 8,
-            "hot": 3
+            "trending": 7,
+            "hot": 10
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.6K",
-            "trendingValue": 9550,
-            "hotRaw": "929+929",
-            "hotDeltaValue": 929,
-            "totalHeat": 27.1
+            "trendingRaw": "10.7K",
+            "trendingValue": 10685,
+            "hotRaw": "862+862",
+            "hotDeltaValue": 862,
+            "totalHeat": 28,
+            "allTimeScore": 0,
+            "trendingScore": 55.9,
+            "hotScore": 93.4
+          }
+        },
+        {
+          "key": "inference-shell/skills/qwen-image-2-pro",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "qwen-image-2-pro",
+          "name": "qwen-image-2-pro",
+          "nameEn": "qwen-image-2-pro",
+          "nameZh": "图片技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/qwen-image-2-pro",
+          "uses": "qwen-image-2-pro：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "内容团队"
+          ],
+          "scenarios": [
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 8,
+            "hot": 8
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "10.7K",
+            "trendingValue": 10683,
+            "hotRaw": "877+877",
+            "hotDeltaValue": 877,
+            "totalHeat": 28.2,
+            "allTimeScore": 0,
+            "trendingScore": 55.9,
+            "hotScore": 95
           }
         },
         {
@@ -3275,9 +3931,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "nano-banana",
           "name": "nano-banana",
+          "nameEn": "nano-banana",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/nano-banana",
           "uses": "nano-banana：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -3287,27 +3946,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 9,
-            "hot": 5
+            "hot": 6
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.5K",
-            "trendingValue": 9512,
-            "hotRaw": "905+905",
-            "hotDeltaValue": 905,
-            "totalHeat": 26.6
+            "trendingRaw": "10.7K",
+            "trendingValue": 10671,
+            "hotRaw": "888+888",
+            "hotDeltaValue": 888,
+            "totalHeat": 28.4,
+            "allTimeScore": 0,
+            "trendingScore": 55.8,
+            "hotScore": 96.2
           }
         },
         {
-          "key": "inference-shell/skills/nano-banana-2",
+          "key": "inference-shell/skills/twitter-automation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "nano-banana-2",
-          "name": "nano-banana-2",
+          "skill": "twitter-automation",
+          "name": "twitter-automation",
+          "nameEn": "twitter-automation",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/nano-banana-2",
-          "uses": "nano-banana-2：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/twitter-automation",
+          "uses": "twitter-automation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -3322,22 +3987,28 @@ window.__SKILLS_CURRENT__ = {
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.5K",
-            "trendingValue": 9452,
-            "hotRaw": "956+956",
-            "hotDeltaValue": 956,
-            "totalHeat": 27.3
+            "trendingRaw": "10.6K",
+            "trendingValue": 10608,
+            "hotRaw": "923+923",
+            "hotDeltaValue": 923,
+            "totalHeat": 28.9,
+            "allTimeScore": 0,
+            "trendingScore": 55.5,
+            "hotScore": 100
           }
         },
         {
-          "key": "inference-shell/skills/twitter-automation",
+          "key": "inference-shell/skills/nano-banana-2",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "twitter-automation",
-          "name": "twitter-automation",
+          "skill": "nano-banana-2",
+          "name": "nano-banana-2",
+          "nameEn": "nano-banana-2",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/twitter-automation",
-          "uses": "twitter-automation：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/nano-banana-2",
+          "uses": "nano-banana-2：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -3347,16 +4018,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 11,
-            "hot": 8
+            "hot": 4
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.4K",
-            "trendingValue": 9411,
-            "hotRaw": "873+873",
-            "hotDeltaValue": 873,
-            "totalHeat": 26
+            "trendingRaw": "10.6K",
+            "trendingValue": 10579,
+            "hotRaw": "892+892",
+            "hotDeltaValue": 892,
+            "totalHeat": 28.3,
+            "allTimeScore": 0,
+            "trendingScore": 55.3,
+            "hotScore": 96.6
           }
         },
         {
@@ -3365,9 +4039,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "agent-tools",
           "name": "agent-tools",
+          "nameEn": "agent-tools",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/agent-tools",
           "uses": "agent-tools：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -3377,16 +4054,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 12,
-            "hot": 7
+            "hot": 2
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.4K",
-            "trendingValue": 9403,
-            "hotRaw": "898+898",
-            "hotDeltaValue": 898,
-            "totalHeat": 26.4
+            "trendingRaw": "10.6K",
+            "trendingValue": 10558,
+            "hotRaw": "914+914",
+            "hotDeltaValue": 914,
+            "totalHeat": 28.7,
+            "allTimeScore": 0,
+            "trendingScore": 55.2,
+            "hotScore": 99
           }
         },
         {
@@ -3395,9 +4075,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "remotion-render",
           "name": "remotion-render",
+          "nameEn": "remotion-render",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/remotion-render",
           "uses": "remotion-render：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -3407,16 +4090,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 13,
-            "hot": 10
+            "hot": 9
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.4K",
-            "trendingValue": 9400,
-            "hotRaw": "843+843",
-            "hotDeltaValue": 843,
-            "totalHeat": 25.5
+            "trendingRaw": "10.5K",
+            "trendingValue": 10544,
+            "hotRaw": "865+865",
+            "hotDeltaValue": 865,
+            "totalHeat": 27.8,
+            "allTimeScore": 0,
+            "trendingScore": 55.1,
+            "hotScore": 93.7
           }
         },
         {
@@ -3425,9 +4111,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "microsoft-foundry",
           "name": "microsoft-foundry",
+          "nameEn": "microsoft-foundry",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
           "uses": "microsoft-foundry：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -3437,16 +4126,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": 48,
             "trending": 14,
-            "hot": 53
+            "hot": 30
           },
           "heat": {
-            "allTimeRaw": "23.6K",
-            "allTimeValue": 23574,
-            "trendingRaw": "5.1K",
-            "trendingValue": 5086,
-            "hotRaw": "315+56",
-            "hotDeltaValue": 56,
-            "totalHeat": 10.4
+            "allTimeRaw": "24.1K",
+            "allTimeValue": 24052,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5243,
+            "hotRaw": "357+152",
+            "hotDeltaValue": 152,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.4,
+            "hotScore": 16.5
           }
         },
         {
@@ -3455,9 +4147,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-deploy",
           "name": "azure-deploy",
+          "nameEn": "azure-deploy",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-deploy",
           "uses": "azure-deploy：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3467,76 +4162,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": 51,
             "trending": 15,
-            "hot": 55
+            "hot": 31
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23442,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5026,
-            "hotRaw": "311+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/entra-app-registration",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "entra-app-registration",
-          "name": "entra-app-registration",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/entra-app-registration",
-          "uses": "entra-app-registration：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": 50,
-            "trending": 16,
-            "hot": 56
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23442,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5024,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-ai",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-ai",
-          "name": "azure-ai",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-ai",
-          "uses": "| Service | Use When | MCP Tools | CLI |",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 49,
-            "trending": 17,
-            "hot": 66
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23449,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5024,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23918,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5185,
+            "hotRaw": "356+152",
+            "hotDeltaValue": 152,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.5
           }
         },
         {
@@ -3545,9 +4183,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-validate",
           "name": "azure-validate",
+          "nameEn": "azure-validate",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-validate",
           "uses": "azure-validate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3556,77 +4197,92 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 58,
+            "trending": 16,
+            "hot": 14
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23908,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/entra-app-registration",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "entra-app-registration",
+          "name": "entra-app-registration",
+          "nameEn": "entra-app-registration",
+          "nameZh": "通用效率技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/entra-app-registration",
+          "uses": "entra-app-registration：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": 50,
+            "trending": 17,
+            "hot": 19
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23918,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-ai",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-ai",
+          "name": "azure-ai",
+          "nameEn": "azure-ai",
+          "nameZh": "AzureAI",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-ai",
+          "uses": "azure-ai：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 49,
             "trending": 18,
-            "hot": 64
+            "hot": 21
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23432,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5023,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-cost-optimization",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-cost-optimization",
-          "name": "azure-cost-optimization",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cost-optimization",
-          "uses": "azure-cost-optimization：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 53,
-            "trending": 19,
-            "hot": 58
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23438,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-resource-lookup",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-resource-lookup",
-          "name": "azure-resource-lookup",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-lookup",
-          "uses": "azure-resource-lookup：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 52,
-            "trending": 20,
-            "hot": 60
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23438,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23925,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -3635,9 +4291,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-prepare",
           "name": "azure-prepare",
+          "nameEn": "azure-prepare",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-prepare",
           "uses": "azure-prepare：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3646,28 +4305,34 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 56,
-            "trending": 21,
-            "hot": 65
+            "trending": 19,
+            "hot": 15
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23434,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23910,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5183,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-rbac",
+          "key": "microsoft/azure-skills/azure-cost-optimization",
           "owner": "microsoft",
           "repo": "azure-skills",
-          "skill": "azure-rbac",
-          "name": "azure-rbac",
+          "skill": "azure-cost-optimization",
+          "name": "azure-cost-optimization",
+          "nameEn": "azure-cost-optimization",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-rbac",
-          "uses": "azure-rbac：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cost-optimization",
+          "uses": "azure-cost-optimization：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3675,138 +4340,21 @@ window.__SKILLS_CURRENT__ = {
             "云与基础设施"
           ],
           "ranks": {
-            "allTime": 64,
-            "trending": 22,
-            "hot": 68
+            "allTime": 53,
+            "trending": 20,
+            "hot": 20
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-aigateway",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-aigateway",
-          "name": "azure-aigateway",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-aigateway",
-          "uses": "azure-aigateway：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 57,
-            "trending": 23,
-            "hot": 71
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23434,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-diagnostics",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-diagnostics",
-          "name": "azure-diagnostics",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
-          "uses": "azure-diagnostics：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 54,
-            "trending": 24,
-            "hot": 73
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23436,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-compute",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-compute",
-          "name": "azure-compute",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compute",
-          "uses": "azure-compute：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 61,
-            "trending": 25,
-            "hot": 59
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-compliance",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-compliance",
-          "name": "azure-compliance",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compliance",
-          "uses": "azure-compliance：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 65,
-            "trending": 26,
-            "hot": 63
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23914,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -3815,9 +4363,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-storage",
           "name": "azure-storage",
+          "nameEn": "azure-storage",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-storage",
           "uses": "azure-storage：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3826,28 +4377,34 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 55,
-            "trending": 27,
-            "hot": 61
+            "trending": 21,
+            "hot": 12
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23435,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23911,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-cloud-migrate",
+          "key": "microsoft/azure-skills/azure-diagnostics",
           "owner": "microsoft",
           "repo": "azure-skills",
-          "skill": "azure-cloud-migrate",
-          "name": "azure-cloud-migrate",
+          "skill": "azure-diagnostics",
+          "name": "azure-diagnostics",
+          "nameEn": "azure-diagnostics",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cloud-migrate",
-          "uses": "azure-cloud-migrate：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
+          "uses": "azure-diagnostics：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3855,29 +4412,35 @@ window.__SKILLS_CURRENT__ = {
             "云与基础设施"
           ],
           "ranks": {
-            "allTime": 62,
-            "trending": 28,
-            "hot": 62
+            "allTime": 54,
+            "trending": 22,
+            "hot": 13
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23912,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-resource-visualizer",
+          "key": "microsoft/azure-skills/azure-resource-lookup",
           "owner": "microsoft",
           "repo": "azure-skills",
-          "skill": "azure-resource-visualizer",
-          "name": "azure-resource-visualizer",
+          "skill": "azure-resource-lookup",
+          "name": "azure-resource-lookup",
+          "nameEn": "azure-resource-lookup",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-visualizer",
-          "uses": "azure-resource-visualizer：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-lookup",
+          "uses": "azure-resource-lookup：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3885,48 +4448,57 @@ window.__SKILLS_CURRENT__ = {
             "云与基础设施"
           ],
           "ranks": {
-            "allTime": 67,
-            "trending": 29,
-            "hot": 70
+            "allTime": 52,
+            "trending": 23,
+            "hot": 22
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23428,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23914,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
-          "key": "microsoft/azure-skills/appinsights-instrumentation",
+          "key": "microsoft/azure-skills/azure-aigateway",
           "owner": "microsoft",
           "repo": "azure-skills",
-          "skill": "appinsights-instrumentation",
-          "name": "appinsights-instrumentation",
+          "skill": "azure-aigateway",
+          "name": "azure-aigateway",
+          "nameEn": "azure-aigateway",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/appinsights-instrumentation",
-          "uses": "appinsights-instrumentation：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-aigateway",
+          "uses": "azure-aigateway：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "后端/平台工程师"
           ],
           "scenarios": [
-            "通用效率提升"
+            "云与基础设施"
           ],
           "ranks": {
-            "allTime": 59,
-            "trending": 30,
-            "hot": 57
+            "allTime": 57,
+            "trending": 24,
+            "hot": 17
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23432,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23910,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
@@ -3935,9 +4507,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-messaging",
           "name": "azure-messaging",
+          "nameEn": "azure-messaging",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-messaging",
           "uses": "azure-messaging：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3946,28 +4521,70 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 60,
-            "trending": 31,
-            "hot": 67
+            "trending": 25,
+            "hot": 16
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23907,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-hosted-copilot-sdk",
+          "key": "microsoft/azure-skills/appinsights-instrumentation",
           "owner": "microsoft",
           "repo": "azure-skills",
-          "skill": "azure-hosted-copilot-sdk",
-          "name": "azure-hosted-copilot-sdk",
+          "skill": "appinsights-instrumentation",
+          "name": "appinsights-instrumentation",
+          "nameEn": "appinsights-instrumentation",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk",
-          "uses": "azure-hosted-copilot-sdk：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/appinsights-instrumentation",
+          "uses": "appinsights-instrumentation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": 59,
+            "trending": 26,
+            "hot": 18
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23908,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-rbac",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-rbac",
+          "name": "azure-rbac",
+          "nameEn": "azure-rbac",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-rbac",
+          "uses": "azure-rbac：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -3975,18 +4592,21 @@ window.__SKILLS_CURRENT__ = {
             "云与基础设施"
           ],
           "ranks": {
-            "allTime": 63,
-            "trending": 32,
-            "hot": 69
+            "allTime": 64,
+            "trending": 27,
+            "hot": 28
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -3995,9 +4615,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "azure-skills",
           "skill": "azure-kusto",
           "name": "azure-kusto",
+          "nameEn": "azure-kusto",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-kusto",
           "uses": "azure-kusto：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4006,17 +4629,200 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 66,
-            "trending": 33,
-            "hot": 72
+            "trending": 28,
+            "hot": 29
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23428,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23903,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-hosted-copilot-sdk",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-hosted-copilot-sdk",
+          "name": "azure-hosted-copilot-sdk",
+          "nameEn": "azure-hosted-copilot-sdk",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk",
+          "uses": "azure-hosted-copilot-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 63,
+            "trending": 29,
+            "hot": 26
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-cloud-migrate",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-cloud-migrate",
+          "name": "azure-cloud-migrate",
+          "nameEn": "azure-cloud-migrate",
+          "nameZh": "Azure云迁移",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cloud-migrate",
+          "uses": "azure-cloud-migrate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 62,
+            "trending": 30,
+            "hot": 25
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23906,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-compute",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-compute",
+          "name": "azure-compute",
+          "nameEn": "azure-compute",
+          "nameZh": "Azure算力",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compute",
+          "uses": "azure-compute：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 61,
+            "trending": 31,
+            "hot": 24
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23906,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-compliance",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-compliance",
+          "name": "azure-compliance",
+          "nameEn": "azure-compliance",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compliance",
+          "uses": "azure-compliance：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 65,
+            "trending": 32,
+            "hot": 23
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-resource-visualizer",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-resource-visualizer",
+          "name": "azure-resource-visualizer",
+          "nameEn": "azure-resource-visualizer",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-visualizer",
+          "uses": "azure-resource-visualizer：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 67,
+            "trending": 33,
+            "hot": 27
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23903,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
           }
         },
         {
@@ -4025,9 +4831,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "vercel-react-best-practices",
           "name": "vercel-react-best-practices",
+          "nameEn": "vercel-react-best-practices",
+          "nameZh": "React最佳实践",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
           "uses": "Vercel React Best Practices",
+          "introZh": "这是一个面向前端工程师的实用技能，主要用于代码开发。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师"
           ],
@@ -4040,13 +4849,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "196.0K",
-            "allTimeValue": 196031,
+            "allTimeRaw": "196.3K",
+            "allTimeValue": 196270,
             "trendingRaw": "3.8K",
-            "trendingValue": 3830,
+            "trendingValue": 3791,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 28.7
+            "totalHeat": 28.6,
+            "allTimeScore": 39.4,
+            "trendingScore": 19.8,
+            "hotScore": 0
           }
         },
         {
@@ -4055,9 +4867,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "frontend-design",
           "name": "frontend-design",
+          "nameEn": "frontend-design",
+          "nameZh": "前端设计",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/frontend-design",
           "uses": "Title: frontend-design by anthropics/skills",
+          "introZh": "这是一个面向设计师、前端工程师的实用技能，主要用于界面设计、代码开发。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "前端工程师"
@@ -4072,13 +4887,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "142.2K",
-            "allTimeValue": 142170,
+            "allTimeRaw": "142.4K",
+            "allTimeValue": 142442,
             "trendingRaw": "3.6K",
-            "trendingValue": 3618,
+            "trendingValue": 3602,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 21.9
+            "totalHeat": 21.9,
+            "allTimeScore": 28.6,
+            "trendingScore": 18.8,
+            "hotScore": 0
           }
         },
         {
@@ -4087,9 +4905,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "web-design-guidelines",
           "name": "web-design-guidelines",
+          "nameEn": "web-design-guidelines",
+          "nameZh": "网页设计指南",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
           "uses": "Title: web-design-guidelines by vercel-labs/agent-skills",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -4102,13 +4923,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "153.7K",
-            "allTimeValue": 153692,
+            "allTimeRaw": "153.9K",
+            "allTimeValue": 153906,
             "trendingRaw": "3.1K",
-            "trendingValue": 3149,
+            "trendingValue": 3125,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 22.7
+            "totalHeat": 22.6,
+            "allTimeScore": 30.9,
+            "trendingScore": 16.3,
+            "hotScore": 0
           }
         },
         {
@@ -4117,9 +4941,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-ai",
           "name": "azure-ai",
+          "nameEn": "azure-ai",
+          "nameZh": "AzureAI",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-ai",
           "uses": "| Service | Use When | MCP Tools | CLI |",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4132,43 +4959,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.3K",
-            "allTimeValue": 129337,
+            "allTimeRaw": "129.6K",
+            "allTimeValue": 129565,
             "trendingRaw": "3.0K",
-            "trendingValue": 2995,
+            "trendingValue": 2970,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.5
-          }
-        },
-        {
-          "key": "microsoft/github-copilot-for-azure/azure-storage",
-          "owner": "microsoft",
-          "repo": "github-copilot-for-azure",
-          "skill": "azure-storage",
-          "name": "azure-storage",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-storage",
-          "uses": "Azure Storage Services",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 7,
-            "trending": 38,
-            "hot": null
-          },
-          "heat": {
-            "allTimeRaw": "129.1K",
-            "allTimeValue": 129068,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2973,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 19.5
+            "totalHeat": 19.5,
+            "allTimeScore": 26,
+            "trendingScore": 15.5,
+            "hotScore": 0
           }
         },
         {
@@ -4177,9 +4977,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-deploy",
           "name": "azure-deploy",
+          "nameEn": "azure-deploy",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy",
           "uses": "> **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**",
+          "introZh": "这是一个面向设计师、后端/平台工程师的实用技能，主要用于界面设计、云与基础设施。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "后端/平台工程师"
@@ -4190,17 +4993,56 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 8,
+            "trending": 38,
+            "hot": null
+          },
+          "heat": {
+            "allTimeRaw": "129.3K",
+            "allTimeValue": 129285,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2949,
+            "hotRaw": "-",
+            "hotDeltaValue": 0,
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
+          }
+        },
+        {
+          "key": "microsoft/github-copilot-for-azure/azure-storage",
+          "owner": "microsoft",
+          "repo": "github-copilot-for-azure",
+          "skill": "azure-storage",
+          "name": "azure-storage",
+          "nameEn": "azure-storage",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-storage",
+          "uses": "Azure Storage Services",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 7,
             "trending": 39,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.1K",
-            "allTimeValue": 129060,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2972,
+            "allTimeRaw": "129.3K",
+            "allTimeValue": 129295,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2949,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.5
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4209,9 +5051,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-cost-optimization",
           "name": "azure-cost-optimization",
+          "nameEn": "azure-cost-optimization",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization",
           "uses": "Azure Cost Optimization Skill",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4224,13 +5069,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.1K",
-            "allTimeValue": 129055,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2969,
+            "allTimeRaw": "129.3K",
+            "allTimeValue": 129282,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2945,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.5
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4239,9 +5087,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-diagnostics",
           "name": "azure-diagnostics",
+          "nameEn": "azure-diagnostics",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics",
           "uses": "> **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**",
+          "introZh": "这是一个面向设计师、后端/平台工程师的实用技能，主要用于界面设计、云与基础设施。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "后端/平台工程师"
@@ -4256,13 +5107,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "129.0K",
-            "allTimeValue": 128998,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2966,
+            "allTimeRaw": "129.2K",
+            "allTimeValue": 129226,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2943,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4271,9 +5125,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-prepare",
           "name": "azure-prepare",
+          "nameEn": "azure-prepare",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare",
           "uses": "> **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**",
+          "introZh": "这是一个面向设计师、后端/平台工程师的实用技能，主要用于界面设计、云与基础设施。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "后端/平台工程师"
@@ -4288,13 +5145,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128883,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2962,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129110,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2939,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4303,9 +5163,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "entra-app-registration",
           "name": "entra-app-registration",
+          "nameEn": "entra-app-registration",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration",
           "uses": "Microsoft Entra ID (formerly Azure Active Directory) is Microsoft's cloud-based identity and access management service. App registrations allow applications to authenticate users a",
+          "introZh": "这是一个面向增长运营、后端/平台工程师的实用技能，主要用于增长实验、云与基础设施。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营",
             "后端/平台工程师"
@@ -4320,13 +5183,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128926,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2961,
+            "allTimeRaw": "129.2K",
+            "allTimeValue": 129151,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2938,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4335,9 +5201,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-validate",
           "name": "azure-validate",
+          "nameEn": "azure-validate",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-validate",
           "uses": "> **AUTHORITATIVE GUIDANCE** — Follow these instructions exactly. This supersedes prior training.",
+          "introZh": "这是一个面向设计师、后端/平台工程师的实用技能，主要用于界面设计、云与基础设施。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "后端/平台工程师"
@@ -4352,13 +5221,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128876,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2961,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129102,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2937,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4367,9 +5239,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-compliance",
           "name": "azure-compliance",
+          "nameEn": "azure-compliance",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance",
           "uses": "Azure Compliance & Security Auditing",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4382,45 +5257,52 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128892,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2961,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129118,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2937,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
-          "key": "microsoft/github-copilot-for-azure/azure-rbac",
+          "key": "microsoft/github-copilot-for-azure/appinsights-instrumentation",
           "owner": "microsoft",
           "repo": "github-copilot-for-azure",
-          "skill": "azure-rbac",
-          "name": "azure-rbac",
+          "skill": "appinsights-instrumentation",
+          "name": "appinsights-instrumentation",
+          "nameEn": "appinsights-instrumentation",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-rbac",
-          "uses": "Title: azure-rbac by microsoft/github-copilot-for-azure",
+          "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation",
+          "uses": "AppInsights Instrumentation Guide",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "增长运营",
-            "后端/平台工程师"
+            "设计师"
           ],
           "scenarios": [
-            "增长实验",
-            "云与基础设施"
+            "界面设计"
           ],
           "ranks": {
-            "allTime": 15,
+            "allTime": 12,
             "trending": 46,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128887,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2960,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129127,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2936,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4429,9 +5311,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-resource-visualizer",
           "name": "azure-resource-visualizer",
+          "nameEn": "azure-resource-visualizer",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer",
           "uses": "Azure Resource Visualizer - Architecture Diagram Generator",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4444,13 +5329,54 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128890,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2960,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129116,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2936,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
+          }
+        },
+        {
+          "key": "microsoft/github-copilot-for-azure/azure-rbac",
+          "owner": "microsoft",
+          "repo": "github-copilot-for-azure",
+          "skill": "azure-rbac",
+          "name": "azure-rbac",
+          "nameEn": "azure-rbac",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-rbac",
+          "uses": "Title: azure-rbac by microsoft/github-copilot-for-azure",
+          "introZh": "这是一个面向增长运营、后端/平台工程师的实用技能，主要用于增长实验、云与基础设施。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "增长运营",
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "增长实验",
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 15,
+            "trending": 48,
+            "hot": null
+          },
+          "heat": {
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129113,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2936,
+            "hotRaw": "-",
+            "hotDeltaValue": 0,
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4459,9 +5385,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-resource-lookup",
           "name": "azure-resource-lookup",
+          "nameEn": "azure-resource-lookup",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup",
-          "uses": "azure-resource-lookup：暂无官方描述，建议点开详情页查看。",
+          "uses": "Azure Resource Lookup",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4470,17 +5399,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 20,
-            "trending": 48,
+            "trending": 49,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128867,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2959,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129092,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2935,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4489,9 +5421,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-kusto",
           "name": "azure-kusto",
+          "nameEn": "azure-kusto",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-kusto",
           "uses": "Azure Data Explorer (Kusto) Query & Analytics",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4500,47 +5435,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": 17,
-            "trending": 49,
-            "hot": null
-          },
-          "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128880,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2959,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 19.4
-          }
-        },
-        {
-          "key": "microsoft/github-copilot-for-azure/appinsights-instrumentation",
-          "owner": "microsoft",
-          "repo": "github-copilot-for-azure",
-          "skill": "appinsights-instrumentation",
-          "name": "appinsights-instrumentation",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation",
-          "uses": "AppInsights Instrumentation Guide",
-          "audience": [
-            "设计师"
-          ],
-          "scenarios": [
-            "界面设计"
-          ],
-          "ranks": {
-            "allTime": 12,
             "trending": 50,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128902,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2959,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129105,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2935,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.4,
+            "hotScore": 0
           }
         },
         {
@@ -4549,9 +5457,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-aigateway",
           "name": "azure-aigateway",
+          "nameEn": "azure-aigateway",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway",
           "uses": "Configure Azure API Management (APIM) as an AI Gateway for governing AI models, MCP tools, and agents.",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4564,13 +5475,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.9K",
-            "allTimeValue": 128875,
-            "trendingRaw": "3.0K",
-            "trendingValue": 2958,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129100,
+            "trendingRaw": "2.9K",
+            "trendingValue": 2934,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.4
+            "totalHeat": 19.4,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.3,
+            "hotScore": 0
           }
         },
         {
@@ -4579,9 +5493,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "microsoft-foundry",
           "name": "microsoft-foundry",
+          "nameEn": "microsoft-foundry",
+          "nameZh": "通用效率技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry",
           "uses": "microsoft-foundry：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -4594,13 +5511,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "128.8K",
-            "allTimeValue": 128847,
+            "allTimeRaw": "129.1K",
+            "allTimeValue": 129069,
             "trendingRaw": "2.9K",
-            "trendingValue": 2906,
+            "trendingValue": 2882,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.3
+            "totalHeat": 19.3,
+            "allTimeScore": 25.9,
+            "trendingScore": 15.1,
+            "hotScore": 0
           }
         },
         {
@@ -4609,9 +5529,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-messaging",
           "name": "azure-messaging",
+          "nameEn": "azure-messaging",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging",
           "uses": "azure-messaging：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4624,13 +5547,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "117.1K",
-            "allTimeValue": 117109,
+            "allTimeRaw": "117.3K",
+            "allTimeValue": 117322,
             "trendingRaw": "2.8K",
-            "trendingValue": 2781,
+            "trendingValue": 2759,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 17.8
+            "totalHeat": 17.7,
+            "allTimeScore": 23.5,
+            "trendingScore": 14.4,
+            "hotScore": 0
           }
         },
         {
@@ -4639,9 +5565,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-hosted-copilot-sdk",
           "name": "azure-hosted-copilot-sdk",
+          "nameEn": "azure-hosted-copilot-sdk",
+          "nameZh": "Azure技能",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
           "uses": "azure-hosted-copilot-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4654,13 +5583,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "98.4K",
-            "allTimeValue": 98375,
+            "allTimeRaw": "98.6K",
+            "allTimeValue": 98564,
             "trendingRaw": "2.5K",
-            "trendingValue": 2490,
+            "trendingValue": 2463,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 15.1
+            "totalHeat": 15.1,
+            "allTimeScore": 19.8,
+            "trendingScore": 12.9,
+            "hotScore": 0
           }
         },
         {
@@ -4669,9 +5601,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-browser",
           "skill": "agent-browser",
           "name": "agent-browser",
+          "nameEn": "agent-browser",
+          "nameZh": "浏览器技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
           "uses": "agent-browser：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -4681,16 +5616,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": 26,
             "trending": 55,
-            "hot": null
+            "hot": 90
           },
           "heat": {
-            "allTimeRaw": "88.1K",
-            "allTimeValue": 88148,
+            "allTimeRaw": "88.3K",
+            "allTimeValue": 88333,
             "trendingRaw": "2.4K",
-            "trendingValue": 2399,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 13.8
+            "trendingValue": 2427,
+            "hotRaw": "144+27",
+            "hotDeltaValue": 27,
+            "totalHeat": 14.2,
+            "allTimeScore": 17.7,
+            "trendingScore": 12.7,
+            "hotScore": 2.9
           }
         },
         {
@@ -4699,9 +5637,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "skill-creator",
           "name": "skill-creator",
+          "nameEn": "skill-creator",
+          "nameZh": "技能创建器",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/skill-creator",
           "uses": "skill-creator：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -4714,13 +5655,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "73.9K",
-            "allTimeValue": 73889,
+            "allTimeRaw": "74.0K",
+            "allTimeValue": 74030,
             "trendingRaw": "2.3K",
-            "trendingValue": 2301,
+            "trendingValue": 2321,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 11.9
+            "totalHeat": 11.9,
+            "allTimeScore": 14.9,
+            "trendingScore": 12.1,
+            "hotScore": 0
           }
         },
         {
@@ -4729,9 +5673,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "remotion-best-practices",
           "name": "remotion-best-practices",
+          "nameEn": "remotion-best-practices",
+          "nameZh": "最佳实践",
           "vendor": "remotion-dev",
           "detailUrl": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
           "uses": "Use this skills whenever you are dealing with Remotion code to obtain the domain-specific knowledge.",
+          "introZh": "这是一个面向前端工程师的实用技能，主要用于代码开发。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师"
           ],
@@ -4744,13 +5691,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "136.9K",
-            "allTimeValue": 136935,
+            "allTimeRaw": "137.1K",
+            "allTimeValue": 137087,
             "trendingRaw": "2.0K",
-            "trendingValue": 2014,
+            "trendingValue": 2029,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 19.2
+            "totalHeat": 19.2,
+            "allTimeScore": 27.5,
+            "trendingScore": 10.6,
+            "hotScore": 0
           }
         },
         {
@@ -4759,9 +5709,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "ui-ux-pro-max-skill",
           "skill": "ui-ux-pro-max",
           "name": "ui-ux-pro-max",
+          "nameEn": "ui-ux-pro-max",
+          "nameZh": "通用效率技能",
           "vendor": "nextlevelbuilder",
           "detailUrl": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
           "uses": "ui-ux-pro-max：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -4774,13 +5727,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "55.5K",
-            "allTimeValue": 55466,
+            "allTimeRaw": "55.6K",
+            "allTimeValue": 55586,
             "trendingRaw": "1.9K",
-            "trendingValue": 1933,
+            "trendingValue": 1946,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 9.2
+            "totalHeat": 9.2,
+            "allTimeScore": 11.2,
+            "trendingScore": 10.2,
+            "hotScore": 0
           }
         },
         {
@@ -4789,9 +5745,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "ui",
           "skill": "shadcn",
           "name": "shadcn",
+          "nameEn": "shadcn",
+          "nameZh": "Shadcn技能",
           "vendor": "shadcn",
           "detailUrl": "https://skills.sh/shadcn/ui/shadcn",
           "uses": "shadcn：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -4801,16 +5760,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 59,
-            "hot": 89
+            "hot": 92
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
             "trendingRaw": "1.9K",
-            "trendingValue": 1892,
-            "hotRaw": "120+31",
-            "hotDeltaValue": 31,
-            "totalHeat": 3
+            "trendingValue": 1906,
+            "hotRaw": "105+22",
+            "hotDeltaValue": 22,
+            "totalHeat": 2.8,
+            "allTimeScore": 0,
+            "trendingScore": 10,
+            "hotScore": 2.4
           }
         },
         {
@@ -4819,9 +5781,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "brainstorming",
           "name": "brainstorming",
+          "nameEn": "brainstorming",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/brainstorming",
           "uses": "brainstorming：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -4834,13 +5799,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "49.3K",
-            "allTimeValue": 49305,
+            "allTimeRaw": "49.4K",
+            "allTimeValue": 49419,
             "trendingRaw": "1.9K",
-            "trendingValue": 1877,
+            "trendingValue": 1855,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 8.4
+            "totalHeat": 8.4,
+            "allTimeScore": 9.9,
+            "trendingScore": 9.7,
+            "hotScore": 0
           }
         },
         {
@@ -4849,9 +5817,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-compute",
           "name": "azure-compute",
+          "nameEn": "azure-compute",
+          "nameZh": "Azure算力",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-compute",
           "uses": "azure-compute：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4864,13 +5835,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "65.4K",
-            "allTimeValue": 65388,
+            "allTimeRaw": "65.5K",
+            "allTimeValue": 65535,
             "trendingRaw": "1.8K",
-            "trendingValue": 1845,
+            "trendingValue": 1839,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 10.3
+            "totalHeat": 10.3,
+            "allTimeScore": 13.2,
+            "trendingScore": 9.6,
+            "hotScore": 0
           }
         },
         {
@@ -4879,9 +5853,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "vercel-composition-patterns",
           "name": "vercel-composition-patterns",
+          "nameEn": "vercel-composition-patterns",
+          "nameZh": "通用效率技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns",
           "uses": "vercel-composition-patterns：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -4894,13 +5871,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "78.6K",
-            "allTimeValue": 78617,
+            "allTimeRaw": "78.7K",
+            "allTimeValue": 78731,
             "trendingRaw": "1.7K",
-            "trendingValue": 1700,
+            "trendingValue": 1706,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 11.7
+            "totalHeat": 11.7,
+            "allTimeScore": 15.8,
+            "trendingScore": 8.9,
+            "hotScore": 0
           }
         },
         {
@@ -4909,9 +5889,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "github-copilot-for-azure",
           "skill": "azure-cloud-migrate",
           "name": "azure-cloud-migrate",
+          "nameEn": "azure-cloud-migrate",
+          "nameZh": "Azure云迁移",
           "vendor": "Microsoft",
           "detailUrl": "https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-migrate",
           "uses": "azure-cloud-migrate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -4924,13 +5907,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "54.5K",
-            "allTimeValue": 54457,
+            "allTimeRaw": "54.6K",
+            "allTimeValue": 54587,
             "trendingRaw": "1.6K",
-            "trendingValue": 1613,
+            "trendingValue": 1605,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 8.7
+            "totalHeat": 8.7,
+            "allTimeScore": 11,
+            "trendingScore": 8.4,
+            "hotScore": 0
           }
         },
         {
@@ -4939,9 +5925,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "python-executor",
           "name": "python-executor",
+          "nameEn": "python-executor",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/python-executor",
           "uses": "python-executor：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -4951,46 +5940,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 64,
-            "hot": 14
+            "hot": 34
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1306,
-            "hotRaw": "117+117",
-            "hotDeltaValue": 117,
-            "totalHeat": 3.5
-          }
-        },
-        {
-          "key": "inference-shell/skills/web-search",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "web-search",
-          "name": "web-search",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/web-search",
-          "uses": "web-search：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": 65,
-            "hot": 12
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1277,
-            "hotRaw": "130+130",
-            "hotDeltaValue": 130,
-            "totalHeat": 3.7
+            "trendingRaw": "1.4K",
+            "trendingValue": 1449,
+            "hotRaw": "118+118",
+            "hotDeltaValue": 118,
+            "totalHeat": 3.8,
+            "allTimeScore": 0,
+            "trendingScore": 7.6,
+            "hotScore": 12.8
           }
         },
         {
@@ -4999,9 +5961,48 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "widgets-ui",
           "name": "widgets-ui",
+          "nameEn": "widgets-ui",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/widgets-ui",
           "uses": "widgets-ui：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "设计师"
+          ],
+          "scenarios": [
+            "界面设计"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 65,
+            "hot": 32
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "1.4K",
+            "trendingValue": 1420,
+            "hotRaw": "129+129",
+            "hotDeltaValue": 129,
+            "totalHeat": 4,
+            "allTimeScore": 0,
+            "trendingScore": 7.4,
+            "hotScore": 14
+          }
+        },
+        {
+          "key": "inference-shell/skills/chat-ui",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "chat-ui",
+          "name": "chat-ui",
+          "nameEn": "chat-ui",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/chat-ui",
+          "uses": "chat-ui：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -5011,46 +6012,55 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 66,
-            "hot": 15
+            "hot": 33
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1258,
-            "hotRaw": "113+113",
-            "hotDeltaValue": 113,
-            "totalHeat": 3.4
+            "trendingRaw": "1.4K",
+            "trendingValue": 1417,
+            "hotRaw": "122+122",
+            "hotDeltaValue": 122,
+            "totalHeat": 3.8,
+            "allTimeScore": 0,
+            "trendingScore": 7.4,
+            "hotScore": 13.2
           }
         },
         {
-          "key": "inference-shell/skills/chat-ui",
+          "key": "inference-shell/skills/web-search",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "chat-ui",
-          "name": "chat-ui",
+          "skill": "web-search",
+          "name": "web-search",
+          "nameEn": "web-search",
+          "nameZh": "网页技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/chat-ui",
-          "uses": "chat-ui：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/web-search",
+          "uses": "web-search：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师"
+            "AI 工作者"
           ],
           "scenarios": [
-            "界面设计"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
             "trending": 67,
-            "hot": 13
+            "hot": 38
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1256,
-            "hotRaw": "121+121",
-            "hotDeltaValue": 121,
-            "totalHeat": 3.5
+            "trendingRaw": "1.4K",
+            "trendingValue": 1409,
+            "hotRaw": "102+102",
+            "hotDeltaValue": 102,
+            "totalHeat": 3.5,
+            "allTimeScore": 0,
+            "trendingScore": 7.4,
+            "hotScore": 11.1
           }
         },
         {
@@ -5059,9 +6069,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "tools-ui",
           "name": "tools-ui",
+          "nameEn": "tools-ui",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/tools-ui",
           "uses": "tools-ui：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -5071,16 +6084,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 68,
-            "hot": 11
+            "hot": 36
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1251,
-            "hotRaw": "135+135",
-            "hotDeltaValue": 135,
-            "totalHeat": 3.8
+            "trendingRaw": "1.4K",
+            "trendingValue": 1394,
+            "hotRaw": "107+107",
+            "hotDeltaValue": 107,
+            "totalHeat": 3.6,
+            "allTimeScore": 0,
+            "trendingScore": 7.3,
+            "hotScore": 11.6
           }
         },
         {
@@ -5089,9 +6105,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "javascript-sdk",
           "name": "javascript-sdk",
+          "nameEn": "javascript-sdk",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/javascript-sdk",
           "uses": "javascript-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5101,16 +6120,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 69,
-            "hot": 18
+            "hot": 37
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.2K",
-            "trendingValue": 1241,
-            "hotRaw": "107+107",
-            "hotDeltaValue": 107,
-            "totalHeat": 3.3
+            "trendingRaw": "1.4K",
+            "trendingValue": 1380,
+            "hotRaw": "105+105",
+            "hotDeltaValue": 105,
+            "totalHeat": 3.5,
+            "allTimeScore": 0,
+            "trendingScore": 7.2,
+            "hotScore": 11.4
           }
         },
         {
@@ -5119,9 +6141,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "agent-ui",
           "name": "agent-ui",
+          "nameEn": "agent-ui",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/agent-ui",
           "uses": "agent-ui：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -5131,16 +6156,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 70,
-            "hot": 16
+            "hot": 39
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.2K",
-            "trendingValue": 1230,
-            "hotRaw": "111+111",
-            "hotDeltaValue": 111,
-            "totalHeat": 3.3
+            "trendingRaw": "1.4K",
+            "trendingValue": 1363,
+            "hotRaw": "95+95",
+            "hotDeltaValue": 95,
+            "totalHeat": 3.3,
+            "allTimeScore": 0,
+            "trendingScore": 7.1,
+            "hotScore": 10.3
           }
         },
         {
@@ -5149,9 +6177,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "python-sdk",
           "name": "python-sdk",
+          "nameEn": "python-sdk",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/python-sdk",
           "uses": "python-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5161,16 +6192,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 71,
-            "hot": 17
+            "hot": 35
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.2K",
-            "trendingValue": 1208,
-            "hotRaw": "108+108",
-            "hotDeltaValue": 108,
-            "totalHeat": 3.3
+            "trendingRaw": "1.4K",
+            "trendingValue": 1353,
+            "hotRaw": "112+112",
+            "hotDeltaValue": 112,
+            "totalHeat": 3.6,
+            "allTimeScore": 0,
+            "trendingScore": 7.1,
+            "hotScore": 12.1
           }
         },
         {
@@ -5179,9 +6213,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "vercel-react-native-skills",
           "name": "vercel-react-native-skills",
+          "nameEn": "vercel-react-native-skills",
+          "nameZh": "React技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills",
           "uses": "vercel-react-native-skills：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向前端工程师的实用技能，主要用于代码开发。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师"
           ],
@@ -5194,13 +6231,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "55.0K",
-            "allTimeValue": 54984,
+            "allTimeRaw": "55.1K",
+            "allTimeValue": 55055,
             "trendingRaw": "1.1K",
-            "trendingValue": 1083,
+            "trendingValue": 1079,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 8
+            "totalHeat": 8,
+            "allTimeScore": 11,
+            "trendingScore": 5.6,
+            "hotScore": 0
           }
         },
         {
@@ -5209,9 +6249,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "marketingskills",
           "skill": "copywriting",
           "name": "copywriting",
+          "nameEn": "copywriting",
+          "nameZh": "文案写作技能",
           "vendor": "CoreyHaines31",
           "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
           "uses": "copywriting：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -5224,13 +6267,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "32.1K",
-            "allTimeValue": 32111,
-            "trendingRaw": "982",
-            "trendingValue": 982,
+            "allTimeRaw": "32.2K",
+            "allTimeValue": 32170,
+            "trendingRaw": "969",
+            "trendingValue": 969,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 5.2
+            "totalHeat": 5.1,
+            "allTimeScore": 6.5,
+            "trendingScore": 5.1,
+            "hotScore": 0
           }
         },
         {
@@ -5239,9 +6285,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "writing-plans",
           "name": "writing-plans",
+          "nameEn": "writing-plans",
+          "nameZh": "通用效率技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/writing-plans",
           "uses": "writing-plans：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5255,12 +6304,15 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "25.5K",
-            "allTimeValue": 25468,
-            "trendingRaw": "922",
-            "trendingValue": 922,
+            "allTimeValue": 25526,
+            "trendingRaw": "932",
+            "trendingValue": 932,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.3
+            "totalHeat": 4.3,
+            "allTimeScore": 5.1,
+            "trendingScore": 4.9,
+            "hotScore": 0
           }
         },
         {
@@ -5269,9 +6321,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "pdf",
           "name": "pdf",
+          "nameEn": "pdf",
+          "nameZh": "通用效率技能",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/pdf",
           "uses": "pdf：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5284,13 +6339,16 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "33.9K",
-            "allTimeValue": 33915,
-            "trendingRaw": "888",
-            "trendingValue": 888,
+            "allTimeRaw": "34.0K",
+            "allTimeValue": 33986,
+            "trendingRaw": "913",
+            "trendingValue": 913,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 5.3
+            "totalHeat": 5.3,
+            "allTimeScore": 6.8,
+            "trendingScore": 4.8,
+            "hotScore": 0
           }
         },
         {
@@ -5299,9 +6357,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "pptx",
           "name": "pptx",
+          "nameEn": "pptx",
+          "nameZh": "PPT技能",
           "vendor": "Anthropic",
           "detailUrl": "https://skills.sh/anthropics/skills/pptx",
           "uses": "pptx：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -5315,42 +6376,51 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "29.8K",
-            "allTimeValue": 29766,
-            "trendingRaw": "868",
-            "trendingValue": 868,
+            "allTimeValue": 29839,
+            "trendingRaw": "878",
+            "trendingValue": 878,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.7
+            "totalHeat": 4.7,
+            "allTimeScore": 6,
+            "trendingScore": 4.6,
+            "hotScore": 0
           }
         },
         {
-          "key": "coreyhaines31/marketingskills/seo-audit",
-          "owner": "coreyhaines31",
-          "repo": "marketingskills",
-          "skill": "seo-audit",
-          "name": "seo-audit",
-          "vendor": "CoreyHaines31",
-          "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/seo-audit",
-          "uses": "seo-audit：暂无官方描述，建议点开详情页查看。",
+          "key": "anthropics/skills/docx",
+          "owner": "anthropics",
+          "repo": "skills",
+          "skill": "docx",
+          "name": "docx",
+          "nameEn": "docx",
+          "nameZh": "Word技能",
+          "vendor": "Anthropic",
+          "detailUrl": "https://skills.sh/anthropics/skills/docx",
+          "uses": "docx：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "增长运营"
+            "内容团队"
           ],
           "scenarios": [
-            "增长实验"
+            "内容生产"
           ],
           "ranks": {
-            "allTime": 36,
+            "allTime": 45,
             "trending": 77,
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "38.9K",
-            "allTimeValue": 38892,
-            "trendingRaw": "855",
-            "trendingValue": 855,
+            "allTimeRaw": "26.8K",
+            "allTimeValue": 26840,
+            "trendingRaw": "860",
+            "trendingValue": 860,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 5.8
+            "totalHeat": 4.4,
+            "allTimeScore": 5.4,
+            "trendingScore": 4.5,
+            "hotScore": 0
           }
         },
         {
@@ -5359,9 +6429,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "superpowers",
           "skill": "systematic-debugging",
           "name": "systematic-debugging",
+          "nameEn": "systematic-debugging",
+          "nameZh": "调试技能",
           "vendor": "obra",
           "detailUrl": "https://skills.sh/obra/superpowers/systematic-debugging",
           "uses": "systematic-debugging：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向研发团队的实用技能，主要用于质量保障。帮你系统地测试和排错，定位问题更快，交付更稳。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "研发团队"
           ],
@@ -5374,13 +6447,52 @@ window.__SKILLS_CURRENT__ = {
             "hot": null
           },
           "heat": {
-            "allTimeRaw": "27.4K",
-            "allTimeValue": 27398,
-            "trendingRaw": "855",
-            "trendingValue": 855,
+            "allTimeRaw": "27.5K",
+            "allTimeValue": 27452,
+            "trendingRaw": "856",
+            "trendingValue": 856,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.4
+            "totalHeat": 4.4,
+            "allTimeScore": 5.5,
+            "trendingScore": 4.5,
+            "hotScore": 0
+          }
+        },
+        {
+          "key": "coreyhaines31/marketingskills/seo-audit",
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "skill": "seo-audit",
+          "name": "seo-audit",
+          "nameEn": "seo-audit",
+          "nameZh": "SEO技能",
+          "vendor": "CoreyHaines31",
+          "detailUrl": "https://skills.sh/coreyhaines31/marketingskills/seo-audit",
+          "uses": "seo-audit：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "增长运营"
+          ],
+          "scenarios": [
+            "增长实验"
+          ],
+          "ranks": {
+            "allTime": 36,
+            "trending": 79,
+            "hot": null
+          },
+          "heat": {
+            "allTimeRaw": "39.0K",
+            "allTimeValue": 38959,
+            "trendingRaw": "853",
+            "trendingValue": 853,
+            "hotRaw": "-",
+            "hotDeltaValue": 0,
+            "totalHeat": 5.8,
+            "allTimeScore": 7.8,
+            "trendingScore": 4.5,
+            "hotScore": 0
           }
         },
         {
@@ -5389,9 +6501,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "playwright-best-practices-skill",
           "skill": "playwright-best-practices",
           "name": "playwright-best-practices",
+          "nameEn": "playwright-best-practices",
+          "nameZh": "最佳实践",
           "vendor": "currents-dev",
           "detailUrl": "https://skills.sh/currents-dev/playwright-best-practices-skill/playwright-best-practices",
           "uses": "playwright-best-practices：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5400,47 +6515,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": 79,
+            "trending": 80,
             "hot": null
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "851",
-            "trendingValue": 851,
+            "trendingRaw": "853",
+            "trendingValue": 853,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "anthropics/skills/docx",
-          "owner": "anthropics",
-          "repo": "skills",
-          "skill": "docx",
-          "name": "docx",
-          "vendor": "Anthropic",
-          "detailUrl": "https://skills.sh/anthropics/skills/docx",
-          "uses": "docx：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "内容团队"
-          ],
-          "scenarios": [
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": 45,
-            "trending": 80,
-            "hot": null
-          },
-          "heat": {
-            "allTimeRaw": "26.8K",
-            "allTimeValue": 26773,
-            "trendingRaw": "848",
-            "trendingValue": 848,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 4.3
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 4.5,
+            "hotScore": 0
           }
         },
         {
@@ -5449,9 +6537,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "agent-skills",
           "skill": "deploy-to-vercel",
           "name": "deploy-to-vercel",
+          "nameEn": "deploy-to-vercel",
+          "nameZh": "通用效率技能",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/agent-skills/deploy-to-vercel",
           "uses": "deploy-to-vercel：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "后端/平台工程师"
           ],
@@ -5466,11 +6557,14 @@ window.__SKILLS_CURRENT__ = {
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "827",
-            "trendingValue": 827,
+            "trendingRaw": "813",
+            "trendingValue": 813,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1.1
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 4.3,
+            "hotScore": 0
           }
         },
         {
@@ -5479,9 +6573,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "next-skills",
           "skill": "next-best-practices",
           "name": "next-best-practices",
+          "nameEn": "next-best-practices",
+          "nameZh": "Next.js最佳实践",
           "vendor": "Vercel Labs",
           "detailUrl": "https://skills.sh/vercel-labs/next-skills/next-best-practices",
           "uses": "next-best-practices：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向前端工程师的实用技能，主要用于代码开发。帮你写出更规范的前端代码，减少重构返工和低级错误。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "前端工程师"
           ],
@@ -5495,53 +6592,29 @@ window.__SKILLS_CURRENT__ = {
           },
           "heat": {
             "allTimeRaw": "30.9K",
-            "allTimeValue": 30875,
-            "trendingRaw": "789",
-            "trendingValue": 789,
+            "allTimeValue": 30940,
+            "trendingRaw": "806",
+            "trendingValue": 806,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 4.8
+            "totalHeat": 4.8,
+            "allTimeScore": 6.2,
+            "trendingScore": 4.2,
+            "hotScore": 0
           }
         },
         {
-          "key": "obra/superpowers/executing-plans",
-          "owner": "obra",
-          "repo": "superpowers",
-          "skill": "executing-plans",
-          "name": "executing-plans",
-          "vendor": "obra",
-          "detailUrl": "https://skills.sh/obra/superpowers/executing-plans",
-          "uses": "Title: executing-plans by obra/superpowers",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": 71,
-            "trending": 83,
-            "hot": null
-          },
-          "heat": {
-            "allTimeRaw": "21.4K",
-            "allTimeValue": 21387,
-            "trendingRaw": "784",
-            "trendingValue": 784,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 3.6
-          }
-        },
-        {
-          "key": "pskoett/self-improving-agent/self-improvement",
-          "owner": "pskoett",
-          "repo": "self-improving-agent",
-          "skill": "self-improvement",
-          "name": "self-improvement",
-          "vendor": "pskoett",
-          "detailUrl": "https://skills.sh/pskoett/self-improving-agent/self-improvement",
-          "uses": "self-improvement：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/press-release-writing",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "press-release-writing",
+          "name": "press-release-writing",
+          "nameEn": "press-release-writing",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/press-release-writing",
+          "uses": "press-release-writing：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5550,28 +6623,70 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": 84,
-            "hot": null
+            "trending": 83,
+            "hot": 49
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "771",
-            "trendingValue": 771,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 1
+            "trendingRaw": "797",
+            "trendingValue": 797,
+            "hotRaw": "65+65",
+            "hotDeltaValue": 65,
+            "totalHeat": 2.1,
+            "allTimeScore": 0,
+            "trendingScore": 4.2,
+            "hotScore": 7
           }
         },
         {
-          "key": "googleworkspace/cli/gws-gmail",
-          "owner": "googleworkspace",
-          "repo": "cli",
-          "skill": "gws-gmail",
-          "name": "gws-gmail",
-          "vendor": "googleworkspace",
-          "detailUrl": "https://skills.sh/googleworkspace/cli/gws-gmail",
-          "uses": "gws-gmail：暂无官方描述，建议点开详情页查看。",
+          "key": "obra/superpowers/executing-plans",
+          "owner": "obra",
+          "repo": "superpowers",
+          "skill": "executing-plans",
+          "name": "executing-plans",
+          "nameEn": "executing-plans",
+          "nameZh": "通用效率技能",
+          "vendor": "obra",
+          "detailUrl": "https://skills.sh/obra/superpowers/executing-plans",
+          "uses": "Title: executing-plans by obra/superpowers",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": 71,
+            "trending": 84,
+            "hot": null
+          },
+          "heat": {
+            "allTimeRaw": "21.4K",
+            "allTimeValue": 21437,
+            "trendingRaw": "791",
+            "trendingValue": 791,
+            "hotRaw": "-",
+            "hotDeltaValue": 0,
+            "totalHeat": 3.6,
+            "allTimeScore": 4.3,
+            "trendingScore": 4.1,
+            "hotScore": 0
+          }
+        },
+        {
+          "key": "inference-shell/skills/ai-automation-workflows",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "ai-automation-workflows",
+          "name": "ai-automation-workflows",
+          "nameEn": "ai-automation-workflows",
+          "nameZh": "AI技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-automation-workflows",
+          "uses": "ai-automation-workflows：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5581,27 +6696,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 85,
-            "hot": null
+            "hot": 61
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "765",
-            "trendingValue": 765,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 1
+            "trendingRaw": "788",
+            "trendingValue": 788,
+            "hotRaw": "60+60",
+            "hotDeltaValue": 60,
+            "totalHeat": 2,
+            "allTimeScore": 0,
+            "trendingScore": 4.1,
+            "hotScore": 6.5
           }
         },
         {
-          "key": "googleworkspace/cli/gws-drive",
-          "owner": "googleworkspace",
-          "repo": "cli",
-          "skill": "gws-drive",
-          "name": "gws-drive",
-          "vendor": "googleworkspace",
-          "detailUrl": "https://skills.sh/googleworkspace/cli/gws-drive",
-          "uses": "Title: gws-drive by googleworkspace/cli",
+          "key": "inference-shell/skills/case-study-writing",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "case-study-writing",
+          "name": "case-study-writing",
+          "nameEn": "case-study-writing",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/case-study-writing",
+          "uses": "case-study-writing：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5611,16 +6732,57 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 86,
-            "hot": null
+            "hot": 43
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "754",
-            "trendingValue": 754,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 1
+            "trendingRaw": "785",
+            "trendingValue": 785,
+            "hotRaw": "66+66",
+            "hotDeltaValue": 66,
+            "totalHeat": 2.1,
+            "allTimeScore": 0,
+            "trendingScore": 4.1,
+            "hotScore": 7.2
+          }
+        },
+        {
+          "key": "inference-shell/skills/og-image-design",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "og-image-design",
+          "name": "og-image-design",
+          "nameEn": "og-image-design",
+          "nameZh": "图片设计",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/og-image-design",
+          "uses": "og-image-design：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师、内容团队的实用技能，主要用于界面设计、内容生产。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "设计师",
+            "内容团队"
+          ],
+          "scenarios": [
+            "界面设计",
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 87,
+            "hot": 55
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "779",
+            "trendingValue": 779,
+            "hotRaw": "63+63",
+            "hotDeltaValue": 63,
+            "totalHeat": 2,
+            "allTimeScore": 0,
+            "trendingScore": 4.1,
+            "hotScore": 6.8
           }
         },
         {
@@ -5629,9 +6791,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "impeccable",
           "skill": "frontend-design",
           "name": "frontend-design",
+          "nameEn": "frontend-design",
+          "nameZh": "前端设计",
           "vendor": "pbakaus",
           "detailUrl": "https://skills.sh/pbakaus/impeccable/frontend-design",
-          "uses": "Title: frontend-design by pbakaus/impeccable",
+          "uses": "frontend-design：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师、前端工程师的实用技能，主要用于界面设计、代码开发。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "前端工程师"
@@ -5642,47 +6807,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": 87,
+            "trending": 88,
             "hot": 97
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "754",
-            "trendingValue": 754,
-            "hotRaw": "73+21",
-            "hotDeltaValue": 21,
-            "totalHeat": 1.3
-          }
-        },
-        {
-          "key": "tavily-ai/skills/search",
-          "owner": "tavily-ai",
-          "repo": "skills",
-          "skill": "search",
-          "name": "search",
-          "vendor": "tavily-ai",
-          "detailUrl": "https://skills.sh/tavily-ai/skills/search",
-          "uses": "Title: search by tavily-ai/skills",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": 88,
-            "hot": null
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "748",
-            "trendingValue": 748,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 1
+            "trendingRaw": "778",
+            "trendingValue": 778,
+            "hotRaw": "57+20",
+            "hotDeltaValue": 20,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 4.1,
+            "hotScore": 2.2
           }
         },
         {
@@ -5691,9 +6829,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "impeccable",
           "skill": "polish",
           "name": "polish",
+          "nameEn": "polish",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
           "detailUrl": "https://skills.sh/pbakaus/impeccable/polish",
           "uses": "polish：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5708,11 +6849,14 @@ window.__SKILLS_CURRENT__ = {
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "744",
-            "trendingValue": 744,
+            "trendingRaw": "770",
+            "trendingValue": 770,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 0
           }
         },
         {
@@ -5721,9 +6865,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "impeccable",
           "skill": "adapt",
           "name": "adapt",
+          "nameEn": "adapt",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
           "detailUrl": "https://skills.sh/pbakaus/impeccable/adapt",
-          "uses": "Title: adapt by pbakaus/impeccable",
+          "uses": "adapt：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5738,41 +6885,50 @@ window.__SKILLS_CURRENT__ = {
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "740",
-            "trendingValue": 740,
+            "trendingRaw": "765",
+            "trendingValue": 765,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 1
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 0
           }
         },
         {
-          "key": "obra/superpowers/test-driven-development",
-          "owner": "obra",
-          "repo": "superpowers",
-          "skill": "test-driven-development",
-          "name": "test-driven-development",
-          "vendor": "obra",
-          "detailUrl": "https://skills.sh/obra/superpowers/test-driven-development",
-          "uses": "test-driven-development：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/video-ad-specs",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "video-ad-specs",
+          "name": "video-ad-specs",
+          "nameEn": "video-ad-specs",
+          "nameZh": "视频技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/video-ad-specs",
+          "uses": "video-ad-specs：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "研发团队"
+            "内容团队"
           ],
           "scenarios": [
-            "质量保障"
+            "内容生产"
           ],
           "ranks": {
-            "allTime": 69,
+            "allTime": null,
             "trending": 91,
-            "hot": null
+            "hot": 63
           },
           "heat": {
-            "allTimeRaw": "22.6K",
-            "allTimeValue": 22615,
-            "trendingRaw": "740",
-            "trendingValue": 740,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 3.7
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "765",
+            "trendingValue": 765,
+            "hotRaw": "59+59",
+            "hotDeltaValue": 59,
+            "totalHeat": 2,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 6.4
           }
         },
         {
@@ -5781,9 +6937,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "impeccable",
           "skill": "critique",
           "name": "critique",
+          "nameEn": "critique",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
           "detailUrl": "https://skills.sh/pbakaus/impeccable/critique",
-          "uses": "Title: critique by pbakaus/impeccable",
+          "uses": "critique：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5793,16 +6952,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 92,
-            "hot": null
+            "hot": 96
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "736",
-            "trendingValue": 736,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 1
+            "trendingRaw": "763",
+            "trendingValue": 763,
+            "hotRaw": "58+20",
+            "hotDeltaValue": 20,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 2.2
           }
         },
         {
@@ -5811,9 +6973,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "impeccable",
           "skill": "optimize",
           "name": "optimize",
+          "nameEn": "optimize",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
           "detailUrl": "https://skills.sh/pbakaus/impeccable/optimize",
-          "uses": "Title: optimize by pbakaus/impeccable",
+          "uses": "optimize：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5823,27 +6988,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 93,
-            "hot": null
+            "hot": 98
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "732",
-            "trendingValue": 732,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 1
+            "trendingRaw": "760",
+            "trendingValue": 760,
+            "hotRaw": "56+20",
+            "hotDeltaValue": 20,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 2.2
           }
         },
         {
-          "key": "pbakaus/impeccable/clarify",
-          "owner": "pbakaus",
-          "repo": "impeccable",
-          "skill": "clarify",
-          "name": "clarify",
-          "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/clarify",
-          "uses": "Title: clarify by pbakaus/impeccable",
+          "key": "inference-shell/skills/product-changelog",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "product-changelog",
+          "name": "product-changelog",
+          "nameEn": "product-changelog",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/product-changelog",
+          "uses": "product-changelog：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5853,27 +7024,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 94,
-            "hot": null
+            "hot": 40
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "731",
-            "trendingValue": 731,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 1
+            "trendingRaw": "759",
+            "trendingValue": 759,
+            "hotRaw": "71+71",
+            "hotDeltaValue": 71,
+            "totalHeat": 2.1,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 7.7
           }
         },
         {
-          "key": "pbakaus/impeccable/animate",
-          "owner": "pbakaus",
-          "repo": "impeccable",
-          "skill": "animate",
-          "name": "animate",
-          "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/animate",
-          "uses": "Title: animate by pbakaus/impeccable",
+          "key": "inference-shell/skills/technical-blog-writing",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "technical-blog-writing",
+          "name": "technical-blog-writing",
+          "nameEn": "technical-blog-writing",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/technical-blog-writing",
+          "uses": "technical-blog-writing：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5883,27 +7060,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 95,
-            "hot": null
+            "hot": 83
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "729",
-            "trendingValue": 729,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 1
+            "trendingRaw": "758",
+            "trendingValue": 758,
+            "hotRaw": "51+51",
+            "hotDeltaValue": 51,
+            "totalHeat": 1.8,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 5.5
           }
         },
         {
-          "key": "pbakaus/impeccable/audit",
+          "key": "pbakaus/impeccable/animate",
           "owner": "pbakaus",
           "repo": "impeccable",
-          "skill": "audit",
-          "name": "audit",
+          "skill": "animate",
+          "name": "animate",
+          "nameEn": "animate",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/audit",
-          "uses": "Title: audit by pbakaus/impeccable",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/animate",
+          "uses": "animate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5913,27 +7096,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 96,
-            "hot": null
+            "hot": 94
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "727",
-            "trendingValue": 727,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 0.9
+            "trendingRaw": "756",
+            "trendingValue": 756,
+            "hotRaw": "56+21",
+            "hotDeltaValue": 21,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 2.3
           }
         },
         {
-          "key": "pbakaus/impeccable/colorize",
+          "key": "pbakaus/impeccable/clarify",
           "owner": "pbakaus",
           "repo": "impeccable",
-          "skill": "colorize",
-          "name": "colorize",
+          "skill": "clarify",
+          "name": "clarify",
+          "nameEn": "clarify",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/colorize",
-          "uses": "Title: colorize by pbakaus/impeccable",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/clarify",
+          "uses": "clarify：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5948,22 +7137,28 @@ window.__SKILLS_CURRENT__ = {
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "726",
-            "trendingValue": 726,
+            "trendingRaw": "755",
+            "trendingValue": 755,
             "hotRaw": "-",
             "hotDeltaValue": 0,
-            "totalHeat": 0.9
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 3.9,
+            "hotScore": 0
           }
         },
         {
-          "key": "pbakaus/impeccable/normalize",
+          "key": "pbakaus/impeccable/audit",
           "owner": "pbakaus",
           "repo": "impeccable",
-          "skill": "normalize",
-          "name": "normalize",
+          "skill": "audit",
+          "name": "audit",
+          "nameEn": "audit",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/normalize",
-          "uses": "Title: normalize by pbakaus/impeccable",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/audit",
+          "uses": "audit：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -5973,57 +7168,69 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 98,
-            "hot": 98
+            "hot": 93
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "721",
-            "trendingValue": 721,
-            "hotRaw": "70+21",
-            "hotDeltaValue": 21,
-            "totalHeat": 1.3
+            "trendingRaw": "755",
+            "trendingValue": 755,
+            "hotRaw": "57+22",
+            "hotDeltaValue": 22,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 3.9,
+            "hotScore": 2.4
           }
         },
         {
-          "key": "pbakaus/impeccable/delight",
-          "owner": "pbakaus",
-          "repo": "impeccable",
-          "skill": "delight",
-          "name": "delight",
-          "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/delight",
-          "uses": "Title: delight by pbakaus/impeccable",
+          "key": "inference-shell/skills/app-store-screenshots",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "app-store-screenshots",
+          "name": "app-store-screenshots",
+          "nameEn": "app-store-screenshots",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/app-store-screenshots",
+          "uses": "app-store-screenshots：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "设计师"
           ],
           "scenarios": [
-            "通用效率提升"
+            "界面设计"
           ],
           "ranks": {
             "allTime": null,
             "trending": 99,
-            "hot": null
+            "hot": 45
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "719",
-            "trendingValue": 719,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 0.9
+            "trendingRaw": "755",
+            "trendingValue": 755,
+            "hotRaw": "66+66",
+            "hotDeltaValue": 66,
+            "totalHeat": 2.1,
+            "allTimeScore": 0,
+            "trendingScore": 3.9,
+            "hotScore": 7.2
           }
         },
         {
-          "key": "pbakaus/impeccable/distill",
+          "key": "pbakaus/impeccable/colorize",
           "owner": "pbakaus",
           "repo": "impeccable",
-          "skill": "distill",
-          "name": "distill",
+          "skill": "colorize",
+          "name": "colorize",
+          "nameEn": "colorize",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/distill",
-          "uses": "Title: distill by pbakaus/impeccable",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/colorize",
+          "uses": "colorize：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6033,16 +7240,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 100,
-            "hot": null
+            "hot": 91
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "716",
-            "trendingValue": 716,
-            "hotRaw": "-",
-            "hotDeltaValue": 0,
-            "totalHeat": 0.9
+            "trendingRaw": "753",
+            "trendingValue": 753,
+            "hotRaw": "56+23",
+            "hotDeltaValue": 23,
+            "totalHeat": 1.4,
+            "allTimeScore": 0,
+            "trendingScore": 3.9,
+            "hotScore": 2.5
           }
         }
       ]
@@ -6051,14 +7261,17 @@ window.__SKILLS_CURRENT__ = {
       "label": "Hot",
       "skills": [
         {
-          "key": "inference-shell/skills/nano-banana-2",
+          "key": "inference-shell/skills/twitter-automation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "nano-banana-2",
-          "name": "nano-banana-2",
+          "skill": "twitter-automation",
+          "name": "twitter-automation",
+          "nameEn": "twitter-automation",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/nano-banana-2",
-          "uses": "nano-banana-2：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/twitter-automation",
+          "uses": "twitter-automation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6073,161 +7286,14 @@ window.__SKILLS_CURRENT__ = {
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.5K",
-            "trendingValue": 9452,
-            "hotRaw": "956+956",
-            "hotDeltaValue": 956,
-            "totalHeat": 27.3
-          }
-        },
-        {
-          "key": "inference-shell/skills/qwen-image-2-pro",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "qwen-image-2-pro",
-          "name": "qwen-image-2-pro",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/qwen-image-2-pro",
-          "uses": "qwen-image-2-pro：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "内容团队"
-          ],
-          "scenarios": [
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": 6,
-            "hot": 2
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "9.6K",
-            "trendingValue": 9594,
-            "hotRaw": "954+954",
-            "hotDeltaValue": 954,
-            "totalHeat": 27.5
-          }
-        },
-        {
-          "key": "inference-shell/skills/agent-browser",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "agent-browser",
-          "name": "agent-browser",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/agent-browser",
-          "uses": "agent-browser：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": 8,
-            "hot": 3
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "9.6K",
-            "trendingValue": 9550,
-            "hotRaw": "929+929",
-            "hotDeltaValue": 929,
-            "totalHeat": 27.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/ai-video-generation",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "ai-video-generation",
-          "name": "ai-video-generation",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-video-generation",
-          "uses": "ai-video-generation：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "内容团队"
-          ],
-          "scenarios": [
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": 7,
-            "hot": 4
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "9.6K",
-            "trendingValue": 9585,
-            "hotRaw": "907+907",
-            "hotDeltaValue": 907,
-            "totalHeat": 26.8
-          }
-        },
-        {
-          "key": "inference-shell/skills/nano-banana",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "nano-banana",
-          "name": "nano-banana",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/nano-banana",
-          "uses": "nano-banana：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": 9,
-            "hot": 5
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "9.5K",
-            "trendingValue": 9512,
-            "hotRaw": "905+905",
-            "hotDeltaValue": 905,
-            "totalHeat": 26.6
-          }
-        },
-        {
-          "key": "inference-shell/skills/qwen-image-2",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "qwen-image-2",
-          "name": "qwen-image-2",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/qwen-image-2",
-          "uses": "Qwen-Image - Alibaba Image Generation",
-          "audience": [
-            "内容团队"
-          ],
-          "scenarios": [
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": 5,
-            "hot": 6
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "9.6K",
-            "trendingValue": 9636,
-            "hotRaw": "905+905",
-            "hotDeltaValue": 905,
-            "totalHeat": 26.8
+            "trendingRaw": "10.6K",
+            "trendingValue": 10608,
+            "hotRaw": "923+923",
+            "hotDeltaValue": 923,
+            "totalHeat": 28.9,
+            "allTimeScore": 0,
+            "trendingScore": 55.5,
+            "hotScore": 100
           }
         },
         {
@@ -6236,9 +7302,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "agent-tools",
           "name": "agent-tools",
+          "nameEn": "agent-tools",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/agent-tools",
           "uses": "agent-tools：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6248,27 +7317,69 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 12,
-            "hot": 7
+            "hot": 2
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.4K",
-            "trendingValue": 9403,
-            "hotRaw": "898+898",
-            "hotDeltaValue": 898,
-            "totalHeat": 26.4
+            "trendingRaw": "10.6K",
+            "trendingValue": 10558,
+            "hotRaw": "914+914",
+            "hotDeltaValue": 914,
+            "totalHeat": 28.7,
+            "allTimeScore": 0,
+            "trendingScore": 55.2,
+            "hotScore": 99
           }
         },
         {
-          "key": "inference-shell/skills/twitter-automation",
+          "key": "inference-shell/skills/ai-video-generation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "twitter-automation",
-          "name": "twitter-automation",
+          "skill": "ai-video-generation",
+          "name": "ai-video-generation",
+          "nameEn": "ai-video-generation",
+          "nameZh": "AI视频",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/twitter-automation",
-          "uses": "twitter-automation：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-video-generation",
+          "uses": "ai-video-generation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "内容团队"
+          ],
+          "scenarios": [
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 6,
+            "hot": 3
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "10.7K",
+            "trendingValue": 10741,
+            "hotRaw": "911+911",
+            "hotDeltaValue": 911,
+            "totalHeat": 28.8,
+            "allTimeScore": 0,
+            "trendingScore": 56.2,
+            "hotScore": 98.7
+          }
+        },
+        {
+          "key": "inference-shell/skills/nano-banana-2",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "nano-banana-2",
+          "name": "nano-banana-2",
+          "nameEn": "nano-banana-2",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/nano-banana-2",
+          "uses": "nano-banana-2：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6278,16 +7389,19 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 11,
-            "hot": 8
+            "hot": 4
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.4K",
-            "trendingValue": 9411,
-            "hotRaw": "873+873",
-            "hotDeltaValue": 873,
-            "totalHeat": 26
+            "trendingRaw": "10.6K",
+            "trendingValue": 10579,
+            "hotRaw": "892+892",
+            "hotDeltaValue": 892,
+            "totalHeat": 28.3,
+            "allTimeScore": 0,
+            "trendingScore": 55.3,
+            "hotScore": 96.6
           }
         },
         {
@@ -6296,9 +7410,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "ai-image-generation",
           "name": "ai-image-generation",
+          "nameEn": "ai-image-generation",
+          "nameZh": "AI图片",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/ai-image-generation",
           "uses": "ai-image-generation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -6308,16 +7425,127 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 4,
-            "hot": 9
+            "hot": 5
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.7K",
-            "trendingValue": 9729,
-            "hotRaw": "851+851",
-            "hotDeltaValue": 851,
-            "totalHeat": 26.1
+            "trendingRaw": "10.9K",
+            "trendingValue": 10867,
+            "hotRaw": "888+888",
+            "hotDeltaValue": 888,
+            "totalHeat": 28.6,
+            "allTimeScore": 0,
+            "trendingScore": 56.8,
+            "hotScore": 96.2
+          }
+        },
+        {
+          "key": "inference-shell/skills/nano-banana",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "nano-banana",
+          "name": "nano-banana",
+          "nameEn": "nano-banana",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/nano-banana",
+          "uses": "nano-banana：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 9,
+            "hot": 6
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "10.7K",
+            "trendingValue": 10671,
+            "hotRaw": "888+888",
+            "hotDeltaValue": 888,
+            "totalHeat": 28.4,
+            "allTimeScore": 0,
+            "trendingScore": 55.8,
+            "hotScore": 96.2
+          }
+        },
+        {
+          "key": "inference-shell/skills/qwen-image-2",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "qwen-image-2",
+          "name": "qwen-image-2",
+          "nameEn": "qwen-image-2",
+          "nameZh": "图片技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/qwen-image-2",
+          "uses": "qwen-image-2：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "内容团队"
+          ],
+          "scenarios": [
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 5,
+            "hot": 7
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "10.8K",
+            "trendingValue": 10809,
+            "hotRaw": "878+878",
+            "hotDeltaValue": 878,
+            "totalHeat": 28.4,
+            "allTimeScore": 0,
+            "trendingScore": 56.5,
+            "hotScore": 95.1
+          }
+        },
+        {
+          "key": "inference-shell/skills/qwen-image-2-pro",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "qwen-image-2-pro",
+          "name": "qwen-image-2-pro",
+          "nameEn": "qwen-image-2-pro",
+          "nameZh": "图片技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/qwen-image-2-pro",
+          "uses": "qwen-image-2-pro：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "内容团队"
+          ],
+          "scenarios": [
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 8,
+            "hot": 8
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "10.7K",
+            "trendingValue": 10683,
+            "hotRaw": "877+877",
+            "hotDeltaValue": 877,
+            "totalHeat": 28.2,
+            "allTimeScore": 0,
+            "trendingScore": 55.9,
+            "hotScore": 95
           }
         },
         {
@@ -6326,9 +7554,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "remotion-render",
           "name": "remotion-render",
+          "nameEn": "remotion-render",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/remotion-render",
           "uses": "remotion-render：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6338,117 +7569,321 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 13,
+            "hot": 9
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "10.5K",
+            "trendingValue": 10544,
+            "hotRaw": "865+865",
+            "hotDeltaValue": 865,
+            "totalHeat": 27.8,
+            "allTimeScore": 0,
+            "trendingScore": 55.1,
+            "hotScore": 93.7
+          }
+        },
+        {
+          "key": "inference-shell/skills/agent-browser",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "agent-browser",
+          "name": "agent-browser",
+          "nameEn": "agent-browser",
+          "nameZh": "浏览器技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/agent-browser",
+          "uses": "agent-browser：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 7,
             "hot": 10
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "9.4K",
-            "trendingValue": 9400,
-            "hotRaw": "843+843",
-            "hotDeltaValue": 843,
-            "totalHeat": 25.5
+            "trendingRaw": "10.7K",
+            "trendingValue": 10685,
+            "hotRaw": "862+862",
+            "hotDeltaValue": 862,
+            "totalHeat": 28,
+            "allTimeScore": 0,
+            "trendingScore": 55.9,
+            "hotScore": 93.4
           }
         },
         {
-          "key": "inference-shell/skills/tools-ui",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "tools-ui",
-          "name": "tools-ui",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/tools-ui",
-          "uses": "tools-ui：暂无官方描述，建议点开详情页查看。",
+          "key": "microsoft/azure-skills/azure-quotas",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-quotas",
+          "name": "azure-quotas",
+          "nameEn": "azure-quotas",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-quotas",
+          "uses": "azure-quotas：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师"
+            "后端/平台工程师"
           ],
           "scenarios": [
-            "界面设计"
+            "云与基础设施"
           ],
           "ranks": {
             "allTime": null,
-            "trending": 68,
+            "trending": null,
             "hot": 11
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1251,
-            "hotRaw": "135+135",
-            "hotDeltaValue": 135,
-            "totalHeat": 3.8
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "268+268",
+            "hotDeltaValue": 268,
+            "totalHeat": 4.4,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 29
           }
         },
         {
-          "key": "inference-shell/skills/web-search",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "web-search",
-          "name": "web-search",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/web-search",
-          "uses": "web-search：暂无官方描述，建议点开详情页查看。",
+          "key": "microsoft/azure-skills/azure-storage",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-storage",
+          "name": "azure-storage",
+          "nameEn": "azure-storage",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-storage",
+          "uses": "azure-storage：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "后端/平台工程师"
           ],
           "scenarios": [
-            "通用效率提升"
+            "云与基础设施"
           ],
           "ranks": {
-            "allTime": null,
-            "trending": 65,
+            "allTime": 55,
+            "trending": 21,
             "hot": 12
           },
           "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1277,
-            "hotRaw": "130+130",
-            "hotDeltaValue": 130,
-            "totalHeat": 3.7
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23911,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
-          "key": "inference-shell/skills/chat-ui",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "chat-ui",
-          "name": "chat-ui",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/chat-ui",
-          "uses": "chat-ui：暂无官方描述，建议点开详情页查看。",
+          "key": "microsoft/azure-skills/azure-diagnostics",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-diagnostics",
+          "name": "azure-diagnostics",
+          "nameEn": "azure-diagnostics",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
+          "uses": "azure-diagnostics：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师"
+            "后端/平台工程师"
           ],
           "scenarios": [
-            "界面设计"
+            "云与基础设施"
           ],
           "ranks": {
-            "allTime": null,
-            "trending": 67,
+            "allTime": 54,
+            "trending": 22,
             "hot": 13
           },
           "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1256,
-            "hotRaw": "121+121",
-            "hotDeltaValue": 121,
-            "totalHeat": 3.5
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23912,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
           }
         },
         {
-          "key": "inference-shell/skills/python-executor",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "python-executor",
-          "name": "python-executor",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/python-executor",
-          "uses": "python-executor：暂无官方描述，建议点开详情页查看。",
+          "key": "microsoft/azure-skills/azure-validate",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-validate",
+          "name": "azure-validate",
+          "nameEn": "azure-validate",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-validate",
+          "uses": "azure-validate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 58,
+            "trending": 16,
+            "hot": 14
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23908,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-prepare",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-prepare",
+          "name": "azure-prepare",
+          "nameEn": "azure-prepare",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-prepare",
+          "uses": "azure-prepare：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 56,
+            "trending": 19,
+            "hot": 15
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23910,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5183,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-messaging",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-messaging",
+          "name": "azure-messaging",
+          "nameEn": "azure-messaging",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-messaging",
+          "uses": "azure-messaging：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 60,
+            "trending": 25,
+            "hot": 16
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23907,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-aigateway",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-aigateway",
+          "name": "azure-aigateway",
+          "nameEn": "azure-aigateway",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-aigateway",
+          "uses": "azure-aigateway：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 57,
+            "trending": 24,
+            "hot": 17
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23910,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/appinsights-instrumentation",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "appinsights-instrumentation",
+          "name": "appinsights-instrumentation",
+          "nameEn": "appinsights-instrumentation",
+          "nameZh": "通用效率技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/appinsights-instrumentation",
+          "uses": "appinsights-instrumentation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6456,18 +7891,489 @@ window.__SKILLS_CURRENT__ = {
             "通用效率提升"
           ],
           "ranks": {
-            "allTime": null,
-            "trending": 64,
-            "hot": 14
+            "allTime": 59,
+            "trending": 26,
+            "hot": 18
           },
           "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1306,
-            "hotRaw": "117+117",
-            "hotDeltaValue": 117,
-            "totalHeat": 3.5
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23908,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "356+154",
+            "hotDeltaValue": 154,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.7
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/entra-app-registration",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "entra-app-registration",
+          "name": "entra-app-registration",
+          "nameEn": "entra-app-registration",
+          "nameZh": "通用效率技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/entra-app-registration",
+          "uses": "entra-app-registration：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": 50,
+            "trending": 17,
+            "hot": 19
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23918,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-cost-optimization",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-cost-optimization",
+          "name": "azure-cost-optimization",
+          "nameEn": "azure-cost-optimization",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cost-optimization",
+          "uses": "azure-cost-optimization：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 53,
+            "trending": 20,
+            "hot": 20
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23914,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-ai",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-ai",
+          "name": "azure-ai",
+          "nameEn": "azure-ai",
+          "nameZh": "AzureAI",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-ai",
+          "uses": "azure-ai：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 49,
+            "trending": 18,
+            "hot": 21
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23925,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5184,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-resource-lookup",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-resource-lookup",
+          "name": "azure-resource-lookup",
+          "nameEn": "azure-resource-lookup",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-lookup",
+          "uses": "azure-resource-lookup：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 52,
+            "trending": 23,
+            "hot": 22
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23914,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5182,
+            "hotRaw": "356+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-compliance",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-compliance",
+          "name": "azure-compliance",
+          "nameEn": "azure-compliance",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compliance",
+          "uses": "azure-compliance：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 65,
+            "trending": 32,
+            "hot": 23
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-compute",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-compute",
+          "name": "azure-compute",
+          "nameEn": "azure-compute",
+          "nameZh": "Azure算力",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compute",
+          "uses": "azure-compute：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 61,
+            "trending": 31,
+            "hot": 24
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23906,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-cloud-migrate",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-cloud-migrate",
+          "name": "azure-cloud-migrate",
+          "nameEn": "azure-cloud-migrate",
+          "nameZh": "Azure云迁移",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cloud-migrate",
+          "uses": "azure-cloud-migrate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 62,
+            "trending": 30,
+            "hot": 25
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23906,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-hosted-copilot-sdk",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-hosted-copilot-sdk",
+          "name": "azure-hosted-copilot-sdk",
+          "nameEn": "azure-hosted-copilot-sdk",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk",
+          "uses": "azure-hosted-copilot-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 63,
+            "trending": 29,
+            "hot": 26
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-resource-visualizer",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-resource-visualizer",
+          "name": "azure-resource-visualizer",
+          "nameEn": "azure-resource-visualizer",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-visualizer",
+          "uses": "azure-resource-visualizer：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 67,
+            "trending": 33,
+            "hot": 27
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23903,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-rbac",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-rbac",
+          "name": "azure-rbac",
+          "nameEn": "azure-rbac",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-rbac",
+          "uses": "azure-rbac：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 64,
+            "trending": 27,
+            "hot": 28
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23905,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5181,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-kusto",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-kusto",
+          "name": "azure-kusto",
+          "nameEn": "azure-kusto",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-kusto",
+          "uses": "azure-kusto：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 66,
+            "trending": 28,
+            "hot": 29
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23903,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5180,
+            "hotRaw": "355+153",
+            "hotDeltaValue": 153,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.6
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/microsoft-foundry",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "microsoft-foundry",
+          "name": "microsoft-foundry",
+          "nameEn": "microsoft-foundry",
+          "nameZh": "通用效率技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
+          "uses": "microsoft-foundry：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "增长运营"
+          ],
+          "scenarios": [
+            "增长实验"
+          ],
+          "ranks": {
+            "allTime": 48,
+            "trending": 14,
+            "hot": 30
+          },
+          "heat": {
+            "allTimeRaw": "24.1K",
+            "allTimeValue": 24052,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5243,
+            "hotRaw": "357+152",
+            "hotDeltaValue": 152,
+            "totalHeat": 12.2,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.4,
+            "hotScore": 16.5
+          }
+        },
+        {
+          "key": "microsoft/azure-skills/azure-deploy",
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "skill": "azure-deploy",
+          "name": "azure-deploy",
+          "nameEn": "azure-deploy",
+          "nameZh": "Azure技能",
+          "vendor": "Microsoft",
+          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-deploy",
+          "uses": "azure-deploy：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向后端/平台工程师的实用技能，主要用于云与基础设施。帮你处理云和后端配置，降低部署复杂度，减少环境和权限问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "后端/平台工程师"
+          ],
+          "scenarios": [
+            "云与基础设施"
+          ],
+          "ranks": {
+            "allTime": 51,
+            "trending": 15,
+            "hot": 31
+          },
+          "heat": {
+            "allTimeRaw": "23.9K",
+            "allTimeValue": 23918,
+            "trendingRaw": "5.2K",
+            "trendingValue": 5185,
+            "hotRaw": "356+152",
+            "hotDeltaValue": 152,
+            "totalHeat": 12.1,
+            "allTimeScore": 4.8,
+            "trendingScore": 27.1,
+            "hotScore": 16.5
           }
         },
         {
@@ -6476,9 +8382,48 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "widgets-ui",
           "name": "widgets-ui",
+          "nameEn": "widgets-ui",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/widgets-ui",
           "uses": "widgets-ui：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "设计师"
+          ],
+          "scenarios": [
+            "界面设计"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 65,
+            "hot": 32
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "1.4K",
+            "trendingValue": 1420,
+            "hotRaw": "129+129",
+            "hotDeltaValue": 129,
+            "totalHeat": 4,
+            "allTimeScore": 0,
+            "trendingScore": 7.4,
+            "hotScore": 14
+          }
+        },
+        {
+          "key": "inference-shell/skills/chat-ui",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "chat-ui",
+          "name": "chat-ui",
+          "nameEn": "chat-ui",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/chat-ui",
+          "uses": "chat-ui：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -6488,46 +8433,55 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 66,
-            "hot": 15
+            "hot": 33
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.3K",
-            "trendingValue": 1258,
-            "hotRaw": "113+113",
-            "hotDeltaValue": 113,
-            "totalHeat": 3.4
+            "trendingRaw": "1.4K",
+            "trendingValue": 1417,
+            "hotRaw": "122+122",
+            "hotDeltaValue": 122,
+            "totalHeat": 3.8,
+            "allTimeScore": 0,
+            "trendingScore": 7.4,
+            "hotScore": 13.2
           }
         },
         {
-          "key": "inference-shell/skills/agent-ui",
+          "key": "inference-shell/skills/python-executor",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "agent-ui",
-          "name": "agent-ui",
+          "skill": "python-executor",
+          "name": "python-executor",
+          "nameEn": "python-executor",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/agent-ui",
-          "uses": "agent-ui：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/python-executor",
+          "uses": "python-executor：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师"
+            "AI 工作者"
           ],
           "scenarios": [
-            "界面设计"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
-            "trending": 70,
-            "hot": 16
+            "trending": 64,
+            "hot": 34
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.2K",
-            "trendingValue": 1230,
-            "hotRaw": "111+111",
-            "hotDeltaValue": 111,
-            "totalHeat": 3.3
+            "trendingRaw": "1.4K",
+            "trendingValue": 1449,
+            "hotRaw": "118+118",
+            "hotDeltaValue": 118,
+            "totalHeat": 3.8,
+            "allTimeScore": 0,
+            "trendingScore": 7.6,
+            "hotScore": 12.8
           }
         },
         {
@@ -6536,9 +8490,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "python-sdk",
           "name": "python-sdk",
+          "nameEn": "python-sdk",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/python-sdk",
           "uses": "python-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6548,16 +8505,55 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 71,
-            "hot": 17
+            "hot": 35
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.2K",
-            "trendingValue": 1208,
-            "hotRaw": "108+108",
-            "hotDeltaValue": 108,
-            "totalHeat": 3.3
+            "trendingRaw": "1.4K",
+            "trendingValue": 1353,
+            "hotRaw": "112+112",
+            "hotDeltaValue": 112,
+            "totalHeat": 3.6,
+            "allTimeScore": 0,
+            "trendingScore": 7.1,
+            "hotScore": 12.1
+          }
+        },
+        {
+          "key": "inference-shell/skills/tools-ui",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "tools-ui",
+          "name": "tools-ui",
+          "nameEn": "tools-ui",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/tools-ui",
+          "uses": "tools-ui：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "设计师"
+          ],
+          "scenarios": [
+            "界面设计"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 68,
+            "hot": 36
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "1.4K",
+            "trendingValue": 1394,
+            "hotRaw": "107+107",
+            "hotDeltaValue": 107,
+            "totalHeat": 3.6,
+            "allTimeScore": 0,
+            "trendingScore": 7.3,
+            "hotScore": 11.6
           }
         },
         {
@@ -6566,9 +8562,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "javascript-sdk",
           "name": "javascript-sdk",
+          "nameEn": "javascript-sdk",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/javascript-sdk",
           "uses": "javascript-sdk：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6578,27 +8577,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 69,
-            "hot": 18
+            "hot": 37
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "1.2K",
-            "trendingValue": 1241,
-            "hotRaw": "107+107",
-            "hotDeltaValue": 107,
-            "totalHeat": 3.3
+            "trendingRaw": "1.4K",
+            "trendingValue": 1380,
+            "hotRaw": "105+105",
+            "hotDeltaValue": 105,
+            "totalHeat": 3.5,
+            "allTimeScore": 0,
+            "trendingScore": 7.2,
+            "hotScore": 11.4
           }
         },
         {
-          "key": "inference-shell/skills/technical-blog-writing",
+          "key": "inference-shell/skills/web-search",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "technical-blog-writing",
-          "name": "technical-blog-writing",
+          "skill": "web-search",
+          "name": "web-search",
+          "nameEn": "web-search",
+          "nameZh": "网页技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/technical-blog-writing",
-          "uses": "Technical Blog Writing",
+          "detailUrl": "https://skills.sh/inference-shell/skills/web-search",
+          "uses": "web-search：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -6607,274 +8612,34 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
-            "hot": 19
+            "trending": 67,
+            "hot": 38
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "82+82",
-            "hotDeltaValue": 82,
-            "totalHeat": 1.3
+            "trendingRaw": "1.4K",
+            "trendingValue": 1409,
+            "hotRaw": "102+102",
+            "hotDeltaValue": 102,
+            "totalHeat": 3.5,
+            "allTimeScore": 0,
+            "trendingScore": 7.4,
+            "hotScore": 11.1
           }
         },
         {
-          "key": "inference-shell/skills/explainer-video-guide",
+          "key": "inference-shell/skills/agent-ui",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "explainer-video-guide",
-          "name": "explainer-video-guide",
+          "skill": "agent-ui",
+          "name": "agent-ui",
+          "nameEn": "agent-ui",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/explainer-video-guide",
-          "uses": "Title: explainer-video-guide by inference-shell/skills",
-          "audience": [
-            "设计师",
-            "内容团队"
-          ],
-          "scenarios": [
-            "界面设计",
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 20
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "74+74",
-            "hotDeltaValue": 74,
-            "totalHeat": 1.2
-          }
-        },
-        {
-          "key": "inference-shell/skills/twitter-thread-creation",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "twitter-thread-creation",
-          "name": "twitter-thread-creation",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/twitter-thread-creation",
-          "uses": "Twitter/X Thread Creation",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 21
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "74+74",
-            "hotDeltaValue": 74,
-            "totalHeat": 1.2
-          }
-        },
-        {
-          "key": "inference-shell/skills/press-release-writing",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "press-release-writing",
-          "name": "press-release-writing",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/press-release-writing",
-          "uses": "Press Release Writing",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 22
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "73+73",
-            "hotDeltaValue": 73,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/content-repurposing",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "content-repurposing",
-          "name": "content-repurposing",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/content-repurposing",
-          "uses": "Turn one piece of content into many formats via [inference.sh](https://inference.sh/) CLI.",
-          "audience": [
-            "增长运营"
-          ],
-          "scenarios": [
-            "增长实验"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 23
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "72+72",
-            "hotDeltaValue": 72,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/ai-marketing-videos",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "ai-marketing-videos",
-          "name": "ai-marketing-videos",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-marketing-videos",
-          "uses": "Title: ai-marketing-videos by inference-shell/skills",
-          "audience": [
-            "增长运营",
-            "内容团队"
-          ],
-          "scenarios": [
-            "增长实验",
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 24
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "71+71",
-            "hotDeltaValue": 71,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/og-image-design",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "og-image-design",
-          "name": "og-image-design",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/og-image-design",
-          "uses": "og-image-design：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "设计师",
-            "内容团队"
-          ],
-          "scenarios": [
-            "界面设计",
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 25
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "71+71",
-            "hotDeltaValue": 71,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/talking-head-production",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "talking-head-production",
-          "name": "talking-head-production",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/talking-head-production",
-          "uses": "talking-head-production：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 26
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "70+70",
-            "hotDeltaValue": 70,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/case-study-writing",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "case-study-writing",
-          "name": "case-study-writing",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/case-study-writing",
-          "uses": "case-study-writing：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 27
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "69+69",
-            "hotDeltaValue": 69,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/youtube-thumbnail-design",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "youtube-thumbnail-design",
-          "name": "youtube-thumbnail-design",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/youtube-thumbnail-design",
-          "uses": "youtube-thumbnail-design：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/agent-ui",
+          "uses": "agent-ui：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -6883,137 +8648,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
-            "hot": 28
+            "trending": 70,
+            "hot": 39
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "68+68",
-            "hotDeltaValue": 68,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/landing-page-design",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "landing-page-design",
-          "name": "landing-page-design",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/landing-page-design",
-          "uses": "landing-page-design：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "设计师"
-          ],
-          "scenarios": [
-            "界面设计"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 29
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "68+68",
-            "hotDeltaValue": 68,
-            "totalHeat": 1.1
-          }
-        },
-        {
-          "key": "inference-shell/skills/app-store-screenshots",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "app-store-screenshots",
-          "name": "app-store-screenshots",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/app-store-screenshots",
-          "uses": "app-store-screenshots：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "设计师"
-          ],
-          "scenarios": [
-            "界面设计"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 30
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "66+66",
-            "hotDeltaValue": 66,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/image-upscaling",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "image-upscaling",
-          "name": "image-upscaling",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/image-upscaling",
-          "uses": "image-upscaling：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "内容团队"
-          ],
-          "scenarios": [
-            "内容生产"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 31
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "66+66",
-            "hotDeltaValue": 66,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/data-visualization",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "data-visualization",
-          "name": "data-visualization",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/data-visualization",
-          "uses": "data-visualization：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 32
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "66+66",
-            "hotDeltaValue": 66,
-            "totalHeat": 1
+            "trendingRaw": "1.4K",
+            "trendingValue": 1363,
+            "hotRaw": "95+95",
+            "hotDeltaValue": 95,
+            "totalHeat": 3.3,
+            "allTimeScore": 0,
+            "trendingScore": 7.1,
+            "hotScore": 10.3
           }
         },
         {
@@ -7022,9 +8670,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "product-changelog",
           "name": "product-changelog",
+          "nameEn": "product-changelog",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/product-changelog",
           "uses": "product-changelog：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -7033,242 +8684,40 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
-            "hot": 33
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "65+65",
-            "hotDeltaValue": 65,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/google-veo",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "google-veo",
-          "name": "google-veo",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/google-veo",
-          "uses": "google-veo：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 34
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "65+65",
-            "hotDeltaValue": 65,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/speech-to-text",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "speech-to-text",
-          "name": "speech-to-text",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/speech-to-text",
-          "uses": "speech-to-text：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 35
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "65+65",
-            "hotDeltaValue": 65,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/ai-product-photography",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "ai-product-photography",
-          "name": "ai-product-photography",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-product-photography",
-          "uses": "ai-product-photography：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 36
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "65+65",
-            "hotDeltaValue": 65,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/ai-podcast-creation",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "ai-podcast-creation",
-          "name": "ai-podcast-creation",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-podcast-creation",
-          "uses": "ai-podcast-creation：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 37
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "64+64",
-            "hotDeltaValue": 64,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/book-cover-design",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "book-cover-design",
-          "name": "book-cover-design",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/book-cover-design",
-          "uses": "book-cover-design：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "设计师"
-          ],
-          "scenarios": [
-            "界面设计"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 38
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "63+63",
-            "hotDeltaValue": 63,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/competitor-teardown",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "competitor-teardown",
-          "name": "competitor-teardown",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/competitor-teardown",
-          "uses": "Structured competitive analysis with research and screenshots via [inference.sh](https://inference.sh/) CLI.",
-          "audience": [
-            "设计师"
-          ],
-          "scenarios": [
-            "界面设计"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 39
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "63+63",
-            "hotDeltaValue": 63,
-            "totalHeat": 1
-          }
-        },
-        {
-          "key": "inference-shell/skills/logo-design-guide",
-          "owner": "inference-shell",
-          "repo": "skills",
-          "skill": "logo-design-guide",
-          "name": "logo-design-guide",
-          "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/logo-design-guide",
-          "uses": "logo-design-guide：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "设计师"
-          ],
-          "scenarios": [
-            "界面设计"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
+            "trending": 94,
             "hot": 40
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "63+63",
-            "hotDeltaValue": 63,
-            "totalHeat": 1
+            "trendingRaw": "759",
+            "trendingValue": 759,
+            "hotRaw": "71+71",
+            "hotDeltaValue": 71,
+            "totalHeat": 2.1,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 7.7
           }
         },
         {
-          "key": "inference-shell/skills/image-to-video",
+          "key": "inference-shell/skills/flux-image",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "image-to-video",
-          "name": "image-to-video",
+          "skill": "flux-image",
+          "name": "flux-image",
+          "nameEn": "flux-image",
+          "nameZh": "图片技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/image-to-video",
-          "uses": "image-to-video：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/flux-image",
+          "uses": "flux-image：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师、内容团队的实用技能，主要用于界面设计、内容生产。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
+            "设计师",
             "内容团队"
           ],
           "scenarios": [
+            "界面设计",
             "内容生产"
           ],
           "ranks": {
@@ -7281,20 +8730,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "62+62",
-            "hotDeltaValue": 62,
-            "totalHeat": 1
+            "hotRaw": "71+71",
+            "hotDeltaValue": 71,
+            "totalHeat": 1.2,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7.7
           }
         },
         {
-          "key": "inference-shell/skills/social-media-carousel",
+          "key": "inference-shell/skills/google-veo",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "social-media-carousel",
-          "name": "social-media-carousel",
+          "skill": "google-veo",
+          "name": "google-veo",
+          "nameEn": "google-veo",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/social-media-carousel",
-          "uses": "social-media-carousel：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/google-veo",
+          "uses": "google-veo：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -7311,20 +8766,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "61+61",
-            "hotDeltaValue": 61,
-            "totalHeat": 1
+            "hotRaw": "67+67",
+            "hotDeltaValue": 67,
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7.3
           }
         },
         {
-          "key": "inference-shell/skills/llm-models",
+          "key": "inference-shell/skills/case-study-writing",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "llm-models",
-          "name": "llm-models",
+          "skill": "case-study-writing",
+          "name": "case-study-writing",
+          "nameEn": "case-study-writing",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/llm-models",
-          "uses": "llm-models：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/case-study-writing",
+          "uses": "case-study-writing：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -7333,33 +8794,39 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
+            "trending": 86,
             "hot": 43
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "61+61",
-            "hotDeltaValue": 61,
-            "totalHeat": 1
+            "trendingRaw": "785",
+            "trendingValue": 785,
+            "hotRaw": "66+66",
+            "hotDeltaValue": 66,
+            "totalHeat": 2.1,
+            "allTimeScore": 0,
+            "trendingScore": 4.1,
+            "hotScore": 7.2
           }
         },
         {
-          "key": "inference-shell/skills/product-photography",
+          "key": "inference-shell/skills/seo-content-brief",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "product-photography",
-          "name": "product-photography",
+          "skill": "seo-content-brief",
+          "name": "seo-content-brief",
+          "nameEn": "seo-content-brief",
+          "nameZh": "SEO内容",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/product-photography",
-          "uses": "product-photography：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/seo-content-brief",
+          "uses": "seo-content-brief：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "增长运营"
           ],
           "scenarios": [
-            "通用效率提升"
+            "增长实验"
           ],
           "ranks": {
             "allTime": null,
@@ -7371,55 +8838,67 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "60+60",
-            "hotDeltaValue": 60,
-            "totalHeat": 0.9
+            "hotRaw": "66+66",
+            "hotDeltaValue": 66,
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7.2
           }
         },
         {
-          "key": "inference-shell/skills/related-skill",
+          "key": "inference-shell/skills/app-store-screenshots",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "related-skill",
-          "name": "related-skill",
+          "skill": "app-store-screenshots",
+          "name": "app-store-screenshots",
+          "nameEn": "app-store-screenshots",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/related-skill",
-          "uses": "related-skill：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/app-store-screenshots",
+          "uses": "app-store-screenshots：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "设计师"
           ],
           "scenarios": [
-            "通用效率提升"
+            "界面设计"
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
+            "trending": 99,
             "hot": 45
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "59+59",
-            "hotDeltaValue": 59,
-            "totalHeat": 0.9
+            "trendingRaw": "755",
+            "trendingValue": 755,
+            "hotRaw": "66+66",
+            "hotDeltaValue": 66,
+            "totalHeat": 2.1,
+            "allTimeScore": 0,
+            "trendingScore": 3.9,
+            "hotScore": 7.2
           }
         },
         {
-          "key": "inference-shell/skills/storyboard-creation",
+          "key": "inference-shell/skills/product-hunt-launch",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "storyboard-creation",
-          "name": "storyboard-creation",
+          "skill": "product-hunt-launch",
+          "name": "product-hunt-launch",
+          "nameEn": "product-hunt-launch",
+          "nameZh": "发布技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/storyboard-creation",
-          "uses": "storyboard-creation：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/product-hunt-launch",
+          "uses": "product-hunt-launch：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "增长运营"
           ],
           "scenarios": [
-            "通用效率提升"
+            "增长实验"
           ],
           "ranks": {
             "allTime": null,
@@ -7431,24 +8910,32 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "59+59",
-            "hotDeltaValue": 59,
-            "totalHeat": 0.9
+            "hotRaw": "66+66",
+            "hotDeltaValue": 66,
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7.2
           }
         },
         {
-          "key": "inference-shell/skills/ai-social-media-content",
+          "key": "inference-shell/skills/ai-content-pipeline",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "ai-social-media-content",
-          "name": "ai-social-media-content",
+          "skill": "ai-content-pipeline",
+          "name": "ai-content-pipeline",
+          "nameEn": "ai-content-pipeline",
+          "nameZh": "AI内容",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-social-media-content",
-          "uses": "ai-social-media-content：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-content-pipeline",
+          "uses": "Build multi-step content creation pipelines via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向设计师、增长运营的实用技能，主要用于界面设计、增长实验。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
+            "设计师",
             "增长运营"
           ],
           "scenarios": [
+            "界面设计",
             "增长实验"
           ],
           "ranks": {
@@ -7461,20 +8948,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "58+58",
-            "hotDeltaValue": 58,
-            "totalHeat": 0.9
+            "hotRaw": "65+65",
+            "hotDeltaValue": 65,
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7
           }
         },
         {
-          "key": "inference-shell/skills/text-to-speech",
+          "key": "inference-shell/skills/newsletter-curation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "text-to-speech",
-          "name": "text-to-speech",
+          "skill": "newsletter-curation",
+          "name": "newsletter-curation",
+          "nameEn": "newsletter-curation",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/text-to-speech",
-          "uses": "text-to-speech：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/newsletter-curation",
+          "uses": "Create and curate high-quality newsletters via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -7491,20 +8984,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "58+58",
-            "hotDeltaValue": 58,
-            "totalHeat": 0.9
+            "hotRaw": "65+65",
+            "hotDeltaValue": 65,
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7
           }
         },
         {
-          "key": "inference-shell/skills/newsletter-curation",
+          "key": "inference-shell/skills/press-release-writing",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "newsletter-curation",
-          "name": "newsletter-curation",
+          "skill": "press-release-writing",
+          "name": "press-release-writing",
+          "nameEn": "press-release-writing",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/newsletter-curation",
-          "uses": "newsletter-curation：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/press-release-writing",
+          "uses": "press-release-writing：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -7513,33 +9012,39 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
+            "trending": 83,
             "hot": 49
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "57+57",
-            "hotDeltaValue": 57,
-            "totalHeat": 0.9
+            "trendingRaw": "797",
+            "trendingValue": 797,
+            "hotRaw": "65+65",
+            "hotDeltaValue": 65,
+            "totalHeat": 2.1,
+            "allTimeScore": 0,
+            "trendingScore": 4.2,
+            "hotScore": 7
           }
         },
         {
-          "key": "inference-shell/skills/customer-persona",
+          "key": "inference-shell/skills/ai-podcast-creation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "customer-persona",
-          "name": "customer-persona",
+          "skill": "ai-podcast-creation",
+          "name": "ai-podcast-creation",
+          "nameEn": "ai-podcast-creation",
+          "nameZh": "AI技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/customer-persona",
-          "uses": "customer-persona：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-podcast-creation",
+          "uses": "Create AI-powered podcasts and audio content via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "增长运营"
           ],
           "scenarios": [
-            "通用效率提升"
+            "增长实验"
           ],
           "ranks": {
             "allTime": null,
@@ -7551,9 +9056,12 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "57+57",
-            "hotDeltaValue": 57,
-            "totalHeat": 0.9
+            "hotRaw": "65+65",
+            "hotDeltaValue": 65,
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7
           }
         },
         {
@@ -7562,9 +9070,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "character-design-sheet",
           "name": "character-design-sheet",
+          "nameEn": "character-design-sheet",
+          "nameZh": "设计技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/character-design-sheet",
-          "uses": "character-design-sheet：暂无官方描述，建议点开详情页查看。",
+          "uses": "Title: character-design-sheet by inference-shell/skills",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师"
           ],
@@ -7581,25 +9092,31 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "57+57",
-            "hotDeltaValue": 57,
-            "totalHeat": 0.9
+            "hotRaw": "65+65",
+            "hotDeltaValue": 65,
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7
           }
         },
         {
-          "key": "inference-shell/skills/product-hunt-launch",
+          "key": "inference-shell/skills/background-removal",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "product-hunt-launch",
-          "name": "product-hunt-launch",
+          "skill": "background-removal",
+          "name": "background-removal",
+          "nameEn": "background-removal",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/product-hunt-launch",
-          "uses": "product-hunt-launch：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/background-removal",
+          "uses": "Remove backgrounds from images via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "增长运营"
+            "内容团队"
           ],
           "scenarios": [
-            "增长实验"
+            "内容生产"
           ],
           "ranks": {
             "allTime": null,
@@ -7611,20 +9128,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "57+57",
-            "hotDeltaValue": 57,
-            "totalHeat": 0.9
+            "hotRaw": "65+65",
+            "hotDeltaValue": 65,
+            "totalHeat": 1.1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 7
           }
         },
         {
-          "key": "microsoft/azure-skills/microsoft-foundry",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "microsoft-foundry",
-          "name": "microsoft-foundry",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
-          "uses": "microsoft-foundry：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/content-repurposing",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "content-repurposing",
+          "name": "content-repurposing",
+          "nameEn": "content-repurposing",
+          "nameZh": "内容技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/content-repurposing",
+          "uses": "Turn one piece of content into many formats via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "增长运营"
           ],
@@ -7632,36 +9155,40 @@ window.__SKILLS_CURRENT__ = {
             "增长实验"
           ],
           "ranks": {
-            "allTime": 48,
-            "trending": 14,
+            "allTime": null,
+            "trending": null,
             "hot": 53
           },
           "heat": {
-            "allTimeRaw": "23.6K",
-            "allTimeValue": 23574,
-            "trendingRaw": "5.1K",
-            "trendingValue": 5086,
-            "hotRaw": "315+56",
-            "hotDeltaValue": 56,
-            "totalHeat": 10.4
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "64+64",
+            "hotDeltaValue": 64,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.9
           }
         },
         {
-          "key": "inference-shell/skills/video-prompting-guide",
+          "key": "inference-shell/skills/llm-models",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "video-prompting-guide",
-          "name": "video-prompting-guide",
+          "skill": "llm-models",
+          "name": "llm-models",
+          "nameEn": "llm-models",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/video-prompting-guide",
-          "uses": "video-prompting-guide：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/llm-models",
+          "uses": "LLM Models via OpenRouter",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师",
-            "内容团队"
+            "AI 工作者"
           ],
           "scenarios": [
-            "界面设计",
-            "内容生产"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
@@ -7673,50 +9200,64 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "56+56",
-            "hotDeltaValue": 56,
-            "totalHeat": 0.9
+            "hotRaw": "64+64",
+            "hotDeltaValue": 64,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.9
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-deploy",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-deploy",
-          "name": "azure-deploy",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-deploy",
-          "uses": "azure-deploy：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/og-image-design",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "og-image-design",
+          "name": "og-image-design",
+          "nameEn": "og-image-design",
+          "nameZh": "图片设计",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/og-image-design",
+          "uses": "og-image-design：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师、内容团队的实用技能，主要用于界面设计、内容生产。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "设计师",
+            "内容团队"
           ],
           "scenarios": [
-            "云与基础设施"
+            "界面设计",
+            "内容生产"
           ],
           "ranks": {
-            "allTime": 51,
-            "trending": 15,
+            "allTime": null,
+            "trending": 87,
             "hot": 55
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23442,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5026,
-            "hotRaw": "311+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "779",
+            "trendingValue": 779,
+            "hotRaw": "63+63",
+            "hotDeltaValue": 63,
+            "totalHeat": 2,
+            "allTimeScore": 0,
+            "trendingScore": 4.1,
+            "hotScore": 6.8
           }
         },
         {
-          "key": "microsoft/azure-skills/entra-app-registration",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "entra-app-registration",
-          "name": "entra-app-registration",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/entra-app-registration",
-          "uses": "entra-app-registration：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/data-visualization",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "data-visualization",
+          "name": "data-visualization",
+          "nameEn": "data-visualization",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/data-visualization",
+          "uses": "Create clear, effective data visualizations via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -7724,29 +9265,71 @@ window.__SKILLS_CURRENT__ = {
             "通用效率提升"
           ],
           "ranks": {
-            "allTime": 50,
-            "trending": 16,
+            "allTime": null,
+            "trending": null,
             "hot": 56
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23442,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5024,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "62+62",
+            "hotDeltaValue": 62,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.7
           }
         },
         {
-          "key": "microsoft/azure-skills/appinsights-instrumentation",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "appinsights-instrumentation",
-          "name": "appinsights-instrumentation",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/appinsights-instrumentation",
-          "uses": "appinsights-instrumentation：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/image-upscaling",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "image-upscaling",
+          "name": "image-upscaling",
+          "nameEn": "image-upscaling",
+          "nameZh": "图片技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/image-upscaling",
+          "uses": "Upscale and enhance images via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "内容团队"
+          ],
+          "scenarios": [
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": null,
+            "hot": 57
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "61+61",
+            "hotDeltaValue": 61,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.6
+          }
+        },
+        {
+          "key": "inference-shell/skills/ai-product-photography",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "ai-product-photography",
+          "name": "ai-product-photography",
+          "nameEn": "ai-product-photography",
+          "nameZh": "AI技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-product-photography",
+          "uses": "Title: ai-product-photography by inference-shell/skills",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -7754,498 +9337,351 @@ window.__SKILLS_CURRENT__ = {
             "通用效率提升"
           ],
           "ranks": {
-            "allTime": 59,
-            "trending": 30,
-            "hot": 57
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23432,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-cost-optimization",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-cost-optimization",
-          "name": "azure-cost-optimization",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cost-optimization",
-          "uses": "azure-cost-optimization：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 53,
-            "trending": 19,
+            "allTime": null,
+            "trending": null,
             "hot": 58
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23438,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "61+61",
+            "hotDeltaValue": 61,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.6
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-compute",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-compute",
-          "name": "azure-compute",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compute",
-          "uses": "azure-compute：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/landing-page-design",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "landing-page-design",
+          "name": "landing-page-design",
+          "nameEn": "landing-page-design",
+          "nameZh": "设计技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/landing-page-design",
+          "uses": "Design high-converting landing pages with AI-generated visuals via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "设计师"
           ],
           "scenarios": [
-            "云与基础设施"
+            "界面设计"
           ],
           "ranks": {
-            "allTime": 61,
-            "trending": 25,
+            "allTime": null,
+            "trending": null,
             "hot": 59
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "61+61",
+            "hotDeltaValue": 61,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.6
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-resource-lookup",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-resource-lookup",
-          "name": "azure-resource-lookup",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-lookup",
-          "uses": "azure-resource-lookup：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/pitch-deck-visuals",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "pitch-deck-visuals",
+          "name": "pitch-deck-visuals",
+          "nameEn": "pitch-deck-visuals",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/pitch-deck-visuals",
+          "uses": "Create investor-ready pitch deck visuals via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "AI 工作者"
           ],
           "scenarios": [
-            "云与基础设施"
+            "通用效率提升"
           ],
           "ranks": {
-            "allTime": 52,
-            "trending": 20,
+            "allTime": null,
+            "trending": null,
             "hot": 60
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23438,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "60+60",
+            "hotDeltaValue": 60,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.5
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-storage",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-storage",
-          "name": "azure-storage",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-storage",
-          "uses": "azure-storage：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/ai-automation-workflows",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "ai-automation-workflows",
+          "name": "ai-automation-workflows",
+          "nameEn": "ai-automation-workflows",
+          "nameZh": "AI技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-automation-workflows",
+          "uses": "ai-automation-workflows：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "AI 工作者"
           ],
           "scenarios": [
-            "云与基础设施"
+            "通用效率提升"
           ],
           "ranks": {
-            "allTime": 55,
-            "trending": 27,
+            "allTime": null,
+            "trending": 85,
             "hot": 61
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23435,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "788",
+            "trendingValue": 788,
+            "hotRaw": "60+60",
+            "hotDeltaValue": 60,
+            "totalHeat": 2,
+            "allTimeScore": 0,
+            "trendingScore": 4.1,
+            "hotScore": 6.5
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-cloud-migrate",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-cloud-migrate",
-          "name": "azure-cloud-migrate",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-cloud-migrate",
-          "uses": "azure-cloud-migrate：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/logo-design-guide",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "logo-design-guide",
+          "name": "logo-design-guide",
+          "nameEn": "logo-design-guide",
+          "nameZh": "设计技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/logo-design-guide",
+          "uses": "Design effective logos with AI image generation via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向设计师、内容团队的实用技能，主要用于界面设计、内容生产。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "设计师",
+            "内容团队"
           ],
           "scenarios": [
-            "云与基础设施"
+            "界面设计",
+            "内容生产"
           ],
           "ranks": {
-            "allTime": 62,
-            "trending": 28,
+            "allTime": null,
+            "trending": null,
             "hot": 62
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "60+60",
+            "hotDeltaValue": 60,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.5
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-compliance",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-compliance",
-          "name": "azure-compliance",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-compliance",
-          "uses": "azure-compliance：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/video-ad-specs",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "video-ad-specs",
+          "name": "video-ad-specs",
+          "nameEn": "video-ad-specs",
+          "nameZh": "视频技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/video-ad-specs",
+          "uses": "video-ad-specs：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "内容团队"
           ],
           "scenarios": [
-            "云与基础设施"
+            "内容生产"
           ],
           "ranks": {
-            "allTime": 65,
-            "trending": 26,
+            "allTime": null,
+            "trending": 91,
             "hot": 63
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "765",
+            "trendingValue": 765,
+            "hotRaw": "59+59",
+            "hotDeltaValue": 59,
+            "totalHeat": 2,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 6.4
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-validate",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-validate",
-          "name": "azure-validate",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-validate",
-          "uses": "azure-validate：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/email-design",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "email-design",
+          "name": "email-design",
+          "nameEn": "email-design",
+          "nameZh": "设计技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/email-design",
+          "uses": "Design high-converting marketing emails with AI-generated visuals via inference.sh CLI.",
+          "introZh": "这是一个面向设计师、增长运营的实用技能，主要用于界面设计、增长实验。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "设计师",
+            "增长运营"
           ],
           "scenarios": [
-            "云与基础设施"
+            "界面设计",
+            "增长实验"
           ],
           "ranks": {
-            "allTime": 58,
-            "trending": 18,
+            "allTime": null,
+            "trending": null,
             "hot": 64
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23432,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5023,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "59+59",
+            "hotDeltaValue": 59,
+            "totalHeat": 1,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.4
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-prepare",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-prepare",
-          "name": "azure-prepare",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-prepare",
-          "uses": "azure-prepare：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/talking-head-production",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "talking-head-production",
+          "name": "talking-head-production",
+          "nameEn": "talking-head-production",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/talking-head-production",
+          "uses": "Title: talking-head-production by inference-shell/skills",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "AI 工作者"
           ],
           "scenarios": [
-            "云与基础设施"
+            "通用效率提升"
           ],
           "ranks": {
-            "allTime": 56,
-            "trending": 21,
+            "allTime": null,
+            "trending": null,
             "hot": 65
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23434,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5022,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "58+58",
+            "hotDeltaValue": 58,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.3
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-ai",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-ai",
-          "name": "azure-ai",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-ai",
-          "uses": "| Service | Use When | MCP Tools | CLI |",
+          "key": "inference-shell/skills/video-prompting-guide",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "video-prompting-guide",
+          "name": "video-prompting-guide",
+          "nameEn": "video-prompting-guide",
+          "nameZh": "视频技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/video-prompting-guide",
+          "uses": "Video Prompting Guide",
+          "introZh": "这是一个面向设计师、内容团队的实用技能，主要用于界面设计、内容生产。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "设计师",
+            "内容团队"
           ],
           "scenarios": [
-            "云与基础设施"
+            "界面设计",
+            "内容生产"
           ],
           "ranks": {
-            "allTime": 49,
-            "trending": 17,
+            "allTime": null,
+            "trending": null,
             "hot": 66
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23449,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5024,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "58+58",
+            "hotDeltaValue": 58,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.3
           }
         },
         {
-          "key": "microsoft/azure-skills/azure-messaging",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-messaging",
-          "name": "azure-messaging",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-messaging",
-          "uses": "azure-messaging：暂无官方描述，建议点开详情页查看。",
+          "key": "inference-shell/skills/speech-to-text",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "speech-to-text",
+          "name": "speech-to-text",
+          "nameEn": "speech-to-text",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/speech-to-text",
+          "uses": "Transcribe audio to text via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "后端/平台工程师"
+            "AI 工作者"
           ],
           "scenarios": [
-            "云与基础设施"
+            "通用效率提升"
           ],
           "ranks": {
-            "allTime": 60,
-            "trending": 31,
+            "allTime": null,
+            "trending": null,
             "hot": 67
           },
           "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23431,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-rbac",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-rbac",
-          "name": "azure-rbac",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-rbac",
-          "uses": "azure-rbac：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 64,
-            "trending": 22,
-            "hot": 68
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-hosted-copilot-sdk",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-hosted-copilot-sdk",
-          "name": "azure-hosted-copilot-sdk",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk",
-          "uses": "azure-hosted-copilot-sdk：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 63,
-            "trending": 32,
-            "hot": 69
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23430,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-resource-visualizer",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-resource-visualizer",
-          "name": "azure-resource-visualizer",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-resource-visualizer",
-          "uses": "azure-resource-visualizer：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 67,
-            "trending": 29,
-            "hot": 70
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23428,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-aigateway",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-aigateway",
-          "name": "azure-aigateway",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-aigateway",
-          "uses": "azure-aigateway：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 57,
-            "trending": 23,
-            "hot": 71
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23434,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-kusto",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-kusto",
-          "name": "azure-kusto",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-kusto",
-          "uses": "azure-kusto：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 66,
-            "trending": 33,
-            "hot": 72
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23428,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5020,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.2
-          }
-        },
-        {
-          "key": "microsoft/azure-skills/azure-diagnostics",
-          "owner": "microsoft",
-          "repo": "azure-skills",
-          "skill": "azure-diagnostics",
-          "name": "azure-diagnostics",
-          "vendor": "Microsoft",
-          "detailUrl": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
-          "uses": "azure-diagnostics：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "后端/平台工程师"
-          ],
-          "scenarios": [
-            "云与基础设施"
-          ],
-          "ranks": {
-            "allTime": 54,
-            "trending": 24,
-            "hot": 73
-          },
-          "heat": {
-            "allTimeRaw": "23.4K",
-            "allTimeValue": 23436,
-            "trendingRaw": "5.0K",
-            "trendingValue": 5021,
-            "hotRaw": "310+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 10.3
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "58+58",
+            "hotDeltaValue": 58,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.3
           }
         },
         {
@@ -8254,9 +9690,228 @@ window.__SKILLS_CURRENT__ = {
           "repo": "skills",
           "skill": "ai-voice-cloning",
           "name": "ai-voice-cloning",
+          "nameEn": "ai-voice-cloning",
+          "nameZh": "AI技能",
           "vendor": "Inference Shell",
           "detailUrl": "https://skills.sh/inference-shell/skills/ai-voice-cloning",
-          "uses": "ai-voice-cloning：暂无官方描述，建议点开详情页查看。",
+          "uses": "Title: ai-voice-cloning by inference-shell/skills",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": null,
+            "hot": 68
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "58+58",
+            "hotDeltaValue": 58,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.3
+          }
+        },
+        {
+          "key": "inference-shell/skills/youtube-thumbnail-design",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "youtube-thumbnail-design",
+          "name": "youtube-thumbnail-design",
+          "nameEn": "youtube-thumbnail-design",
+          "nameZh": "设计技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/youtube-thumbnail-design",
+          "uses": "YouTube Thumbnail Design",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "设计师"
+          ],
+          "scenarios": [
+            "界面设计"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": null,
+            "hot": 69
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "57+57",
+            "hotDeltaValue": 57,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.2
+          }
+        },
+        {
+          "key": "inference-shell/skills/product-photography",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "product-photography",
+          "name": "product-photography",
+          "nameEn": "product-photography",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/product-photography",
+          "uses": "Create professional product images with AI via [inference.sh](https://inference.sh/) CLI.",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "内容团队"
+          ],
+          "scenarios": [
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": null,
+            "hot": 70
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "57+57",
+            "hotDeltaValue": 57,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.2
+          }
+        },
+        {
+          "key": "inference-shell/skills/image-to-video",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "image-to-video",
+          "name": "image-to-video",
+          "nameEn": "image-to-video",
+          "nameZh": "图片视频",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/image-to-video",
+          "uses": "image-to-video：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "内容团队"
+          ],
+          "scenarios": [
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": null,
+            "hot": 71
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "57+57",
+            "hotDeltaValue": 57,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.2
+          }
+        },
+        {
+          "key": "inference-shell/skills/text-to-speech",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "text-to-speech",
+          "name": "text-to-speech",
+          "nameEn": "text-to-speech",
+          "nameZh": "通用效率技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/text-to-speech",
+          "uses": "text-to-speech：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": null,
+            "hot": 72
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "57+57",
+            "hotDeltaValue": 57,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.2
+          }
+        },
+        {
+          "key": "inference-shell/skills/book-cover-design",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "book-cover-design",
+          "name": "book-cover-design",
+          "nameEn": "book-cover-design",
+          "nameZh": "设计技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/book-cover-design",
+          "uses": "book-cover-design：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师的实用技能，主要用于界面设计。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "设计师"
+          ],
+          "scenarios": [
+            "界面设计"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": null,
+            "hot": 73
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "56+56",
+            "hotDeltaValue": 56,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.1
+          }
+        },
+        {
+          "key": "inference-shell/skills/ai-rag-pipeline",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "ai-rag-pipeline",
+          "name": "ai-rag-pipeline",
+          "nameEn": "ai-rag-pipeline",
+          "nameZh": "AI技能",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-rag-pipeline",
+          "uses": "ai-rag-pipeline：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8273,20 +9928,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "55+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 0.9
+            "hotRaw": "56+56",
+            "hotDeltaValue": 56,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.1
           }
         },
         {
-          "key": "inference-shell/skills/video-ad-specs",
+          "key": "inference-shell/skills/ai-avatar-video",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "video-ad-specs",
-          "name": "video-ad-specs",
+          "skill": "ai-avatar-video",
+          "name": "ai-avatar-video",
+          "nameEn": "ai-avatar-video",
+          "nameZh": "AI视频",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/video-ad-specs",
-          "uses": "video-ad-specs：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-avatar-video",
+          "uses": "ai-avatar-video：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向内容团队的实用技能，主要用于内容生产。帮你批量生成内容素材和文档，适合内容团队快速出稿。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "内容团队"
           ],
@@ -8303,25 +9964,31 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "55+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 0.9
+            "hotRaw": "56+56",
+            "hotDeltaValue": 56,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.1
           }
         },
         {
-          "key": "inference-shell/skills/linkedin-content",
+          "key": "inference-shell/skills/storyboard-creation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "linkedin-content",
-          "name": "linkedin-content",
+          "skill": "storyboard-creation",
+          "name": "storyboard-creation",
+          "nameEn": "storyboard-creation",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/linkedin-content",
-          "uses": "linkedin-content：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/storyboard-creation",
+          "uses": "storyboard-creation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "增长运营"
+            "AI 工作者"
           ],
           "scenarios": [
-            "增长实验"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
@@ -8333,25 +10000,31 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "55+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 0.9
+            "hotRaw": "56+56",
+            "hotDeltaValue": 56,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6.1
           }
         },
         {
-          "key": "inference-shell/skills/email-design",
+          "key": "inference-shell/skills/ai-music-generation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "email-design",
-          "name": "email-design",
+          "skill": "ai-music-generation",
+          "name": "ai-music-generation",
+          "nameEn": "ai-music-generation",
+          "nameZh": "AI技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/email-design",
-          "uses": "email-design：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-music-generation",
+          "uses": "ai-music-generation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师"
+            "AI 工作者"
           ],
           "scenarios": [
-            "界面设计"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
@@ -8365,23 +10038,29 @@ window.__SKILLS_CURRENT__ = {
             "trendingValue": 0,
             "hotRaw": "55+55",
             "hotDeltaValue": 55,
-            "totalHeat": 0.9
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6
           }
         },
         {
-          "key": "inference-shell/skills/ai-avatar-video",
+          "key": "inference-shell/skills/customer-persona",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "ai-avatar-video",
-          "name": "ai-avatar-video",
+          "skill": "customer-persona",
+          "name": "customer-persona",
+          "nameEn": "customer-persona",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-avatar-video",
-          "uses": "ai-avatar-video：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/customer-persona",
+          "uses": "customer-persona：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "内容团队"
+            "AI 工作者"
           ],
           "scenarios": [
-            "内容生产"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
@@ -8395,23 +10074,29 @@ window.__SKILLS_CURRENT__ = {
             "trendingValue": 0,
             "hotRaw": "55+55",
             "hotDeltaValue": 55,
-            "totalHeat": 0.9
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6
           }
         },
         {
-          "key": "inference-shell/skills/seo-content-brief",
+          "key": "inference-shell/skills/related-skill",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "seo-content-brief",
-          "name": "seo-content-brief",
+          "skill": "related-skill",
+          "name": "related-skill",
+          "nameEn": "related-skill",
+          "nameZh": "技能技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/seo-content-brief",
-          "uses": "seo-content-brief：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/related-skill",
+          "uses": "related-skill：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "增长运营"
+            "AI 工作者"
           ],
           "scenarios": [
-            "增长实验"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
@@ -8425,18 +10110,24 @@ window.__SKILLS_CURRENT__ = {
             "trendingValue": 0,
             "hotRaw": "55+55",
             "hotDeltaValue": 55,
-            "totalHeat": 0.9
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 6
           }
         },
         {
-          "key": "inference-shell/skills/ai-automation-workflows",
+          "key": "inference-shell/skills/prompt-engineering",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "ai-automation-workflows",
-          "name": "ai-automation-workflows",
+          "skill": "prompt-engineering",
+          "name": "prompt-engineering",
+          "nameEn": "prompt-engineering",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-automation-workflows",
-          "uses": "ai-automation-workflows：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/prompt-engineering",
+          "uses": "prompt-engineering：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8453,25 +10144,31 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "55+55",
-            "hotDeltaValue": 55,
-            "totalHeat": 0.9
+            "hotRaw": "54+54",
+            "hotDeltaValue": 54,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 5.9
           }
         },
         {
-          "key": "inference-shell/skills/prompt-engineering",
+          "key": "inference-shell/skills/linkedin-content",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "prompt-engineering",
-          "name": "prompt-engineering",
+          "skill": "linkedin-content",
+          "name": "linkedin-content",
+          "nameEn": "linkedin-content",
+          "nameZh": "内容技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/prompt-engineering",
-          "uses": "Title: prompt-engineering by inference-shell/skills",
+          "detailUrl": "https://skills.sh/inference-shell/skills/linkedin-content",
+          "uses": "linkedin-content：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "增长运营"
           ],
           "scenarios": [
-            "通用效率提升"
+            "增长实验"
           ],
           "ranks": {
             "allTime": null,
@@ -8483,25 +10180,31 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "54+54",
-            "hotDeltaValue": 54,
-            "totalHeat": 0.8
+            "hotRaw": "53+53",
+            "hotDeltaValue": 53,
+            "totalHeat": 0.9,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 5.7
           }
         },
         {
-          "key": "inference-shell/skills/dialogue-audio",
+          "key": "inference-shell/skills/ai-social-media-content",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "dialogue-audio",
-          "name": "dialogue-audio",
+          "skill": "ai-social-media-content",
+          "name": "ai-social-media-content",
+          "nameEn": "ai-social-media-content",
+          "nameZh": "AI内容",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/dialogue-audio",
-          "uses": "Title: dialogue-audio by inference-shell/skills",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-social-media-content",
+          "uses": "ai-social-media-content：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营的实用技能，主要用于增长实验。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "AI 工作者"
+            "增长运营"
           ],
           "scenarios": [
-            "通用效率提升"
+            "增长实验"
           ],
           "ranks": {
             "allTime": null,
@@ -8513,50 +10216,62 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "53+53",
-            "hotDeltaValue": 53,
-            "totalHeat": 0.8
+            "hotRaw": "52+52",
+            "hotDeltaValue": 52,
+            "totalHeat": 0.8,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 5.6
           }
         },
         {
-          "key": "inference-shell/skills/background-removal",
+          "key": "inference-shell/skills/technical-blog-writing",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "background-removal",
-          "name": "background-removal",
+          "skill": "technical-blog-writing",
+          "name": "technical-blog-writing",
+          "nameEn": "technical-blog-writing",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/background-removal",
-          "uses": "Remove backgrounds from images via [inference.sh](https://inference.sh/) CLI.",
+          "detailUrl": "https://skills.sh/inference-shell/skills/technical-blog-writing",
+          "uses": "technical-blog-writing：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "内容团队"
+            "AI 工作者"
           ],
           "scenarios": [
-            "内容生产"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
+            "trending": 95,
             "hot": 83
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
+            "trendingRaw": "758",
+            "trendingValue": 758,
             "hotRaw": "51+51",
             "hotDeltaValue": 51,
-            "totalHeat": 0.8
+            "totalHeat": 1.8,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 5.5
           }
         },
         {
-          "key": "inference-shell/skills/ai-music-generation",
+          "key": "inference-shell/skills/social-media-carousel",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "ai-music-generation",
-          "name": "ai-music-generation",
+          "skill": "social-media-carousel",
+          "name": "social-media-carousel",
+          "nameEn": "social-media-carousel",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-music-generation",
-          "uses": "ai-music-generation：暂无官方描述，建议点开详情页查看。",
+          "detailUrl": "https://skills.sh/inference-shell/skills/social-media-carousel",
+          "uses": "social-media-carousel：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8573,27 +10288,31 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "49+49",
-            "hotDeltaValue": 49,
-            "totalHeat": 0.8
+            "hotRaw": "51+51",
+            "hotDeltaValue": 51,
+            "totalHeat": 0.8,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 5.5
           }
         },
         {
-          "key": "inference-shell/skills/ai-content-pipeline",
+          "key": "inference-shell/skills/twitter-thread-creation",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "ai-content-pipeline",
-          "name": "ai-content-pipeline",
+          "skill": "twitter-thread-creation",
+          "name": "twitter-thread-creation",
+          "nameEn": "twitter-thread-creation",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-content-pipeline",
-          "uses": "Build multi-step content creation pipelines via [inference.sh](https://inference.sh/) CLI.",
+          "detailUrl": "https://skills.sh/inference-shell/skills/twitter-thread-creation",
+          "uses": "twitter-thread-creation：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师",
-            "增长运营"
+            "AI 工作者"
           ],
           "scenarios": [
-            "界面设计",
-            "增长实验"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
@@ -8605,27 +10324,31 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "49+49",
-            "hotDeltaValue": 49,
-            "totalHeat": 0.8
+            "hotRaw": "51+51",
+            "hotDeltaValue": 51,
+            "totalHeat": 0.8,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 5.5
           }
         },
         {
-          "key": "inference-shell/skills/flux-image",
+          "key": "inference-shell/skills/dialogue-audio",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "flux-image",
-          "name": "flux-image",
+          "skill": "dialogue-audio",
+          "name": "dialogue-audio",
+          "nameEn": "dialogue-audio",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/flux-image",
-          "uses": "FLUX Image Generation",
+          "detailUrl": "https://skills.sh/inference-shell/skills/dialogue-audio",
+          "uses": "dialogue-audio：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师",
-            "内容团队"
+            "AI 工作者"
           ],
           "scenarios": [
-            "界面设计",
-            "内容生产"
+            "通用效率提升"
           ],
           "ranks": {
             "allTime": null,
@@ -8637,20 +10360,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "49+49",
-            "hotDeltaValue": 49,
-            "totalHeat": 0.8
+            "hotRaw": "48+48",
+            "hotDeltaValue": 48,
+            "totalHeat": 0.8,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 5.2
           }
         },
         {
-          "key": "inference-shell/skills/pitch-deck-visuals",
+          "key": "inference-shell/skills/competitor-teardown",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "pitch-deck-visuals",
-          "name": "pitch-deck-visuals",
+          "skill": "competitor-teardown",
+          "name": "competitor-teardown",
+          "nameEn": "competitor-teardown",
+          "nameZh": "通用效率技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/pitch-deck-visuals",
-          "uses": "Title: pitch-deck-visuals by inference-shell/skills",
+          "detailUrl": "https://skills.sh/inference-shell/skills/competitor-teardown",
+          "uses": "competitor-teardown：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8667,25 +10396,33 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "47+47",
-            "hotDeltaValue": 47,
-            "totalHeat": 0.7
+            "hotRaw": "48+48",
+            "hotDeltaValue": 48,
+            "totalHeat": 0.8,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 5.2
           }
         },
         {
-          "key": "inference-shell/skills/ai-rag-pipeline",
+          "key": "inference-shell/skills/explainer-video-guide",
           "owner": "inference-shell",
           "repo": "skills",
-          "skill": "ai-rag-pipeline",
-          "name": "ai-rag-pipeline",
+          "skill": "explainer-video-guide",
+          "name": "explainer-video-guide",
+          "nameEn": "explainer-video-guide",
+          "nameZh": "视频技能",
           "vendor": "Inference Shell",
-          "detailUrl": "https://skills.sh/inference-shell/skills/ai-rag-pipeline",
-          "uses": "Build RAG (Retrieval Augmented Generation) pipelines via [inference.sh](https://inference.sh/) CLI.",
+          "detailUrl": "https://skills.sh/inference-shell/skills/explainer-video-guide",
+          "uses": "explainer-video-guide：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师、内容团队的实用技能，主要用于界面设计、内容生产。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
-            "设计师"
+            "设计师",
+            "内容团队"
           ],
           "scenarios": [
-            "界面设计"
+            "界面设计",
+            "内容生产"
           ],
           "ranks": {
             "allTime": null,
@@ -8697,9 +10434,122 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "46+46",
-            "hotDeltaValue": 46,
-            "totalHeat": 0.7
+            "hotRaw": "48+48",
+            "hotDeltaValue": 48,
+            "totalHeat": 0.8,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 5.2
+          }
+        },
+        {
+          "key": "inference-shell/skills/ai-marketing-videos",
+          "owner": "inference-shell",
+          "repo": "skills",
+          "skill": "ai-marketing-videos",
+          "name": "ai-marketing-videos",
+          "nameEn": "ai-marketing-videos",
+          "nameZh": "AI营销",
+          "vendor": "Inference Shell",
+          "detailUrl": "https://skills.sh/inference-shell/skills/ai-marketing-videos",
+          "uses": "ai-marketing-videos：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向增长运营、内容团队的实用技能，主要用于增长实验、内容生产。帮你优化增长和内容策略，解决选题难、转化低、活动复盘慢的问题。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "增长运营",
+            "内容团队"
+          ],
+          "scenarios": [
+            "增长实验",
+            "内容生产"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": null,
+            "hot": 89
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "-",
+            "trendingValue": 0,
+            "hotRaw": "40+40",
+            "hotDeltaValue": 40,
+            "totalHeat": 0.7,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 4.3
+          }
+        },
+        {
+          "key": "vercel-labs/agent-browser/agent-browser",
+          "owner": "vercel-labs",
+          "repo": "agent-browser",
+          "skill": "agent-browser",
+          "name": "agent-browser",
+          "nameEn": "agent-browser",
+          "nameZh": "浏览器技能",
+          "vendor": "Vercel Labs",
+          "detailUrl": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
+          "uses": "agent-browser：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": 26,
+            "trending": 55,
+            "hot": 90
+          },
+          "heat": {
+            "allTimeRaw": "88.3K",
+            "allTimeValue": 88333,
+            "trendingRaw": "2.4K",
+            "trendingValue": 2427,
+            "hotRaw": "144+27",
+            "hotDeltaValue": 27,
+            "totalHeat": 14.2,
+            "allTimeScore": 17.7,
+            "trendingScore": 12.7,
+            "hotScore": 2.9
+          }
+        },
+        {
+          "key": "pbakaus/impeccable/colorize",
+          "owner": "pbakaus",
+          "repo": "impeccable",
+          "skill": "colorize",
+          "name": "colorize",
+          "nameEn": "colorize",
+          "nameZh": "通用效率技能",
+          "vendor": "pbakaus",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/colorize",
+          "uses": "colorize：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
+          "audience": [
+            "AI 工作者"
+          ],
+          "scenarios": [
+            "通用效率提升"
+          ],
+          "ranks": {
+            "allTime": null,
+            "trending": 100,
+            "hot": 91
+          },
+          "heat": {
+            "allTimeRaw": "-",
+            "allTimeValue": 0,
+            "trendingRaw": "753",
+            "trendingValue": 753,
+            "hotRaw": "56+23",
+            "hotDeltaValue": 23,
+            "totalHeat": 1.4,
+            "allTimeScore": 0,
+            "trendingScore": 3.9,
+            "hotScore": 2.5
           }
         },
         {
@@ -8708,9 +10558,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "ui",
           "skill": "shadcn",
           "name": "shadcn",
+          "nameEn": "shadcn",
+          "nameZh": "Shadcn技能",
           "vendor": "shadcn",
           "detailUrl": "https://skills.sh/shadcn/ui/shadcn",
           "uses": "shadcn：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8720,117 +10573,33 @@ window.__SKILLS_CURRENT__ = {
           "ranks": {
             "allTime": null,
             "trending": 59,
-            "hot": 89
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "1.9K",
-            "trendingValue": 1892,
-            "hotRaw": "120+31",
-            "hotDeltaValue": 31,
-            "totalHeat": 3
-          }
-        },
-        {
-          "key": "firecrawl/cli/firecrawl-browser",
-          "owner": "firecrawl",
-          "repo": "cli",
-          "skill": "firecrawl-browser",
-          "name": "firecrawl-browser",
-          "vendor": "firecrawl",
-          "detailUrl": "https://skills.sh/firecrawl/cli/firecrawl-browser",
-          "uses": "firecrawl-browser：暂无官方描述，建议点开详情页查看。",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 90
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "23+23",
-            "hotDeltaValue": 23,
-            "totalHeat": 0.4
-          }
-        },
-        {
-          "key": "firecrawl/cli/firecrawl-scrape",
-          "owner": "firecrawl",
-          "repo": "cli",
-          "skill": "firecrawl-scrape",
-          "name": "firecrawl-scrape",
-          "vendor": "firecrawl",
-          "detailUrl": "https://skills.sh/firecrawl/cli/firecrawl-scrape",
-          "uses": "Scrape one or more URLs. Returns clean, LLM-optimized markdown. Multiple URLs are scraped concurrently.",
-          "audience": [
-            "AI 工作者"
-          ],
-          "scenarios": [
-            "通用效率提升"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
-            "hot": 91
-          },
-          "heat": {
-            "allTimeRaw": "-",
-            "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "22+22",
-            "hotDeltaValue": 22,
-            "totalHeat": 0.3
-          }
-        },
-        {
-          "key": "firecrawl/cli/firecrawl-crawl",
-          "owner": "firecrawl",
-          "repo": "cli",
-          "skill": "firecrawl-crawl",
-          "name": "firecrawl-crawl",
-          "vendor": "firecrawl",
-          "detailUrl": "https://skills.sh/firecrawl/cli/firecrawl-crawl",
-          "uses": "Bulk extract content from a website. Crawls pages following links up to a depth/limit.",
-          "audience": [
-            "增长运营"
-          ],
-          "scenarios": [
-            "增长实验"
-          ],
-          "ranks": {
-            "allTime": null,
-            "trending": null,
             "hot": 92
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "22+22",
+            "trendingRaw": "1.9K",
+            "trendingValue": 1906,
+            "hotRaw": "105+22",
             "hotDeltaValue": 22,
-            "totalHeat": 0.3
+            "totalHeat": 2.8,
+            "allTimeScore": 0,
+            "trendingScore": 10,
+            "hotScore": 2.4
           }
         },
         {
-          "key": "firecrawl/cli/firecrawl-agent",
-          "owner": "firecrawl",
-          "repo": "cli",
-          "skill": "firecrawl-agent",
-          "name": "firecrawl-agent",
-          "vendor": "firecrawl",
-          "detailUrl": "https://skills.sh/firecrawl/cli/firecrawl-agent",
-          "uses": "firecrawl-agent：暂无官方描述，建议点开详情页查看。",
+          "key": "pbakaus/impeccable/audit",
+          "owner": "pbakaus",
+          "repo": "impeccable",
+          "skill": "audit",
+          "name": "audit",
+          "nameEn": "audit",
+          "nameZh": "通用效率技能",
+          "vendor": "pbakaus",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/audit",
+          "uses": "audit：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8839,28 +10608,34 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
+            "trending": 98,
             "hot": 93
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "22+22",
+            "trendingRaw": "755",
+            "trendingValue": 755,
+            "hotRaw": "57+22",
             "hotDeltaValue": 22,
-            "totalHeat": 0.3
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 3.9,
+            "hotScore": 2.4
           }
         },
         {
-          "key": "firecrawl/cli/firecrawl-map",
-          "owner": "firecrawl",
-          "repo": "cli",
-          "skill": "firecrawl-map",
-          "name": "firecrawl-map",
-          "vendor": "firecrawl",
-          "detailUrl": "https://skills.sh/firecrawl/cli/firecrawl-map",
-          "uses": "Title: firecrawl-map by firecrawl/cli",
+          "key": "pbakaus/impeccable/animate",
+          "owner": "pbakaus",
+          "repo": "impeccable",
+          "skill": "animate",
+          "name": "animate",
+          "nameEn": "animate",
+          "nameZh": "通用效率技能",
+          "vendor": "pbakaus",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/animate",
+          "uses": "animate：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8869,28 +10644,34 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
+            "trending": 96,
             "hot": 94
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "22+22",
-            "hotDeltaValue": 22,
-            "totalHeat": 0.3
+            "trendingRaw": "756",
+            "trendingValue": 756,
+            "hotRaw": "56+21",
+            "hotDeltaValue": 21,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 2.3
           }
         },
         {
-          "key": "firecrawl/cli/firecrawl-search",
-          "owner": "firecrawl",
-          "repo": "cli",
-          "skill": "firecrawl-search",
-          "name": "firecrawl-search",
-          "vendor": "firecrawl",
-          "detailUrl": "https://skills.sh/firecrawl/cli/firecrawl-search",
-          "uses": "firecrawl-search：暂无官方描述，建议点开详情页查看。",
+          "key": "pbakaus/impeccable/onboard",
+          "owner": "pbakaus",
+          "repo": "impeccable",
+          "skill": "onboard",
+          "name": "onboard",
+          "nameEn": "onboard",
+          "nameZh": "通用效率技能",
+          "vendor": "pbakaus",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/onboard",
+          "uses": "onboard：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8907,20 +10688,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "22+22",
-            "hotDeltaValue": 22,
-            "totalHeat": 0.3
+            "hotRaw": "54+21",
+            "hotDeltaValue": 21,
+            "totalHeat": 0.3,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 2.3
           }
         },
         {
-          "key": "firecrawl/cli/firecrawl-download",
-          "owner": "firecrawl",
-          "repo": "cli",
-          "skill": "firecrawl-download",
-          "name": "firecrawl-download",
-          "vendor": "firecrawl",
-          "detailUrl": "https://skills.sh/firecrawl/cli/firecrawl-download",
-          "uses": "> **Experimental.** Convenience command that combines map + scrape to save an entire site as local files.",
+          "key": "pbakaus/impeccable/critique",
+          "owner": "pbakaus",
+          "repo": "impeccable",
+          "skill": "critique",
+          "name": "critique",
+          "nameEn": "critique",
+          "nameZh": "通用效率技能",
+          "vendor": "pbakaus",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/critique",
+          "uses": "critique：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8929,17 +10716,20 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": null,
+            "trending": 92,
             "hot": 96
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "-",
-            "trendingValue": 0,
-            "hotRaw": "22+22",
-            "hotDeltaValue": 22,
-            "totalHeat": 0.3
+            "trendingRaw": "763",
+            "trendingValue": 763,
+            "hotRaw": "58+20",
+            "hotDeltaValue": 20,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 2.2
           }
         },
         {
@@ -8948,9 +10738,12 @@ window.__SKILLS_CURRENT__ = {
           "repo": "impeccable",
           "skill": "frontend-design",
           "name": "frontend-design",
+          "nameEn": "frontend-design",
+          "nameZh": "前端设计",
           "vendor": "pbakaus",
           "detailUrl": "https://skills.sh/pbakaus/impeccable/frontend-design",
-          "uses": "Title: frontend-design by pbakaus/impeccable",
+          "uses": "frontend-design：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向设计师、前端工程师的实用技能，主要用于界面设计、代码开发。帮你把设计需求快速落地为可执行方案，减少反复改稿和风格不统一。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "设计师",
             "前端工程师"
@@ -8961,28 +10754,34 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": 87,
+            "trending": 88,
             "hot": 97
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "754",
-            "trendingValue": 754,
-            "hotRaw": "73+21",
-            "hotDeltaValue": 21,
-            "totalHeat": 1.3
+            "trendingRaw": "778",
+            "trendingValue": 778,
+            "hotRaw": "57+20",
+            "hotDeltaValue": 20,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 4.1,
+            "hotScore": 2.2
           }
         },
         {
-          "key": "pbakaus/impeccable/normalize",
+          "key": "pbakaus/impeccable/optimize",
           "owner": "pbakaus",
           "repo": "impeccable",
-          "skill": "normalize",
-          "name": "normalize",
+          "skill": "optimize",
+          "name": "optimize",
+          "nameEn": "optimize",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/normalize",
-          "uses": "Title: normalize by pbakaus/impeccable",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/optimize",
+          "uses": "optimize：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -8991,28 +10790,34 @@ window.__SKILLS_CURRENT__ = {
           ],
           "ranks": {
             "allTime": null,
-            "trending": 98,
+            "trending": 93,
             "hot": 98
           },
           "heat": {
             "allTimeRaw": "-",
             "allTimeValue": 0,
-            "trendingRaw": "721",
-            "trendingValue": 721,
-            "hotRaw": "70+21",
-            "hotDeltaValue": 21,
-            "totalHeat": 1.3
+            "trendingRaw": "760",
+            "trendingValue": 760,
+            "hotRaw": "56+20",
+            "hotDeltaValue": 20,
+            "totalHeat": 1.3,
+            "allTimeScore": 0,
+            "trendingScore": 4,
+            "hotScore": 2.2
           }
         },
         {
-          "key": "pbakaus/impeccable/harden",
+          "key": "pbakaus/impeccable/bolder",
           "owner": "pbakaus",
           "repo": "impeccable",
-          "skill": "harden",
-          "name": "harden",
+          "skill": "bolder",
+          "name": "bolder",
+          "nameEn": "bolder",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/harden",
-          "uses": "Title: harden by pbakaus/impeccable",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/bolder",
+          "uses": "bolder：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -9029,20 +10834,26 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "69+21",
-            "hotDeltaValue": 21,
-            "totalHeat": 0.3
+            "hotRaw": "54+20",
+            "hotDeltaValue": 20,
+            "totalHeat": 0.3,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 2.2
           }
         },
         {
-          "key": "pbakaus/impeccable/onboard",
+          "key": "pbakaus/impeccable/extract",
           "owner": "pbakaus",
           "repo": "impeccable",
-          "skill": "onboard",
-          "name": "onboard",
+          "skill": "extract",
+          "name": "extract",
+          "nameEn": "extract",
+          "nameZh": "通用效率技能",
           "vendor": "pbakaus",
-          "detailUrl": "https://skills.sh/pbakaus/impeccable/onboard",
-          "uses": "Title: onboard by pbakaus/impeccable",
+          "detailUrl": "https://skills.sh/pbakaus/impeccable/extract",
+          "uses": "extract：暂无官方描述，建议点开详情页查看。",
+          "introZh": "这是一个面向AI 工作者的实用技能，主要用于通用效率提升。帮你把重复工作标准化，降低学习门槛，让新手也能快速上手。 典型场景是“我知道想做什么，但不知道从哪一步开始”，它会把复杂流程拆成可执行步骤。",
           "audience": [
             "AI 工作者"
           ],
@@ -9059,9 +10870,12 @@ window.__SKILLS_CURRENT__ = {
             "allTimeValue": 0,
             "trendingRaw": "-",
             "trendingValue": 0,
-            "hotRaw": "69+21",
-            "hotDeltaValue": 21,
-            "totalHeat": 0.3
+            "hotRaw": "53+20",
+            "hotDeltaValue": 20,
+            "totalHeat": 0.3,
+            "allTimeScore": 0,
+            "trendingScore": 0,
+            "hotScore": 2.2
           }
         }
       ]

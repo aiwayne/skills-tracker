@@ -13,32 +13,84 @@ function fmtDate(ts) {
 
 function heatText(item) {
   const h = item.heat || {};
+  function level(score) {
+    if (score >= 75) return { label: "特别热", cls: "lv-super" };
+    if (score >= 50) return { label: "热门", cls: "lv-hot" };
+    if (score >= 30) return { label: "良好", cls: "lv-good" };
+    if (score >= 15) return { label: "中等", cls: "lv-mid" };
+    return { label: "偏冷", cls: "lv-cold" };
+  }
+  function row(label, raw, score) {
+    const lv = level(score || 0);
+    return `
+      <div class="metric">
+        <div class="metric-head">
+          <span>${label}: ${raw || "-"}</span>
+          <span class="metric-level ${lv.cls}">${lv.label}</span>
+        </div>
+        <div class="metric-bar">
+          <span class="metric-fill ${lv.cls}" style="width:${Math.max(2, score || 0)}%"></span>
+        </div>
+      </div>
+    `;
+  }
   return `
-    <div>综合热度: <b>${(h.totalHeat || 0).toFixed(1)}</b></div>
-    <div>All Time: ${h.allTimeRaw || "-"}</div>
-    <div>Trending: ${h.trendingRaw || "-"}</div>
-    <div>Hot(+1h): ${h.hotRaw || "-"}</div>
+    <div class="heat-total">综合热度: <b>${(h.totalHeat || 0).toFixed(1)}</b></div>
+    ${row("All Time", h.allTimeRaw, h.allTimeScore)}
+    ${row("Trending", h.trendingRaw, h.trendingScore)}
+    ${row("Hot(+1h)", h.hotRaw, h.hotScore)}
+  `;
+}
+
+function renderPersonaTags(item) {
+  const audienceMap = {
+    "设计师": ["🎨", "tag-purple"],
+    "前端工程师": ["💻", "tag-blue"],
+    "增长运营": ["📈", "tag-orange"],
+    "后端/平台工程师": ["🛠️", "tag-cyan"],
+    "研发团队": ["🧪", "tag-green"],
+    "内容团队": ["📝", "tag-pink"],
+    "AI 工作者": ["🤖", "tag-gray"]
+  };
+  const sceneMap = {
+    "界面设计": ["🖼️", "tag-purple"],
+    "代码开发": ["⚙️", "tag-blue"],
+    "增长实验": ["🚀", "tag-orange"],
+    "云与基础设施": ["☁️", "tag-cyan"],
+    "质量保障": ["✅", "tag-green"],
+    "内容生产": ["📚", "tag-pink"],
+    "通用效率提升": ["✨", "tag-gray"]
+  };
+  const audience = (item.audience || []).slice(0, 3).map((name) => {
+    const [emoji, cls] = audienceMap[name] || ["👤", "tag-gray"];
+    return `<span class="tag ${cls}">${emoji} ${name}</span>`;
+  }).join("");
+  const scenes = (item.scenarios || []).slice(0, 3).map((name) => {
+    const [emoji, cls] = sceneMap[name] || ["📍", "tag-gray"];
+    return `<span class="tag ${cls}">${emoji} ${name}</span>`;
+  }).join("");
+  return `
+    <div class="tag-group"><div class="tag-caption">适合人群</div>${audience}</div>
+    <div class="tag-group"><div class="tag-caption">适合场景</div>${scenes}</div>
   `;
 }
 
 function renderCard(item, board, dropped = false) {
   const rank = item.ranks?.[board];
   const rankText = dropped ? "已掉榜" : (rank ? `#${rank}` : "-");
-  const scenarios = (item.scenarios || []).slice(0, 2).join(" / ");
-  const audience = (item.audience || []).slice(0, 2).join(" / ");
   return `
     <article class="card">
       <div class="top">
         <div>
-          <div class="title">${item.name}</div>
+          <div class="title">${item.nameZh || item.name}</div>
+          <div class="title-en">${item.nameEn || item.name}</div>
           <div class="vendor">${item.owner}/${item.repo} · ${item.vendor}</div>
         </div>
         <div class="rank">${rankText}</div>
       </div>
-      <div class="uses">${item.uses || "暂无用途描述"}</div>
-      <div class="tags">
-        <span class="tag">适合人群: ${audience || "通用"}</span>
-        <span class="tag">适合场景: ${scenarios || "通用"}</span>
+      <div class="uses">${item.introZh || "暂无中文解读"}</div>
+      <div class="tags tags-strong">
+        ${renderPersonaTags(item)}
       </div>
       <div class="heat">${heatText(item)}</div>
     </article>
@@ -54,6 +106,8 @@ function filterAndSort(list) {
       it.repo,
       it.vendor,
       it.uses,
+      it.introZh,
+      it.nameZh,
       ...(it.audience || []),
       ...(it.scenarios || [])
     ].join(" ").toLowerCase();
