@@ -155,12 +155,55 @@ function filterAndSort(list) {
 function renderStats() {
   const boardData = STATE.current.boards[STATE.board];
   const droppedCount = (STATE.history.droppedSkills || []).length;
+  const visibleCount = filterAndSort(boardData.skills).length;
   const statsBar = document.getElementById("statsBar");
   statsBar.innerHTML = `
     <div class="stat-item"><div class="label">当前榜单</div><div class="value">${boardData.label}</div></div>
     <div class="stat-item"><div class="label">前100数量</div><div class="value">${boardData.skills.length}</div></div>
     <div class="stat-item"><div class="label">历史收录</div><div class="value">${Object.keys(STATE.history.registry || {}).length}</div></div>
     <div class="stat-item"><div class="label">掉榜数量</div><div class="value">${droppedCount}</div></div>
+    <div class="stat-item"><div class="label">当前筛选结果</div><div class="value">${visibleCount}</div></div>
+  `;
+}
+
+function renderVisualPanel(list) {
+  const panel = document.getElementById("vizPanel");
+  if (!panel) return;
+  const buckets = [
+    { key: "super", label: "特别热", cls: "lv-super", test: (v) => v >= 75 },
+    { key: "hot", label: "热门", cls: "lv-hot", test: (v) => v >= 50 && v < 75 },
+    { key: "good", label: "良好", cls: "lv-good", test: (v) => v >= 30 && v < 50 },
+    { key: "mid", label: "中等", cls: "lv-mid", test: (v) => v >= 15 && v < 30 },
+    { key: "cold", label: "偏冷", cls: "lv-cold", test: (v) => v < 15 }
+  ];
+  const total = Math.max(1, list.length);
+  const avgHeat = list.reduce((sum, it) => sum + (it.heat?.totalHeat || 0), 0) / total;
+  const maxHeat = list.reduce((m, it) => Math.max(m, it.heat?.totalHeat || 0), 0);
+  const rows = buckets.map((b) => {
+    const count = list.filter((it) => b.test(it.heat?.totalHeat || 0)).length;
+    const pct = (count / total) * 100;
+    return `
+      <div class="viz-row">
+        <div class="viz-name">${b.label}</div>
+        <div class="viz-bar"><span class="viz-fill ${b.cls}" style="width:${Math.max(2, pct)}%"></span></div>
+        <div class="viz-count">${count}</div>
+      </div>
+    `;
+  }).join("");
+
+  panel.innerHTML = `
+    <div class="viz-card">
+      <div class="viz-title">热度分层分布</div>
+      ${rows}
+    </div>
+    <div class="viz-card">
+      <div class="viz-title">看板强度</div>
+      <div class="viz-kpi-grid">
+        <div class="viz-kpi"><span>平均热度</span><b>${avgHeat.toFixed(1)}</b></div>
+        <div class="viz-kpi"><span>最高热度</span><b>${maxHeat.toFixed(1)}</b></div>
+        <div class="viz-kpi"><span>筛选状态</span><b>${STATE.activeVendor || STATE.activeScenario ? "已筛选" : "全部"}</b></div>
+      </div>
+    </div>
   `;
 }
 
@@ -181,14 +224,18 @@ function renderInsights(list) {
     });
   });
 
+  const maxVendor = Math.max(1, ...Object.values(vendorMap));
+  const maxScenario = Math.max(1, ...Object.values(scenarioMap));
   const vendorRows = topEntriesFromMap(vendorMap).map(([name, count]) => (
     `<button class="insight-chip ${STATE.activeVendor === name ? "active" : ""}" data-filter-type="vendor" data-filter-value="${name}">
       <span>${name}</span><span class="count">${count}</span>
+      <span class="chip-mini"><span class="chip-mini-fill" style="width:${(count / maxVendor) * 100}%"></span></span>
     </button>`
   )).join("");
   const scenarioRows = topEntriesFromMap(scenarioMap).map(([name, count]) => (
     `<button class="insight-chip ${STATE.activeScenario === name ? "active" : ""}" data-filter-type="scenario" data-filter-value="${name}">
       <span>${name}</span><span class="count">${count}</span>
+      <span class="chip-mini"><span class="chip-mini-fill" style="width:${(count / maxScenario) * 100}%"></span></span>
     </button>`
   )).join("");
 
@@ -209,6 +256,7 @@ function render() {
   droppedGrid.innerHTML = dropped.map((it) => renderCard(it, STATE.board, true)).join("");
   renderStats();
   renderInsights(boardData.skills);
+  renderVisualPanel(visibleCurrent);
 }
 
 function bindEvents() {
