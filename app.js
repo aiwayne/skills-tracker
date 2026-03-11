@@ -103,6 +103,10 @@ function renderPersonaTags(item) {
 function renderCard(item, board, dropped = false) {
   const rank = item.ranks?.[board];
   const rankText = dropped ? "已掉榜" : (rank ? `#${rank}` : "-");
+  const hasUseCases = Array.isArray(item.useCases) && item.useCases.length > 0;
+  const isOfficial = !String(item.uses || "").includes("暂无官方描述");
+  const qualityLabel = hasUseCases ? "官方场景驱动" : (isOfficial ? "官方摘要" : "语义推断");
+  const qualityClass = hasUseCases ? "quality-high" : (isOfficial ? "quality-mid" : "quality-low");
   return `
     <article class="card">
       <div class="top">
@@ -110,6 +114,7 @@ function renderCard(item, board, dropped = false) {
           <div class="title">${item.nameZh || item.name}</div>
           <div class="title-en">${item.nameEn || item.name}</div>
           <div class="vendor">${item.owner}/${item.repo} · ${item.vendor}</div>
+          <div class="quality-badge ${qualityClass}">${qualityLabel}</div>
         </div>
         <div class="rank">${rankText}</div>
       </div>
@@ -152,23 +157,13 @@ function filterAndSort(list) {
   return result;
 }
 
-function renderStats() {
-  const boardData = STATE.current.boards[STATE.board];
-  const droppedCount = (STATE.history.droppedSkills || []).length;
-  const visibleCount = filterAndSort(boardData.skills).length;
-  const statsBar = document.getElementById("statsBar");
-  statsBar.innerHTML = `
-    <div class="stat-item"><div class="label">当前榜单</div><div class="value">${boardData.label}</div></div>
-    <div class="stat-item"><div class="label">前100数量</div><div class="value">${boardData.skills.length}</div></div>
-    <div class="stat-item"><div class="label">历史收录</div><div class="value">${Object.keys(STATE.history.registry || {}).length}</div></div>
-    <div class="stat-item"><div class="label">掉榜数量</div><div class="value">${droppedCount}</div></div>
-    <div class="stat-item"><div class="label">当前筛选结果</div><div class="value">${visibleCount}</div></div>
-  `;
-}
-
 function renderVisualPanel(list) {
   const panel = document.getElementById("vizPanel");
   if (!panel) return;
+  const boardData = STATE.current.boards[STATE.board];
+  const droppedCount = (STATE.history.droppedSkills || []).length;
+  const visibleCount = list.length;
+  const historyCount = Object.keys(STATE.history.registry || {}).length;
   const buckets = [
     { key: "super", label: "特别热", cls: "lv-super", test: (v) => v >= 75 },
     { key: "hot", label: "热门", cls: "lv-hot", test: (v) => v >= 50 && v < 75 },
@@ -192,8 +187,15 @@ function renderVisualPanel(list) {
   }).join("");
 
   panel.innerHTML = `
-    <div class="viz-card">
-      <div class="viz-title">热度分层分布</div>
+    <div class="viz-card viz-card-main">
+      <div class="viz-top-metrics">
+        <span class="mini-kpi"><em>榜单</em><b>${boardData.label}</b></span>
+        <span class="mini-kpi"><em>前100</em><b>${boardData.skills.length}</b></span>
+        <span class="mini-kpi"><em>历史收录</em><b>${historyCount}</b></span>
+        <span class="mini-kpi"><em>掉榜</em><b>${droppedCount}</b></span>
+        <span class="mini-kpi"><em>当前结果</em><b>${visibleCount}</b></span>
+      </div>
+      <div class="viz-title">热度分层（压缩视图）</div>
       ${rows}
     </div>
     <div class="viz-card">
@@ -254,7 +256,6 @@ function render() {
   const dropped = filterAndSort(STATE.history.droppedSkills || []);
   const droppedGrid = document.getElementById("droppedGrid");
   droppedGrid.innerHTML = dropped.map((it) => renderCard(it, STATE.board, true)).join("");
-  renderStats();
   renderInsights(boardData.skills);
   renderVisualPanel(visibleCurrent);
 }

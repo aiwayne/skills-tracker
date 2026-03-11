@@ -139,44 +139,59 @@ input:focus, select:focus {
   box-shadow: 0 0 0 2px rgba(127, 140, 255, 0.15);
 }
 
-.stats {
-  margin: 8px 0 6px;
-  display: grid;
-  grid-template-columns: repeat(5, minmax(120px, 1fr));
-  gap: 6px;
-}
-.stat-item {
-  border: 1px solid var(--line);
-  background: var(--panel);
-  border-radius: var(--radius-lg);
-  padding: 6px 8px;
-}
-.stat-item .label { font-size: 11px; color: var(--muted); }
-.stat-item .value { margin-top: 2px; font-size: 16px; font-weight: 700; }
-
 .viz-panel {
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
+  grid-template-columns: 1.2fr 0.9fr;
   gap: 6px;
-  margin-bottom: 6px;
+  margin: 8px 0 6px;
 }
 .viz-card {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   background: var(--panel);
-  padding: 8px;
+  padding: 7px 8px;
+}
+.viz-card-main {
+  padding-top: 6px;
+}
+.viz-top-metrics {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.mini-kpi {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 5px 6px;
+  background: var(--panel-2);
+}
+.mini-kpi em {
+  display: block;
+  font-style: normal;
+  font-size: 10px;
+  color: var(--muted);
+  line-height: 1.1;
+}
+.mini-kpi b {
+  display: block;
+  margin-top: 2px;
+  font-size: 13px;
+  line-height: 1.15;
 }
 .viz-title {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--muted);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .viz-row {
   display: grid;
   grid-template-columns: 64px 1fr 26px;
-  gap: 8px;
+  gap: 6px;
   align-items: center;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 .viz-name, .viz-count { font-size: 11px; color: var(--muted); }
 .viz-count { text-align: right; font-weight: 700; color: var(--text); }
@@ -194,12 +209,12 @@ input:focus, select:focus {
 .viz-kpi-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 6px;
+  gap: 5px;
 }
 .viz-kpi {
   border: 1px dashed var(--line);
   border-radius: var(--radius-md);
-  padding: 6px;
+  padding: 5px;
 }
 .viz-kpi span {
   display: block;
@@ -208,8 +223,8 @@ input:focus, select:focus {
 }
 .viz-kpi b {
   display: block;
-  margin-top: 3px;
-  font-size: 14px;
+  margin-top: 2px;
+  font-size: 13px;
 }
 
 .insight-board {
@@ -306,6 +321,31 @@ input:focus, select:focus {
 .title { font-size: 20px; line-height: 1.2; margin-bottom: 2px; }
 .title-en { font-size: 12px; color: var(--muted); }
 .vendor { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.quality-badge {
+  margin-top: 5px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  padding: 2px 7px;
+  font-size: 10px;
+  line-height: 1.2;
+}
+.quality-high {
+  color: var(--green);
+  border-color: color-mix(in srgb, var(--green) 55%, transparent);
+  background: color-mix(in srgb, var(--green) 12%, transparent);
+}
+.quality-mid {
+  color: var(--blue);
+  border-color: color-mix(in srgb, var(--blue) 55%, transparent);
+  background: color-mix(in srgb, var(--blue) 12%, transparent);
+}
+.quality-low {
+  color: var(--amber);
+  border-color: color-mix(in srgb, var(--amber) 55%, transparent);
+  background: color-mix(in srgb, var(--amber) 12%, transparent);
+}
 .rank {
   color: var(--green);
   font-size: 18px;
@@ -388,8 +428,8 @@ details summary {
 @media (max-width: 1100px) {
   .topbar { flex-wrap: wrap; }
   .topbar-right { width: 100%; justify-content: space-between; }
-  .stats { grid-template-columns: repeat(2, minmax(110px, 1fr)); }
   .viz-panel { grid-template-columns: 1fr; }
+  .viz-top-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .insight-board, .card-grid { grid-template-columns: 1fr; }
   input { min-width: 180px; }
 }
