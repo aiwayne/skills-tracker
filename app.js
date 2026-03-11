@@ -2,6 +2,8 @@ const STATE = {
   board: "allTime",
   sort: "rank",
   query: "",
+  activeVendor: "",
+  activeScenario: "",
   current: null,
   history: null
 };
@@ -134,7 +136,10 @@ function filterAndSort(list) {
       ...(it.audience || []),
       ...(it.scenarios || [])
     ].join(" ").toLowerCase();
-    return !q || text.includes(q);
+    const matchQuery = !q || text.includes(q);
+    const matchVendor = !STATE.activeVendor || it.vendor === STATE.activeVendor;
+    const matchScenario = !STATE.activeScenario || (it.scenarios || []).includes(STATE.activeScenario);
+    return matchQuery && matchVendor && matchScenario;
   });
 
   if (STATE.sort === "name") {
@@ -177,14 +182,20 @@ function renderInsights(list) {
   });
 
   const vendorRows = topEntriesFromMap(vendorMap).map(([name, count]) => (
-    `<div class="insight-row"><span>${name}</span><span class="count">${count}</span></div>`
+    `<button class="insight-chip ${STATE.activeVendor === name ? "active" : ""}" data-filter-type="vendor" data-filter-value="${name}">
+      <span>${name}</span><span class="count">${count}</span>
+    </button>`
   )).join("");
   const scenarioRows = topEntriesFromMap(scenarioMap).map(([name, count]) => (
-    `<div class="insight-row"><span>${name}</span><span class="count">${count}</span></div>`
+    `<button class="insight-chip ${STATE.activeScenario === name ? "active" : ""}" data-filter-type="scenario" data-filter-value="${name}">
+      <span>${name}</span><span class="count">${count}</span>
+    </button>`
   )).join("");
 
-  document.getElementById("vendorBoard").innerHTML = vendorRows || '<div class="insight-row"><span>暂无</span><span class="count">0</span></div>';
-  document.getElementById("scenarioBoard").innerHTML = scenarioRows || '<div class="insight-row"><span>暂无</span><span class="count">0</span></div>';
+  const vendorClear = `<button class="insight-chip clear ${STATE.activeVendor === "" ? "active" : ""}" data-filter-type="vendor" data-filter-value="">全部厂商</button>`;
+  const scenarioClear = `<button class="insight-chip clear ${STATE.activeScenario === "" ? "active" : ""}" data-filter-type="scenario" data-filter-value="">全部场景</button>`;
+  document.getElementById("vendorBoard").innerHTML = vendorClear + vendorRows;
+  document.getElementById("scenarioBoard").innerHTML = scenarioClear + scenarioRows;
 }
 
 function render() {
@@ -215,6 +226,20 @@ function bindEvents() {
   });
   document.getElementById("sortSelect").addEventListener("change", (e) => {
     STATE.sort = e.target.value;
+    render();
+  });
+  document.getElementById("vendorBoard").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-filter-type='vendor']");
+    if (!btn) return;
+    const value = btn.dataset.filterValue || "";
+    STATE.activeVendor = STATE.activeVendor === value ? "" : value;
+    render();
+  });
+  document.getElementById("scenarioBoard").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-filter-type='scenario']");
+    if (!btn) return;
+    const value = btn.dataset.filterValue || "";
+    STATE.activeScenario = STATE.activeScenario === value ? "" : value;
     render();
   });
 }
