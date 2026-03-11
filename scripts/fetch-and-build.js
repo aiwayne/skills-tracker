@@ -55,15 +55,25 @@ function sanitizeText(str) {
     .trim();
 }
 
+function normalizeDetailText(detailText) {
+  const source = String(detailText || "");
+  const marker = "Markdown Content:";
+  const idx = source.indexOf(marker);
+  return idx >= 0 ? source.slice(idx + marker.length) : source;
+}
+
 function extractUses(detailText, fallbackName) {
-  const lines = detailText.split("\n").map((line) => line.trim()).filter(Boolean);
+  const lines = normalizeDetailText(detailText).split("\n").map((line) => line.trim()).filter(Boolean);
   const idx = lines.findIndex((line) => line.toUpperCase() === "SKILL.MD");
   const start = idx >= 0 ? idx + 1 : 0;
   for (let i = start; i < lines.length; i += 1) {
     const line = lines[i];
+    if (/^(title:|url source:|markdown content:)/i.test(line)) continue;
     if (line.startsWith("#")) continue;
     if (line.startsWith("```")) continue;
     if (line.startsWith("[")) continue;
+    if (/^=+$/.test(line) || /^-+$/.test(line)) continue;
+    if (/ by [^/]+\/[^/]+$/i.test(line)) continue;
     const text = sanitizeText(line);
     if (text.length >= 20) return text.slice(0, 180);
   }
@@ -71,7 +81,7 @@ function extractUses(detailText, fallbackName) {
 }
 
 function extractUseCases(detailText) {
-  const lines = detailText.split("\n");
+  const lines = normalizeDetailText(detailText).split("\n");
   const cases = [];
   let inWhenToUse = false;
   for (const raw of lines) {
@@ -156,18 +166,77 @@ function toChineseTitle(name) {
   return "通用效率技能";
 }
 
+function inferUseValueTitle(name, uses, scenarios = []) {
+  const id = String(name || "").toLowerCase();
+  const text = `${id} ${uses || ""}`.toLowerCase();
+  const exact = [
+    [/page-cro/, "提升页面转化率"],
+    [/form-cro/, "提升表单转化率"],
+    [/popup-cro/, "提升弹窗转化率"],
+    [/signup-flow-cro/, "提升注册转化率"],
+    [/paywall-upgrade-cro/, "优化付费转化"],
+    [/copywriting/, "增强文案转化力"],
+    [/brainstorming/, "快速头脑风暴"],
+    [/find-skills/, "快速找到合适技能"],
+    [/skill-creator/, "创建并优化技能"],
+    [/systematic-debugging|debug/, "系统化排错修复"],
+    [/test-driven-development|testing/, "提高测试覆盖质量"],
+    [/requesting-code-review|code-review/, "提升代码评审质量"],
+    [/frontend-design|web-design|ui-ux/, "优化前端与界面体验"],
+    [/next-best-practices|react|nextjs/, "提升 React/Next 开发效率"],
+    [/azure|cloud|deploy|cicd/, "简化云部署与运维"],
+    [/postgres|database/, "优化数据库开发效率"],
+    [/seo/, "提升 SEO 增长效果"],
+    [/content-strategy|marketing-ideas/, "优化内容增长策略"],
+    [/docx|pptx|xlsx|markdown/, "快速生成结构化文档"]
+  ];
+  for (const [reg, label] of exact) {
+    if (reg.test(text)) return label;
+  }
+  const topScene = scenarios[0] || "";
+  const sceneMap = {
+    "增长实验": "提升增长实验效率",
+    "代码开发": "提升代码开发效率",
+    "界面设计": "提升界面设计效率",
+    "云与基础设施": "简化云基础设施工作",
+    "质量保障": "提升测试与质量保障效率",
+    "内容生产": "加速内容生产流程",
+    "通用效率提升": "提升日常执行效率"
+  };
+  if (sceneMap[topScene]) return sceneMap[topScene];
+  return toChineseTitle(name);
+}
+
 function inferTaskFromSkillId(name) {
   const text = String(name || "").toLowerCase();
+  if (/page-cro/.test(text)) return "优化页面转化率";
+  if (/form-cro/.test(text)) return "优化表单转化率";
+  if (/popup-cro/.test(text)) return "优化弹窗转化率";
+  if (/signup-flow-cro/.test(text)) return "优化注册流程转化率";
+  if (/paywall-upgrade-cro/.test(text)) return "优化付费墙转化率";
   if (/brainstorm|idea/.test(text)) return "快速产出思路和备选方案";
   if (/simple|simplify/.test(text)) return "把复杂任务拆成更易执行的步骤";
   if (/debug|fix|error/.test(text)) return "定位问题根因并给出修复路径";
   if (/review/.test(text)) return "审查方案质量并指出风险点";
   if (/deploy|cicd|release/.test(text)) return "完成上线发布和自动化流程";
+  if (/azure|cloud-migrate|cloud/.test(text)) return "处理云迁移、资源配置和部署流程";
+  if (/compute/.test(text)) return "管理云端算力和计算资源";
   if (/seo/.test(text)) return "提升搜索流量和内容可见性";
   if (/design|ui|ux/.test(text)) return "优化页面体验和视觉一致性";
   if (/react|next|frontend|vue/.test(text)) return "提升前端代码质量和开发效率";
   if (/auth/.test(text)) return "设计并落地认证授权流程";
   return "提升日常工作的执行效率";
+}
+
+function normalizeUseCaseText(raw) {
+  const t = sanitizeText(raw)
+    .replace(/^use this skill when the user:?/i, "")
+    .replace(/^use this skill when:?/i, "")
+    .replace(/^when the user:?/i, "")
+    .replace(/^when you:?/i, "")
+    .replace(/^if the user:?/i, "")
+    .trim();
+  return t.replace(/\.$/, "");
 }
 
 function summarizeUseInChinese(name, uses) {
@@ -188,16 +257,18 @@ function buildChineseIntro(name, uses, audience, scenarios, useCases = []) {
   const short = summarizeUseInChinese(name, uses);
   const noOfficialDesc = uses.includes("暂无官方描述");
   const fallbackTask = inferTaskFromSkillId(name);
-  const mappedCases = useCases
+  const caseText = useCases
     .slice(0, 2)
-    .map((x) => x.replace(/^asks?/i, "当你").replace(/^wants?/i, "当你想").replace(/^mentions?/i, "当你提到"))
+    .map((x) => normalizeUseCaseText(x))
+    .filter(Boolean)
     .join("；");
-  const caseSentence = mappedCases
-    ? `常见触发场景包括：${mappedCases}。`
-    : noOfficialDesc
-      ? `当你需要${fallbackTask}时，它会给出可直接执行的步骤。`
-      : "常见触发场景是“我知道想做什么，但不知道从哪一步开始”。";
-  return `这是一个面向${people}的实用技能，主要用于${scene}。${short}${caseSentence}`;
+  if (caseText) {
+    return `这个技能主要是用来${fallbackTask}的，适合${people}在${scene}时直接使用。你通常在「${caseText}」这类需求下调用它，它会给你一套可执行的步骤，不用自己从零组织流程。`;
+  }
+  if (noOfficialDesc) {
+    return `这个技能主要是用来${fallbackTask}的，适合${people}在${scene}时使用。它的重点是把复杂问题拆成可执行步骤，让你更快动手。`;
+  }
+  return `这个技能主要是用来${fallbackTask}的，适合${people}在${scene}时使用。简单说，它能帮你更快把事情做出来：${short}`;
 }
 
 function ensureIntroDiversity(items) {
@@ -207,9 +278,8 @@ function ensureIntroDiversity(items) {
     const count = seen.get(key) || 0;
     if (count > 0) {
       const scenario = (item.scenarios && item.scenarios[0]) || "通用效率提升";
-      const audience = (item.audience && item.audience[0]) || "AI 工作者";
       const task = inferTaskFromSkillId(item.name);
-      item.introZh = `${item.introZh} 这个技能更偏向「${scenario}」场景，重点解决“${task}”问题，适合${audience}快速上手。`;
+      item.introZh = `${item.introZh} 侧重点是${scenario}里的“${task}”。`;
     }
     seen.set(key, count + 1);
   }
@@ -217,37 +287,51 @@ function ensureIntroDiversity(items) {
 
 function inferAudienceAndScenarios(name, uses) {
   const text = `${name} ${uses}`.toLowerCase();
-  const audience = new Set();
-  const scenarios = new Set();
+  const audienceScore = {
+    "设计师": 0,
+    "前端工程师": 0,
+    "增长运营": 0,
+    "后端/平台工程师": 0,
+    "研发团队": 0,
+    "内容团队": 0,
+    "AI 工作者": 0
+  };
+  const scenarioScore = {
+    "界面设计": 0,
+    "代码开发": 0,
+    "增长实验": 0,
+    "云与基础设施": 0,
+    "质量保障": 0,
+    "内容生产": 0,
+    "通用效率提升": 0
+  };
 
-  if (/design|ui|ux|figma|screenshot|brand|banner/.test(text)) {
-    audience.add("设计师");
-    scenarios.add("界面设计");
-  }
-  if (/react|next|frontend|vue|tailwind|typescript|coding|code/.test(text)) {
-    audience.add("前端工程师");
-    scenarios.add("代码开发");
-  }
-  if (/seo|marketing|copywriting|launch|content|growth|cro/.test(text)) {
-    audience.add("增长运营");
-    scenarios.add("增长实验");
-  }
-  if (/azure|postgres|database|api|deploy|cicd|cloud/.test(text)) {
-    audience.add("后端/平台工程师");
-    scenarios.add("云与基础设施");
-  }
-  if (/test|debug|review|benchmark|verification/.test(text)) {
-    audience.add("研发团队");
-    scenarios.add("质量保障");
-  }
-  if (/video|image|comic|slide|pptx|docx|xlsx/.test(text)) {
-    audience.add("内容团队");
-    scenarios.add("内容生产");
+  function hit(reg, audiences = [], scenes = [], weight = 1) {
+    if (!reg.test(text)) return;
+    audiences.forEach((a) => { audienceScore[a] += weight; });
+    scenes.forEach((s) => { scenarioScore[s] += weight; });
   }
 
-  if (audience.size === 0) audience.add("AI 工作者");
-  if (scenarios.size === 0) scenarios.add("通用效率提升");
-  return { audience: Array.from(audience), scenarios: Array.from(scenarios) };
+  hit(/design|ui|ux|figma|screenshot|brand|banner/, ["设计师"], ["界面设计"], 3);
+  hit(/react|next|frontend|vue|tailwind|typescript|coding|code/, ["前端工程师", "研发团队"], ["代码开发"], 3);
+  hit(/seo|marketing|copywriting|launch|content|growth|cro/, ["增长运营", "内容团队"], ["增长实验"], 3);
+  hit(/azure|postgres|database|api|deploy|cicd|cloud/, ["后端/平台工程师", "研发团队"], ["云与基础设施"], 3);
+  hit(/test|debug|review|benchmark|verification/, ["研发团队"], ["质量保障"], 3);
+  hit(/video|image|comic|slide|pptx|docx|xlsx/, ["内容团队"], ["内容生产"], 3);
+  hit(/find|skill|workflow|simple|planner|executing-plans/, ["AI 工作者"], ["通用效率提升"], 2);
+
+  const audience = Object.entries(audienceScore)
+    .filter(([, score]) => score > 0)
+    .sort((a, b) => b[1] - a[1])
+    .map(([k]) => k);
+  const scenarios = Object.entries(scenarioScore)
+    .filter(([, score]) => score > 0)
+    .sort((a, b) => b[1] - a[1])
+    .map(([k]) => k);
+
+  if (audience.length === 0) audience.push("AI 工作者");
+  if (scenarios.length === 0) scenarios.push("通用效率提升");
+  return { audience, scenarios };
 }
 
 function inferVendor(owner) {
@@ -485,6 +569,7 @@ async function run() {
     const { audience, scenarios } = inferAudienceAndScenarios(item.name, uses);
     item.uses = uses;
     item.useCases = useCases;
+    item.nameZh = inferUseValueTitle(item.name, uses, scenarios);
     item.introZh = buildChineseIntro(item.name, uses, audience, scenarios, useCases);
     item.audience = audience;
     item.scenarios = scenarios;
