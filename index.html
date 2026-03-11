@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,12 @@
 </head>
 <body>
   <div class="app">
-    <header class="header">
-      <h1>Skills 榜单跟踪器 + 解读器</h1>
-      <p id="metaText">正在加载数据...</p>
+    <header class="topbar">
+      <div class="topbar-left">
+        <h1>Skills 榜单跟踪器 + 解读器</h1>
+        <p id="metaText">正在加载数据...</p>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换明暗主题">🌙 Dark</button>
     </header>
 
     <section class="toolbar">

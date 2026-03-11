@@ -6,6 +6,29 @@ const STATE = {
   history: null
 };
 
+function applySavedTheme() {
+  const saved = localStorage.getItem("theme");
+  if (saved === "dark" || saved === "light") {
+    document.documentElement.dataset.theme = saved;
+  }
+}
+
+function bindThemeToggle() {
+  const btn = document.getElementById("themeToggle");
+  if (!btn) return;
+  function syncLabel() {
+    const isDark = document.documentElement.dataset.theme !== "light";
+    btn.textContent = isDark ? "🌙 Dark" : "☀️ Light";
+  }
+  btn.addEventListener("click", () => {
+    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    localStorage.setItem("theme", next);
+    syncLabel();
+  });
+  syncLabel();
+}
+
 function fmtDate(ts) {
   if (!ts) return "-";
   return new Date(ts).toLocaleString("zh-CN", { hour12: false });
@@ -197,6 +220,7 @@ function bindEvents() {
 }
 
 async function boot() {
+  applySavedTheme();
   if (window.__SKILLS_CURRENT__ && window.__SKILLS_HISTORY__) {
     STATE.current = window.__SKILLS_CURRENT__;
     STATE.history = window.__SKILLS_HISTORY__;
@@ -209,6 +233,7 @@ async function boot() {
     STATE.history = await historyResp.json();
   }
   document.getElementById("metaText").textContent = `数据更新时间: ${fmtDate(STATE.current.generatedAt)} | 口径: 前100 + 掉榜沉淀`;
+  bindThemeToggle();
   bindEvents();
   render();
 }
